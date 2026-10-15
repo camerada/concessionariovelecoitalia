@@ -16,3 +16,4 @@ Sito statico (HTML scritto a mano) di Concessionario Veleco Italia — EasyScoot
 
 ## Pubblicazione
 - `sh carica.sh` carica `public_html/` in `domains/concessionariovelecoitalia.it/public_html` via SSH con l'alias `came` di ~/.ssh/config (lo stesso dei siti su misura; altro alias con `SSH_ALIAS=...`). Solo ssh, tar, cksum. Mostra i file cambiati e chiede conferma; copia dei sostituiti in `~/backup-velecoitalia/` sul server, fuori dal sito; non cancella mai niente (i file da togliere si tolgono a mano).
+- `public_html/domande/` (15/10/2026): pagina privata per Valentina (5 domande per la campagna Google: vendite e fonti, margine, quanti comprano, orari, budget), noindex, non collegata, niente cookie/Analytics. `invia.php` manda le risposte con `mail()` a info@camecomunicazione.it e ne salva una copia in `domains/concessionariovelecoitalia.it/domande-risposte/` (fuori dal sito). Da togliere a mano dal server quando non serve più.

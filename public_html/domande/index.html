@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cinque domande per Valentina</title>
+<!-- Pagina privata per Valentina: non collegata dal sito, fuori dalla sitemap, niente cookie né Analytics -->
+<meta name="robots" content="noindex, nofollow">
+<meta name="referrer" content="no-referrer">
+<link rel="icon" href="/assets/favicon.ico" sizes="any">
+<style>
+:root{--green:#1B4B43;--green-dark:#0F332D;--amber:#DB9200;--amber-dark:#8F5E00;--ink:#20231F;--ink-soft:#5B6660;--paper:#FBF8F1;--white:#fff;--line:#E4DBC4;--radius:14px}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+main{max-width:640px;margin:0 auto;padding:28px 16px 64px}
+h1{font-family:Georgia,"Times New Roman",serif;color:var(--green-dark);font-size:30px;line-height:1.15;margin:0 0 10px}
+.intro{color:var(--ink-soft);margin:0 0 24px}
+fieldset{border:1px solid var(--line);border-radius:var(--radius);background:var(--white);padding:18px 16px 16px;margin:0 0 18px}
+legend{font-weight:700;color:var(--green-dark);padding:0 6px;font-size:18px}
+.nota{color:var(--ink-soft);font-size:15px;margin:0 0 12px}
+.scelte{display:flex;flex-wrap:wrap;gap:8px}
+.scelte label{position:relative}
+.scelte input{position:absolute;opacity:0;inset:0;margin:0;cursor:pointer}
+.scelte span{display:inline-block;border:1.5px solid var(--line);border-radius:999px;padding:9px 15px;background:var(--paper);cursor:pointer;user-select:none}
+.scelte input:checked+span{background:var(--green);border-color:var(--green);color:#fff}
+.scelte input:focus-visible+span{outline:3px solid var(--amber);outline-offset:2px}
+input[type=text],input[type=time],select,textarea{font:inherit;color:inherit;width:100%;border:1.5px solid var(--line);border-radius:10px;padding:10px 12px;background:#fff}
+input:focus,select:focus,textarea:focus{outline:3px solid var(--amber);outline-offset:1px;border-color:var(--green)}
+.vendita{display:grid;grid-template-columns:28px 1fr 1fr;gap:8px;align-items:center;margin-bottom:8px}
+.vendita b{color:var(--ink-soft);font-weight:600;text-align:right}
+.orari{display:flex;gap:10px;align-items:center;margin-top:12px;flex-wrap:wrap}
+.orari input{width:auto}
+.spunta{display:flex;gap:10px;align-items:flex-start;margin-top:12px;font-size:15px}
+.spunta input{width:20px;height:20px;margin-top:2px;flex:none}
+.altro{margin-top:10px}
+button{font:inherit;font-weight:700;background:var(--green);color:#fff;border:0;border-radius:999px;padding:14px 28px;width:100%;cursor:pointer;font-size:18px}
+button:hover{background:var(--green-dark)}
+.trappola{position:absolute;left:-9999px}
+@media (max-width:480px){.vendita{grid-template-columns:22px 1fr}.vendita select{grid-column:2}}
+</style>
+</head>
+<body>
+<main>
+<h1>Ciao Valentina, cinque domande veloci</h1>
+<p class="intro">Ci servono per decidere come investire in pubblicità su Google e dove spingere per vendere più scooter. Ci vuole un paio di minuti; se una risposta non la sai, lasciala vuota. Le risposte arrivano solo a Maurizio di CAME Comunicazione.</p>
+
+<form method="post" action="invia.php">
+<input type="text" name="sito_web" class="trappola" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+<fieldset>
+<legend>1. I 7 scooter venduti da luglio</legend>
+<p class="nota">Per ognuno: la città del cliente e come ti ha trovato.</p>
+<div id="vendite"></div>
+</fieldset>
+
+<fieldset>
+<legend>2. Quanto ti resta su un Faster venduto?</legend>
+<p class="nota">Tolti tutti i costi: prodotto, consegna, IVA. Anche a occhio.</p>
+<div class="scelte">
+<label><input type="radio" name="margine" value="fino a 150 €"><span>fino a 150 €</span></label>
+<label><input type="radio" name="margine" value="150–300 €"><span>150–300 €</span></label>
+<label><input type="radio" name="margine" value="300–500 €"><span>300–500 €</span></label>
+<label><input type="radio" name="margine" value="più di 500 €"><span>più di 500 €</span></label>
+<label><input type="radio" name="margine" value="non lo so"><span>non lo so</span></label>
+</div>
+<label class="spunta"><input type="checkbox" name="margine_diverso" value="sì"><span>Tra Piombo Gel e Litio il guadagno è diverso</span></label>
+<input class="altro" type="text" name="margine_nota" placeholder="Se vuoi, scrivi la differenza (facoltativo)">
+</fieldset>
+
+<fieldset>
+<legend>3. Su 10 persone che chiedono informazioni, quante comprano?</legend>
+<div class="scelte">
+<label><input type="radio" name="comprano" value="1 su 10"><span>1</span></label>
+<label><input type="radio" name="comprano" value="2 su 10"><span>2</span></label>
+<label><input type="radio" name="comprano" value="3 su 10"><span>3</span></label>
+<label><input type="radio" name="comprano" value="4 su 10"><span>4</span></label>
+<label><input type="radio" name="comprano" value="5 su 10"><span>5</span></label>
+<label><input type="radio" name="comprano" value="6 o più su 10"><span>6 o più</span></label>
+<label><input type="radio" name="comprano" value="non lo so"><span>non lo so</span></label>
+</div>
+</fieldset>
+
+<fieldset>
+<legend>4. Quando rispondi al telefono?</legend>
+<div class="scelte">
+<label><input type="checkbox" name="giorni[]" value="lun"><span>lun</span></label>
+<label><input type="checkbox" name="giorni[]" value="mar"><span>mar</span></label>
+<label><input type="checkbox" name="giorni[]" value="mer"><span>mer</span></label>
+<label><input type="checkbox" name="giorni[]" value="gio"><span>gio</span></label>
+<label><input type="checkbox" name="giorni[]" value="ven"><span>ven</span></label>
+<label><input type="checkbox" name="giorni[]" value="sab"><span>sab</span></label>
+<label><input type="checkbox" name="giorni[]" value="dom"><span>dom</span></label>
+</div>
+<div class="orari">dalle <input type="time" name="ora_dalle" value="09:00"> alle <input type="time" name="ora_alle" value="19:00"></div>
+</fieldset>
+
+<fieldset>
+<legend>5. Quanto investiresti al mese in pubblicità, se porta vendite?</legend>
+<div class="scelte">
+<label><input type="radio" name="budget" value="100 €"><span>100 €</span></label>
+<label><input type="radio" name="budget" value="200 €"><span>200 €</span></label>
+<label><input type="radio" name="budget" value="300 €"><span>300 €</span></label>
+<label><input type="radio" name="budget" value="500 €"><span>500 €</span></label>
+<label><input type="radio" name="budget" value="ne parliamo"><span>ne parliamo</span></label>
+</div>
+</fieldset>
+
+<fieldset>
+<legend>Vuoi aggiungere qualcosa?</legend>
+<textarea name="note" rows="4" placeholder="Facoltativo"></textarea>
+</fieldset>
+
+<button type="submit">Invia le risposte</button>
+</form>
+</main>
+<script>
+// Le 7 righe delle vendite (senza JavaScript il modulo funziona lo stesso: mancano solo queste righe)
+var fonti = ['', 'Google / sito', 'Passaparola', 'Showroom', 'Già cliente', 'Altro'];
+var box = document.getElementById('vendite');
+for (var i = 1; i <= 7; i++) {
+  var riga = document.createElement('div');
+  riga.className = 'vendita';
+  riga.innerHTML = '<b>' + i + '</b><input type="text" name="citta[]" placeholder="Città" aria-label="Città del cliente ' + i + '">'
+    + '<select name="fonte[]" aria-label="Come ti ha trovato il cliente ' + i + '">'
+    + fonti.map(function (f, k) { return '<option value="' + f + '">' + (k ? f : 'Come ti ha trovato?') + '</option>'; }).join('')
+    + '</select>';
+  box.appendChild(riga);
+}
+</script>
+</body>
+</html>
