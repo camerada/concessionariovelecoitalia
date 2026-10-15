@@ -1,0 +1,15 @@
+# concessionariovelecoitalia.it
+
+Sito statico (HTML scritto a mano) di Concessionario Veleco Italia — EasyScooter di Valentina Colomba, showroom a Genova Nervi. Testi e commenti in italiano.
+
+## Struttura
+- `public_html/` = cartella `domains/concessionariovelecoitalia.it/public_html` su Hostinger (importata dal backup ZIP il 15/10/2026).
+- Pagine in cartelle con `index.html` (URL puliti): home, `chi-siamo/`, `modelli-veleco/`, `assistenza-ricambi/`, `guida-scooter-elettrico-anziani/`, `presenta-un-amico/`, pagine regionali `scooter-elettrico-anziani-<regione>/` (campania, lazio, lombardia, piemonte, toscana), `condizioni-vendita/`, `privacy-policy/`, `cookie-policy/`; pagine d'errore 400/401/403/404/500.
+- `assets/` immagini (in `assets/modelli/` i modelli Veleco), favicon, `consenso-cookie.js` (banner del consenso; GTM-MZBP64KK).
+- `.htaccess`: pagine d'errore (blocchi ERRORPAGEID di Hostinger, non toglierli), www → senza www, vecchie `indexN.html` e `/en` in 301.
+- `llms.txt` (e una variante `llms1.txt`), `robots.txt`, `sitemap.xml` (lastmod a mano: aggiornarla se cambiano le pagine).
+- `default.php` è la pagina predefinita di Hostinger.
+
+## Regole
+- Sul Mac `.htaccess` è nascosto: in uno ZIP di consegna metterne anche una copia `htaccess.txt`.
+- Non affermare sedi diverse da Genova: per le regioni ci sono solo pagine informative su consegna e uso.
