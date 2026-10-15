@@ -4,3 +4,14 @@ Sito statico di **Concessionario Veleco Italia** (EasyScooter di Valentina Colom
 
 - `public_html/` è il contenuto della cartella `public_html` del dominio su Hostinger, così com'era al 15/10/2026 (dallo ZIP del backup).
 - HTML scritto a mano, niente build: si modificano i file e si caricano.
+
+## Pubblicare
+
+Dal Mac, nella cartella del progetto:
+
+```sh
+git pull
+sh carica.sh
+```
+
+Serve l'alias SSH `came` in `~/.ssh/config` (lo stesso usato per i siti su misura). Lo script mostra i file cambiati, chiede conferma, salva sul server una copia di quelli sostituiti in `~/backup-velecoitalia/` e non cancella mai niente.

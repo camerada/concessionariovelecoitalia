@@ -13,3 +13,6 @@ Sito statico (HTML scritto a mano) di Concessionario Veleco Italia — EasyScoot
 ## Regole
 - Sul Mac `.htaccess` è nascosto: in uno ZIP di consegna metterne anche una copia `htaccess.txt`.
 - Non affermare sedi diverse da Genova: per le regioni ci sono solo pagine informative su consegna e uso.
+
+## Pubblicazione
+- `sh carica.sh` carica `public_html/` in `domains/concessionariovelecoitalia.it/public_html` via SSH con l'alias `came` di ~/.ssh/config (lo stesso dei siti su misura; altro alias con `SSH_ALIAS=...`). Solo ssh, tar, cksum. Mostra i file cambiati e chiede conferma; copia dei sostituiti in `~/backup-velecoitalia/` sul server, fuori dal sito; non cancella mai niente (i file da togliere si tolgono a mano).
