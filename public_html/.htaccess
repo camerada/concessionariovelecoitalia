@@ -32,3 +32,8 @@ RewriteRule ^(.*/)?index[0-9]+\.html$ https://concessionariovelecoitalia.it/$1 [
 
 # --- Vecchia versione inglese: 301 alla home ---
 RewriteRule ^en(/.*)?$ https://concessionariovelecoitalia.it/ [R=301,L]
+
+# --- Vecchi indirizzi visti in Analytics (pagina non trovata): 301 alla pagina giusta ---
+RewriteRule ^genova/?$ https://concessionariovelecoitalia.it/#dove-siamo [R=301,L,NE]
+RewriteRule ^shop/?$ https://concessionariovelecoitalia.it/modelli-veleco/ [R=301,L]
+RewriteRule ^(s|home|casa|prova|err|409)/?$ https://concessionariovelecoitalia.it/ [R=301,L]
