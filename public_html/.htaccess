@@ -37,3 +37,6 @@ RewriteRule ^en(/.*)?$ https://concessionariovelecoitalia.it/ [R=301,L]
 RewriteRule ^genova/?$ https://concessionariovelecoitalia.it/#dove-siamo [R=301,L,NE]
 RewriteRule ^shop/?$ https://concessionariovelecoitalia.it/modelli-veleco/ [R=301,L]
 RewriteRule ^(s|home|casa|prova|err|409)/?$ https://concessionariovelecoitalia.it/ [R=301,L]
+
+# --- Indirizzo breve da stampare (biglietti, fogli di consegna): porta alle recensioni Google della scheda ---
+RewriteRule ^recensione/?$ https://g.page/r/CcP-5oF7kAJGEB0/review [R=302,L]
