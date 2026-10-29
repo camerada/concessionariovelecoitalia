@@ -873,16 +873,14 @@ footer h4{color:var(--white); font-family:'Zilla Slab',serif; margin-bottom:12px
 
 <script>
 // Tracciamento click: telefono, WhatsApp, email, link in uscita.
-// Invia un evento a dataLayer (letto da Google Tag Manager) e a gtag se presente (GA4 diretto).
+// Invia un evento a dataLayer (letto da Google Tag Manager). Niente gtag() in parallelo: il banner consenso
+// lo definisce come un altro push nel dataLayer e GTM conterebbe ogni evento due volte.
 (function () {
   window.dataLayer = window.dataLayer || [];
 
   function track(eventName, extra) {
     var payload = Object.assign({ event: eventName }, extra || {});
     window.dataLayer.push(payload);
-    if (typeof window.gtag === 'function') {
-      window.gtag('event', eventName, extra || {});
-    }
   }
 
   document.addEventListener('click', function (e) {
