@@ -692,9 +692,6 @@ footer h3{color:var(--white); font-family:'Zilla Slab',serif; font-size:1.05rem;
   function track(eventName, extra) {
     var payload = Object.assign({ event: eventName }, extra || {});
     window.dataLayer.push(payload);
-    if (typeof window.gtag === 'function') {
-      window.gtag('event', eventName, extra || {});
-    }
   }
 
   document.addEventListener('click', function (e) {
