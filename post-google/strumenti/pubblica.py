@@ -17,7 +17,10 @@ Formato di un blocco:
   testo:
   ...righe di testo fino al blocco successivo...
 Nei file delle notizie i blocchi possono avere anche «stato: approvato» / «stato: scartato»:
-con DATA si pubblica solo il blocco approvato di quel giorno."""
+con DATA si pubblica solo il blocco approvato di quel giorno.
+Immagine: si usa la copia sul sito (assets/post-google/); se non è ancora online, la copia su GitHub
+(repository pubblico, branch corrente): basta che sia stata fatta push."""
+import subprocess
 import sys, os, re, json, datetime, urllib.request
 
 BASE = "https://concessionariovelecoitalia.it"
@@ -30,6 +33,22 @@ def blocchi(testo):
         campi["testo"] = re.sub(r"\n{3,}", "\n\n", t.group(1)).strip() if t else ""
         campi.update(data=data, titolo=titolo); out.append(campi)
     return out
+
+def online(url):
+    try:
+        with urllib.request.urlopen(urllib.request.Request(url, method="HEAD"), timeout=30) as r: return r.status == 200
+    except Exception: return False
+
+def url_immagine(nome):
+    """Indirizzo pubblico dell'immagine: sul sito, oppure su GitHub (branch corrente) se non è ancora online."""
+    if not nome: return ""
+    sito = f"{BASE}/assets/post-google/{nome}"
+    if online(sito): return sito
+    try: branch = subprocess.check_output(["git", "rev-parse", "--abbrev-ref", "HEAD"], text=True).strip()
+    except Exception: branch = "main"
+    github = f"https://raw.githubusercontent.com/camerada/concessionariovelecoitalia/{branch}/public_html/assets/post-google/{nome}"
+    if online(github): return github
+    sys.exit(f"Immagine non raggiungibile né sul sito ({sito}) né su GitHub ({github}): caricarla o fare push.")
 
 def main():
     args = [a for a in sys.argv[1:] if not a.startswith("--")]; prova = "--prova" in sys.argv
@@ -47,15 +66,12 @@ def main():
     if not b.get("testo") or not b.get("link"): sys.exit("Blocco incompleto: servono testo e link.")
     if not (1 <= len(b["testo"]) <= 1500): sys.exit(f"Testo di {len(b['testo'])} caratteri: Google accetta al massimo 1500.")
     if "http" in b["testo"]: sys.exit("Nel testo non vanno link: la fonte si cita per nome.")
-    payload = {"testo": b["testo"], "immagine": f"{BASE}/assets/post-google/{b['immagine']}" if b.get("immagine") else "",
+    payload = {"testo": b["testo"], "immagine": url_immagine(b.get("immagine")),
                "link": b["link"], "pulsante": "LEARN_MORE", "titolo": b["titolo"], "data": b["data"]}
     print(json.dumps(payload, ensure_ascii=False, indent=1))
     if prova: print("(prova: non inviato)"); return
     hook = os.environ.get("PABBLY_WEBHOOK_VELECO")
     if not hook: sys.exit("Manca la variabile d'ambiente PABBLY_WEBHOOK_VELECO.")
-    if payload["immagine"]:
-        with urllib.request.urlopen(payload["immagine"], timeout=30) as r:
-            if r.status != 200: sys.exit("Immagine non raggiungibile online: " + payload["immagine"])
     req = urllib.request.Request(hook, data=json.dumps(payload, ensure_ascii=False).encode("utf-8"), headers={"Content-Type": "application/json"})
     with urllib.request.urlopen(req, timeout=30) as r:
         print("Pabbly:", r.status, r.read().decode("utf-8", "replace"))
