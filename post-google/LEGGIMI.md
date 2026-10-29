@@ -1,8 +1,8 @@
 # Post per la scheda Google di Veleco
 
 Immagini 1200×900 (formato consigliato da Google per gli aggiornamenti), fatte con le foto del sito.
-Si pubblicano a mano: scheda Google → **Aggiungi aggiornamento** → foto + testo + pulsante. Uno a settimana.
-Non vanno caricate sul sito (sono fuori da public_html).
+Si pubblicano con `pubblica.sh N` (webhook Pabbly, vedi CLAUDE.md) oppure a mano: scheda Google → **Aggiungi aggiornamento** → foto + testo + pulsante. Uno a settimana.
+Copia in `public_html/assets/post-google/` (cartella non collegata, non in sitemap): serve a Pabbly, che prende le foto da un indirizzo pubblico.
 
 ## 1-prova-gratuita.jpg · pulsante «Chiama»
 Prima di decidere, provalo. Nello showroom di Genova Nervi, in Via Giuseppe Pessale 20r, puoi provare gratis il Veleco Faster, lo scooter elettrico a 4 ruote per anziani e per chi cammina con fatica. Siamo aperti da martedì a sabato, dalle 10 alle 20: chiamaci per fissare la prova.
