@@ -12,7 +12,7 @@ I prezzi senza cifra sul sito restano «Prezzo su richiesta» (nella scheda: las
 
 ## 2. Descrizione dell'attività (max 750 caratteri)
 Concessionario ufficiale Veleco per l'Italia, a Genova Nervi. Vendiamo scooter elettrici a 3 e 4 ruote per anziani e per chi cammina con fatica: il Veleco Faster, il più scelto, da 2.200 €. Dispositivo medico CE: si guida senza patente, senza bollo e senza assicurazione obbligatoria, su marciapiedi e aree pedonali. Con i requisiti, IVA al 4% e detrazione del 19%: verifichiamo insieme prima dell'ordine. Prova gratuita nello showroom di Via Giuseppe Pessale 20r, consegna a casa in tutta Italia continentale, già montato. Garanzia 2 anni gestita da noi, ricambi originali in Italia e un numero diretto a cui risponde chi ti ha venduto lo scooter. Da martedì a sabato, 10-20.
-(687 caratteri)
+(676 caratteri)
 
 ## 3. Servizi
 Sezione «Servizi» della scheda: un servizio per riga, con descrizione (max 300 caratteri). Prezzo: solo dove indicato.
