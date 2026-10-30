@@ -1,0 +1,86 @@
+<!doctype html><html lang="it"><head><meta charset="utf-8"><link rel="stylesheet" href="stile.css">
+<style>
+@page{size:A4;margin:18mm 18mm 20mm}
+h2{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:19pt;color:var(--teal);margin:0 0 7px;line-height:1.15;break-after:avoid}
+h2.dopo{margin-top:22px}
+p.intro{margin:0 0 12px;color:var(--ink)}
+.voci{display:grid;grid-template-columns:34mm 1fr;column-gap:10px;row-gap:0;margin:0 0 6px}
+.voci dt{font-family:'Space Mono',monospace;font-size:8.5pt;color:var(--mono);padding:7px 0 0;line-height:1.4}
+.voci dd{margin:0;padding:6px 0 8px;border-bottom:1px solid var(--riga);break-inside:avoid}
+.voci dd:last-child{border-bottom:0}
+.cit{border-left:3px solid var(--lime);background:var(--chiaro);padding:7px 11px;margin:6px 0 2px;font-size:10pt}
+.nota{font-size:9.5pt;color:var(--grigio)}
+figure{margin:10px auto 0;width:58%;break-inside:avoid}
+figure img{width:100%;border-radius:8px;border:1px solid var(--riga)}
+figcaption{font-size:9pt;color:var(--grigio);margin-top:5px}
+table{width:100%;border-collapse:collapse;font-size:9.5pt;margin:4px 0 6px;break-inside:avoid}
+th{text-align:left;font-family:'Space Mono',monospace;font-weight:400;font-size:8.5pt;color:var(--mono);padding:4px 8px;border-bottom:1px solid var(--riga)}
+td{padding:5px 8px;border-bottom:1px solid var(--riga)}
+.kpi{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:6px 0 14px}
+.kpi div{background:var(--chiaro);border-radius:8px;padding:9px 8px}
+.kpi b{display:block;font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:20pt;color:var(--teal);line-height:1}
+.kpi small{display:block;font-size:8.5pt;color:var(--ink);margin-top:4px;font-weight:600}
+.kpi em{display:block;font-style:normal;font-size:8pt;color:var(--grigio)}
+.box{border:1px solid var(--riga);border-radius:10px;padding:12px 15px;margin:0 0 12px;break-inside:avoid}
+.box h3{margin:0 0 6px;font-size:11.5pt;color:var(--teal);font-weight:700}
+.box p{margin:0 0 6px}
+.box.pieno{background:var(--teal);color:#fff;border-color:var(--teal)}
+.box.pieno h3{color:#fff}
+.box ol{margin:0;padding-left:18px}.box ol li{margin:0 0 4px}
+.firma{display:flex;align-items:center;gap:12px;margin-top:16px}
+.firma img{width:56px;height:56px}
+.firma b{display:block;font-size:10.5pt}.firma span{font-size:9.5pt;color:var(--grigio)}
+.firma code{font-family:'Space Mono',monospace;font-size:8.5pt;color:var(--mono)}
+.pb{break-before:page}
+</style></head><body>
+
+<h2>In due righe</h2>
+<p class="intro">Abbiamo sistemato il modo in cui il sito conta visite e contatti, e abbiamo messo la scheda Google in modo che pubblichi da sola due aggiornamenti a settimana. Qui sotto cosa è cambiato, cosa va avanti senza di te, e le poche cose che servono da te.</p>
+<div class="kpi">
+  <div><b>113</b><small>clic da Google a settembre</small><em>il sito è comparso 3.000 volte</em></div>
+  <div><b>8</b><small>recensioni Google</small><em>voto 5,0 su 5</em></div>
+  <div><b>2</b><small>post a settimana</small><em>sulla scheda, in automatico</em></div>
+  <div><b>4 su 6</b><small>vendite da Google o dal sito</small><em>da luglio, dalle tue risposte</em></div>
+</div>
+
+<h2>Il sito: cosa è cambiato</h2>
+<dl class="voci">
+  <dt>Dove comprare<br>Veleco</dt><dd>Una pagina nuova per chi cerca «veleco rivenditori» o «veleco sito ufficiale». Dice chiaro che il concessionario ufficiale sei tu e che consegni in tutta Italia continentale.</dd>
+  <dt>Guida<br>riscritta</dt><dd>La guida allo scooter elettrico ora ha dieci domande con risposte semplici, sette tabelle di confronto tra i modelli e dieci domande frequenti. È la pagina che aiuta chi sta scegliendo, spesso il figlio o la figlia.</dd>
+  <dt>Titolo<br>della home</dt><dd>Ora è «Veleco Italia | Concessionario ufficiale, Faster 4 ruote». Le ricerche con il nome Veleco sono quelle che portano i clic, e così Google lo mostra per primo.</dd>
+  <dt>Recensioni<br>sul sito</dt><dd>Le parole di Roberto, Gemma, Andrea e Asia sono in home e nelle pagine regionali, con il pulsante «Lascia una recensione» e un indirizzo corto da stampare:<div class="cit">concessionariovelecoitalia.it/recensione</div></dd>
+</dl>
+
+<h2 class="pb">I numeri adesso sono giusti</h2>
+<p class="intro">Controllando gli strumenti di Google abbiamo trovato due errori nel modo in cui il sito contava, e li abbiamo corretti il 29 ottobre.</p>
+<dl class="voci">
+  <dt>Contatti<br>doppi</dt><dd>Ogni telefonata e ogni WhatsApp dal sito veniva contata due volte. I contatti nei report precedenti erano quindi il doppio di quelli reali: i numeri di settembre vanno letti dimezzati.</dd>
+  <dt>Prima pagina<br>persa</dt><dd>La prima pagina vista da chi accettava i cookie non veniva registrata, quindi non sapevamo da dove arrivava la gente. Ora sì.</dd>
+  <dt>Perché<br>conta</dt><dd>Se un giorno faremo pubblicità su Google, la pubblicità si regola proprio su questi numeri. Con numeri sbagliati avremmo buttato via i soldi.</dd>
+  <dt>Settembre<br>su Google</dt><dd>
+    <table><tr><th>Pagina</th><th>Clic</th></tr><tr><td>Home</td><td>53</td></tr><tr><td>Scooter elettrico anziani Campania</td><td>17</td></tr><tr><td>Chi siamo</td><td>13</td></tr></table>
+    <span class="nota">Quasi tutte le ricerche contengono «Veleco»: chi ti cerca ti conosce già. Il lavoro dei prossimi mesi è farsi trovare anche da chi non conosce ancora il marchio.</span></dd>
+  <dt>Pagine<br>su Google</dt><dd>14 pagine del sito, 11 già nei risultati di Google. Per le altre (modelli, dove comprare) abbiamo chiesto a Google di passare a leggerle: di solito ci mette qualche giorno.</dd>
+</dl>
+
+<h2 class="pb">La scheda Google ora si aggiorna da sola</h2>
+<p class="intro">La scheda su Google Maps è il primo posto dove la gente ti trova. Da questa settimana pubblica due aggiornamenti ogni settimana, senza che nessuno debba ricordarsene.</p>
+<dl class="voci">
+  <dt>Martedì<br>alle 10</dt><dd>Una notizia utile per chi ha più di 70 anni o assiste un genitore: Legge 104, pensioni, agevolazioni, barriere architettoniche, trasporti. Ogni notizia cita la fonte e finisce con un rimando al sito. Maurizio la approva prima che esca.</dd>
+  <dt>Giovedì<br>alle 10</dt><dd>Un post nostro. Dodici già scritti fino al 21 gennaio: prova gratuita a Nervi, le recensioni di Gemma, Andrea e Asia, salite e autonomia, IVA al 4%, dove si può guidare, presenta un amico, assistenza, piombo o litio, freddo e batteria. Ognuno con la sua immagine.</dd>
+  <dt>Già<br>pubblicati</dt><dd>La recensione di Roberto (29/10), la Legge 104 dal 2027 (29/10), la tredicesima e il bonus di dicembre (30/10). Martedì 3 novembre: la card sanitaria per gli over 75.</dd>
+  <dt>Foto<br>nuove</dt><dd>21 foto pronte (tutti i modelli, lo showroom, gli accessori), in caricamento qualche foto al giorno.</dd>
+  <dt>Recensioni</dt><dd>A ogni recensione nuova arriva un'email a Maurizio, così si risponde in fretta. Rispondere a tutte, anche con due righe, conta per Google.</dd>
+  <dt>Logo</dt><dd>Preparato un logo «Veleco Italia · Concessionario ufficiale» nei colori del sito, e una versione quadrata del logo EasyScooter. Decidi tu quale mettere sulla scheda.</dd>
+</dl>
+<figure><img src="esempio-post.jpg" alt=""><figcaption>Uno dei post del giovedì già pronti: «Sale pendenze fino al 30%: Genova non fa paura», in uscita il 26 novembre.</figcaption></figure>
+
+<h2 class="pb">Cosa ci serve da te</h2>
+<p class="intro">Cinque cose, nessuna urgente. Le facciamo anche al telefono in un quarto d'ora.</p>
+<div class="box"><h3>1. Prodotti e servizi sulla scheda Google</h3><p>Abbiamo scritto tutto: 16 prodotti con prezzi e descrizioni, 10 servizi, la descrizione dell'attività, 6 domande con risposta. Google però permette di inserirli solo a mano dal tuo pannello. Lo facciamo insieme al telefono, oppure lo fa Maurizio con il tuo accesso.</p></div>
+<div class="box"><h3>2. Quattro frasi della guida da confermare</h3><p>Vanno oltre quello che il sito diceva prima, quindi devono essere parole tue:</p><ol><li>«Su strada senza marciapiede si va come un pedone, sul margine.»</li><li>«In carreggiata no.»</li><li>La parte sull'usato tra privati: niente IVA al 4%, niente detrazione, niente garanzia.</li><li>«Ti diciamo peso e misure prima di ordinare.»</li></ol></div>
+<div class="box"><h3>3. Il logo della scheda</h3><p>Veleco Italia nuovo, o EasyScooter? Se Veleco ha regole per i rivenditori sull'uso del nome, meglio chiedere al tuo referente prima di usarlo ovunque.</p></div>
+<div class="box"><h3>4. Recensioni e foto dei clienti</h3><p>Dopo ogni consegna, un WhatsApp con il link concessionariovelecoitalia.it/recensione: da 8 a 20 recensioni in tre mesi è un obiettivo realistico, e fa salire la scheda. Le foto dei clienti con il loro Faster solo con il permesso, anche un messaggio WhatsApp va bene.</p></div>
+<div class="box pieno"><h3>5. Pubblicità su Google: quando vuoi, ne parliamo</h3><p>Ora che i numeri sono giusti si può fare un test serio. Con il margine di un Faster e una vendita ogni cinque richieste, un contatto vale 60–100 €: un test da 10–15 € al giorno per due mesi ha senso. Decidi tu quando.</p></div>
+<div class="firma"><img src="logo-came.png" alt=""><div><b>Maurizio Camerada</b><span>CAME Comunicazione, Genova · 348 156 4774</span><br><code>camecomunicazione.it</code></div></div>
+</body></html>
