@@ -1,0 +1,191 @@
+<!doctype html><html lang="it"><head><meta charset="utf-8"><link rel="stylesheet" href="stile.css">
+<style>
+@page{size:A4;margin:18mm 18mm 20mm}
+@page copertina{size:A4;margin:0}
+.copertina{page:copertina;width:210mm;height:297mm;background:var(--teal);color:#fff;position:relative;overflow:hidden;break-after:page}
+.copertina .logo{position:absolute;top:22mm;left:18mm;display:flex;align-items:center;gap:12px}
+.copertina .logo img{width:72px;height:72px}
+.copertina .logo b{display:block;font-size:11pt;font-weight:700}.copertina .logo span{font-size:9pt;color:#CFE6EB}
+.copertina .data{position:absolute;top:95mm;left:18mm;font-family:'Space Mono',monospace;font-size:9pt;color:#9FD6E0;letter-spacing:.02em}
+.copertina h1{position:absolute;top:104mm;left:18mm;right:18mm;margin:0;font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:32pt;line-height:1.08;letter-spacing:-.01em;color:#fff}
+.copertina .sotto{position:absolute;top:172mm;left:18mm;font-size:11pt;line-height:1.5;color:#E6F3F6}
+.copertina .barra{position:absolute;top:227mm;left:18mm;width:46mm;height:3mm;background:var(--lime)}
+.copertina .piede{position:absolute;left:0;right:0;bottom:0;height:52mm;background:var(--teal2);padding:14mm 18mm 0;font-size:9.5pt;line-height:1.55;color:#F3FAFB}
+.copertina .piede b{color:#fff}
+h2{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:19pt;color:var(--teal);margin:0 0 7px;line-height:1.15;break-after:avoid}
+h2.dopo{margin-top:22px}
+h3.sez{font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:13pt;color:var(--teal);margin:16px 0 5px;break-after:avoid}
+p{margin:0 0 9px}
+p.intro{margin:0 0 12px;color:var(--ink)}
+.voci{display:grid;grid-template-columns:34mm 1fr;column-gap:10px;row-gap:0;margin:0 0 6px}
+.voci dt{font-family:'Space Mono',monospace;font-size:8.5pt;color:var(--mono);padding:7px 0 0;line-height:1.4}
+.voci dd{margin:0;padding:6px 0 8px;border-bottom:1px solid var(--riga);break-inside:avoid}
+.voci dd:last-child{border-bottom:0}
+.cit{border-left:3px solid var(--lime);background:var(--chiaro);padding:7px 11px;margin:6px 0 2px;font-size:10pt}
+.nota{font-size:9.5pt;color:var(--grigio)}
+table{width:100%;border-collapse:collapse;font-size:9.2pt;margin:4px 0 8px;break-inside:avoid}
+th{text-align:left;font-family:'Space Mono',monospace;font-weight:400;font-size:8.5pt;color:var(--mono);padding:4px 8px;border-bottom:1px solid var(--riga);vertical-align:bottom}
+td{padding:4px 8px;border-bottom:1px solid var(--riga);vertical-align:top}
+td.n{font-family:'Space Mono',monospace;font-size:9pt;white-space:nowrap}
+tr.ev td{background:var(--chiaro)}
+.kpi{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:6px 0 14px}
+.kpi div{background:var(--chiaro);border-radius:8px;padding:9px 10px}
+.kpi b{display:block;font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:20pt;color:var(--teal);line-height:1}
+.kpi small{display:block;font-size:8.5pt;color:var(--ink);margin-top:4px;font-weight:600}
+.kpi em{display:block;font-style:normal;font-size:8pt;color:var(--grigio)}
+.box{border:1px solid var(--riga);border-radius:10px;padding:11px 14px;margin:0 0 10px;break-inside:avoid}
+.box h3{margin:0 0 6px;font-size:11.5pt;color:var(--teal);font-weight:700}
+.box p{margin:0 0 6px}.box p:last-child{margin:0}
+.box.pieno{background:var(--teal);color:#fff;border-color:var(--teal)}
+.box.pieno h3{color:#fff}
+.box ul,.box ol{margin:0;padding-left:18px}.box li{margin:0 0 4px}
+.due{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.tit{font-family:'Bricolage Grotesque',sans-serif;font-weight:700;color:var(--teal)}
+.google{display:block;font-size:9.5pt;margin:2px 0 8px}
+.google .t{color:#1a0dab;font-size:11pt;display:block}.google .u{color:#006621;font-size:8.5pt;display:block}.google .d{color:#545454;display:block}
+.firma{display:flex;align-items:center;gap:12px;margin-top:16px}
+.firma img{width:56px;height:56px}
+.firma b{display:block;font-size:10.5pt}.firma span{font-size:9.5pt;color:var(--grigio)}
+.firma code{font-family:'Space Mono',monospace;font-size:8.5pt;color:var(--mono)}
+.pb{break-before:page}
+</style></head><body>
+
+<div class="copertina">
+<div class="logo"><img src="logo-came.png" alt=""><div><b>CAME Comunicazione</b><span>camecomunicazione.it</span></div></div>
+<div class="data">Piano di lavoro, 3 novembre 2026</div>
+<h1>Cosa cercano le persone<br>su Google e cosa facciamo<br>da qui a dicembre</h1>
+<div class="sotto">Concessionario Veleco Italia<br>concessionariovelecoitalia.it · Instagram · scheda Google</div>
+<div class="barra"></div>
+<div class="piede">Preparato per <b>Valentina Colomba</b><br>da Maurizio Camerada, CAME Comunicazione<br>Genova, 3 novembre 2026</div>
+</div>
+
+<h2>In due parole</h2>
+<p class="intro">Abbiamo guardato cosa scrivono le persone su Google quando cercano uno scooter come il Faster, quante sono ogni mese, e dove compare oggi il tuo sito. Da lì esce un piano preciso: due pagine nuove, qualche titolo da cambiare, sei articoli, e tre post a settimana sia sulla scheda Google sia su Instagram fino a fine dicembre.</p>
+<div class="kpi">
+  <div><b>16.000</b><small>ricerche al mese in Italia</small><em>sulle 36 frasi del nostro mondo</em></div>
+  <div><b>94%</b><small>dei clic al sito arriva da chi scrive «Veleco»</small><em>chi non conosce il marchio non ci trova</em></div>
+  <div><b>67</b><small>contatti dal sito in tre mesi</small><em>37 telefonate e 30 WhatsApp, quasi tutti da Google</em></div>
+</div>
+<p>Il sito funziona bene con chi cerca già Veleco: è in prima pagina e porta telefonate da tutta Italia. Il lavoro da fare è sull'altra metà: chi cerca «uno scooter elettrico per anziani» senza sapere che esiste Veleco. Oggi, per quella ricerca, il sito sta a pagina 6 di Google.</p>
+
+<h2 class="dopo">Cosa cercano le persone, e dove siamo oggi</h2>
+<p class="intro">I numeri sono le ricerche medie al mese in Italia secondo Google (arrotondate: 50, 500 o 5.000). La «posizione» è il posto in cui compare il sito nei risultati: le prime 10 posizioni sono la prima pagina, dove si prendono quasi tutti i clic.</p>
+<table>
+<tr><th>Cosa scrivono su Google</th><th>Ricerche al mese</th><th>Dove siamo oggi</th></tr>
+<tr><td>scooter per disabili</td><td class="n">5.000</td><td>posizione 37 (pagina 4)</td></tr>
+<tr><td>scooter elettrico senza patente</td><td class="n">5.000</td><td>assenti (quasi tutti cercano un due ruote)</td></tr>
+<tr class="ev"><td>scooter elettrico per anziani</td><td class="n">500</td><td>posizione 57 (pagina 6)</td></tr>
+<tr class="ev"><td>scooter elettrico per anziani prezzi</td><td class="n">500</td><td>assenti</td></tr>
+<tr class="ev"><td>scooter elettrico senza patente per anziani</td><td class="n">500</td><td>assenti</td></tr>
+<tr class="ev"><td>scooter per anziani</td><td class="n">500</td><td>posizione 37, in forte crescita</td></tr>
+<tr class="ev"><td>scooter elettrico per disabili</td><td class="n">500</td><td>assenti</td></tr>
+<tr class="ev"><td>mobility scooter</td><td class="n">500</td><td>assenti: parola mai usata nel sito</td></tr>
+<tr><td>veleco · veleco scooter · veleco sito ufficiale</td><td class="n">500 ciascuna</td><td>prima pagina, posizioni 3–5</td></tr>
+<tr><td>scooter elettrico per anziani usato</td><td class="n">500</td><td>non la inseguiamo: chi cerca l'usato non compra nuovo</td></tr>
+<tr><td>scooter elettrico genova</td><td class="n">500</td><td>posizione 3–4, ma cercano due ruote</td></tr>
+<tr><td>scooter 4 ruote per anziani · …per anziani coperto · …per disabili e anziani · veleco faster · veleco rivenditori</td><td class="n">50 ciascuna</td><td>poche, ma sono esattamente il Faster: facili da prendere</td></tr>
+</table>
+<p class="nota">Le righe evidenziate sono le sei frasi su cui lavoriamo: cercate abbastanza, e da chi vuole proprio quello che vendi. Le due da 5.000 sono enormi ma confuse (carrozzine, monopattini, motorini): le copriamo con la guida, senza costruirci sopra.</p>
+
+<h2 class="dopo">Cosa cambia sul sito</h2>
+<p class="intro">Google premia la pagina che risponde esattamente alla frase cercata. Oggi la guida regge da sola tutte le ricerche generiche: per questo sta a metà classifica. Dividiamo il lavoro su più pagine, ognuna con una frase precisa nel titolo.</p>
+
+<h3 class="sez">Due pagine nuove, entro il 17 novembre</h3>
+<div class="due">
+<div class="box"><h3>Prezzi</h3>
+<span class="google"><span class="t">Scooter elettrico per anziani: prezzi 2026 e cosa è incluso</span><span class="u">concessionariovelecoitalia.it › scooter-elettrico-anziani-prezzi</span><span class="d">Prezzi degli scooter elettrici per anziani Veleco: Faster da 2.200 €, litio 2.850 €. Cosa è compreso, consegna, garanzia 2 anni. Prezzi chiari, senza sorprese.</span></span>
+<p>Sei tra i pochi a scrivere il prezzo in chiaro: lo diciamo subito. Tabella delle due versioni con cosa comprende (montaggio, telecomando, allarme, garanzia 2 anni), differenza piombo e litio, confronto con Amazon, consegna, gli altri modelli «prezzo su richiesta».</p></div>
+<div class="box"><h3>Senza patente</h3>
+<span class="google"><span class="t">Scooter elettrico senza patente per anziani: come funziona</span><span class="u">concessionariovelecoitalia.it › scooter-elettrico-senza-patente-anziani</span><span class="d">Perché non serve la patente, dove si guida, chi può usarlo. Il Veleco Faster a 4 ruote, prova gratuita a Genova.</span></span>
+<p>Spiega perché non serve la patente (è un dispositivo medico, non un veicolo), niente bollo né assicurazione, dove si può andare e dove no, chi può guidarlo. Chiarisce subito la differenza con i motorini elettrici «senza patente», così chi cerca quelli capisce in due righe che qui si parla d'altro.</p></div>
+</div>
+
+<h3 class="sez">Le domande frequenti che aggiungiamo</h3>
+<p>Google mostra le domande direttamente nei risultati («Le persone hanno chiesto anche»). Ogni pagina nuova ne ha cinque, scritte come le fa la gente:</p>
+<div class="due">
+<div class="box"><h3>Nella pagina Prezzi</h3><ul>
+<li>Quanto costa uno scooter elettrico per anziani?</li>
+<li>Che differenza c'è tra la versione da 2.200 € e quella da 2.850 €?</li>
+<li>Cosa è compreso nel prezzo?</li>
+<li>Perché costa più che su Amazon?</li>
+<li>Quanto costano gli altri modelli Veleco?</li></ul></div>
+<div class="box"><h3>Nella pagina Senza patente</h3><ul>
+<li>Serve la patente per uno scooter elettrico per anziani?</li>
+<li>Serve il bollo o l'assicurazione?</li>
+<li>Dove si può guidare e dove no?</li>
+<li>Chi può guidarlo?</li>
+<li>È la stessa cosa di un motorino elettrico senza patente?</li></ul></div>
+</div>
+
+<h3 class="sez">Titoli e frasi che cambiano nelle pagine che ci sono già</h3>
+<dl class="voci">
+  <dt>Chi siamo</dt><dd>Il titolo diventa «Chi siamo | Valentina Colomba, concessionaria Veleco a Genova». Con «a Genova» prendiamo le 500 ricerche al mese di «scooter elettrico genova» senza altro lavoro.</dd>
+  <dt>Home</dt><dd>Nella sezione sulle 4 ruote entra la frase esatta «scooter elettrico 4 ruote per anziani», e i blocchi Prezzi e Normativa rimandano alle due pagine nuove.</dd>
+  <dt>Modelli</dt><dd>Una riga all'inizio: «Mobility scooter è il nome inglese di questi mezzi». 500 persone al mese lo cercano così e oggi il sito non lo dice.</dd>
+  <dt>Tutte le pagine</dt><dd>In fondo, i link «Prezzi» e «Senza patente». Poi chiediamo a Google di rileggere le pagine cambiate.</dd>
+</dl>
+
+<h3 class="sez">Sei articoli nella guida, uno ogni due settimane</h3>
+<p>Ogni articolo risponde a una domanda che la gente fa a Google e finisce con un rimando al Faster. Dopo qualche articolo Google tratta il sito come un posto dove si trovano risposte, non solo un negozio.</p>
+<table>
+<tr><th>Quando</th><th>Articolo</th><th>Perché</th></tr>
+<tr><td class="n">20 nov</td><td>Scooter elettrico per anziani: normativa e Codice della Strada</td><td>domanda frequente; già comparsi in posizione 31</td></tr>
+<tr><td class="n">4 dic</td><td>Quanta autonomia ha uno scooter elettrico per anziani</td><td>la domanda più pratica di chi sta scegliendo</td></tr>
+<tr><td class="n">18 dic</td><td>Scooter per disabili: chi può guidarlo e serve la patente?</td><td>la ricerca da 5.000 al mese</td></tr>
+<tr><td class="n">8 gen</td><td>Mobility scooter: cosa sono e quali modelli esistono</td><td>500 ricerche, parola assente dal sito</td></tr>
+<tr><td class="n">22 gen</td><td>Scooter elettrico per anziani coperto: i modelli con tetto</td><td>Faster, Gravis, Draco e Turris esistono con tetto</td></tr>
+<tr><td class="n">5 feb</td><td>Scooter elettrico per anziani: nuovo o usato?</td><td>500 ricerche: rispondiamo, poi spieghiamo cosa si perde con l'usato</td></tr>
+</table>
+
+<h2 class="dopo">Tre post a settimana, su Google e su Instagram</h2>
+<p class="intro">Dal 3 novembre al 31 dicembre, lo stesso tema esce lo stesso giorno sui due canali, con il formato giusto per ciascuno. Sulla scheda Google i post partono da soli, già scritti; su Instagram li programmiamo noi con Metricool.</p>
+<table>
+<tr><th>Giorno</th><th>Scheda Google</th><th>Instagram</th></tr>
+<tr><td class="n">Martedì</td><td><b>La notizia della settimana</b>: Legge 104, pensioni, agevolazioni, trasporti, salute. Fonte citata, rimando al sito. La scegli tu il lunedì fra tre proposte.</td><td><b>Storia</b> con la stessa notizia in una frase e il rimando al sito.</td></tr>
+<tr><td class="n">Giovedì</td><td><b>Il post nostro</b>: prova gratuita, recensioni, prezzi, consegna, assistenza. Pulsante verso la pagina giusta del sito.</td><td><b>Post nel feed</b> (immagine o carosello), stesso tema, testo corto, frase chiave nelle prime parole.</td></tr>
+<tr><td class="n">Sabato</td><td><b>Il modello della settimana</b>: una foto e tre righe su un modello Veleco o sullo showroom.</td><td><b>Reel</b> di 15–30 secondi sullo stesso modello: il mezzo che si muove vale più di dieci foto.</td></tr>
+</table>
+
+<h3 class="sez">Il calendario fino a fine anno</h3>
+<table>
+<tr><th>Settimana</th><th>Martedì · notizia</th><th>Giovedì · post nostro</th><th>Sabato · modello</th></tr>
+<tr><td class="n">3–8 nov</td><td>Card sanitaria over 75 (uscita)</td><td>Prova gratuita a Nervi</td><td>Veleco Faster, il 4 ruote</td></tr>
+<tr><td class="n">10–15 nov</td><td>da scegliere lunedì 9</td><td>La recensione di Gemma</td><td>Lo showroom di Via Pessale</td></tr>
+<tr><td class="n">17–22 nov</td><td>da scegliere lunedì 16</td><td>Consegna in tutta Italia</td><td>Gravis, il 4 ruote con tetto</td></tr>
+<tr><td class="n">24–29 nov</td><td>da scegliere lunedì 23</td><td>La recensione di Andrea</td><td>Draco, il 3 ruote</td></tr>
+<tr><td class="n">1–6 dic</td><td>da scegliere lunedì 30</td><td>Quanto costa uno scooter elettrico per anziani (pagina Prezzi)</td><td>Sharpy</td></tr>
+<tr><td class="n">8–13 dic</td><td>da scegliere lunedì 7</td><td>Salite e autonomia (articolo)</td><td>Looper</td></tr>
+<tr><td class="n">15–20 dic</td><td>da scegliere lunedì 14</td><td>Dove si può guidare (pagina Senza patente)</td><td>Turris, il 3 ruote con tetto</td></tr>
+<tr><td class="n">22–27 dic</td><td>da scegliere lunedì 21</td><td>Presenta un amico</td><td>Cosmo, la carrozzina pieghevole</td></tr>
+<tr><td class="n">29–31 dic</td><td>da scegliere lunedì 28</td><td>La recensione di Asia</td><td>—</td></tr>
+</table>
+<p class="nota">In tutto 26 post sulla scheda Google e 26 contenuti su Instagram (9 storie, 9 post, 8 reel). Il post sull'IVA al 4% previsto per il 3 dicembre è sostituito da quello sui prezzi: l'agevolazione resta spiegata nel sito, ma non la mettiamo al centro.</p>
+
+<div class="box pieno"><h3>Per i reel servono i tuoi video</h3>
+<p>Clip di 15–30 secondi col telefono, in verticale, senza parlare se non vuoi. Otto clip coprono i sabati fino a Natale:</p>
+<ol>
+<li>Il Faster che parte, fa un giro e si ferma davanti allo showroom</li>
+<li>Una salita a Nervi, ripresa da dietro</li>
+<li>La batteria al litio che si sgancia e si porta in casa</li>
+<li>Panoramica dello showroom, dall'insegna all'interno</li>
+<li>Gravis o Turris con il tetto, meglio con un po' di pioggia</li>
+<li>Draco: la sterzata stretta di un 3 ruote</li>
+<li>Cosmo che si chiude e si apre</li>
+<li>Tu che dici in venti secondi «al telefono rispondo io»</li>
+</ol>
+<p>Se un sabato il video non c'è, il reel si fa con le foto e il testo in movimento. Ma il mezzo che si muove convince di più.</p></div>
+
+<h2 class="dopo">Cosa serve da te</h2>
+<dl class="voci">
+  <dt>Tre conferme</dt><dd>Prima di pubblicare la pagina Senza patente e la guida aggiornata ci servono tre sì: (1) sulla strada senza marciapiede si va «come un pedone, sul margine» e in carreggiata no; (2) i modelli con tetto (Faster, Gravis, Draco, Turris) sono ordinabili e con quali tempi; (3) cosa rispondere a chi chiede se lo scooter «lo passa l'ASL»: su Google è una delle domande più frequenti, e vogliamo dare la risposta giusta, non una risposta qualsiasi.</dd>
+  <dt>Gli otto video</dt><dd>Quelli della lista qui sopra, anche due o tre alla volta, via WhatsApp a Maurizio.</dd>
+  <dt>Una richiesta<br>a Veleco</dt><dd>Chiedere a Veleco di inserire concessionariovelecoitalia.it nella loro pagina dei rivenditori, con il link. Il loro sito è il primo su Google per tutte le ricerche con il nome: un link da lì è il segnale più forte che possiamo avere.</dd>
+  <dt>Il Faster<br>nei «Negozi»</dt><dd>Quando si cerca «scooter veleco», Google mostra un riquadro di negozi: oggi ci sono Medisanshop, eBay e un sito di noleggio, non il concessionario. Si entra gratis con una scheda prodotto: la prepariamo noi, ci serve solo il tuo ok.</dd>
+  <dt>Le recensioni</dt><dd>Continua con il messaggio dopo ogni consegna: <b>concessionariovelecoitalia.it/recensione</b>. Siamo a 8, tutte a cinque stelle: 20 entro gennaio è realistico.</dd>
+</dl>
+
+<h2 class="dopo">Come vediamo se funziona</h2>
+<p>A fine novembre e a fine dicembre ti mandiamo il riepilogo del mese. Guardiamo tre cose: la posizione del sito sulle sei frasi scelte, quante persone arrivano senza scrivere «Veleco», e quante telefonate e WhatsApp partono dal sito.</p>
+<div class="box"><h3>Cosa aspettarsi, onestamente</h3><p>Le pagine nuove e gli articoli cominciano a muoversi dopo 4–8 settimane: la prima verifica vera è a fine gennaio. Su «scooter elettrico per anziani» da sola, dove la prima pagina è occupata dai grandi negozi di ausili, ci vorrà più tempo. Le frasi più precise (prezzi, senza patente, 4 ruote, con tetto) sono quelle dove si può salire prima, e sono anche quelle che scrive chi è vicino a comprare.</p></div>
+<div class="firma"><img src="logo-came.png" alt=""><div><b>Maurizio Camerada</b><span>CAME Comunicazione, Genova · 348 156 4774</span><br><code>camecomunicazione.it</code></div></div>
+</body></html>
