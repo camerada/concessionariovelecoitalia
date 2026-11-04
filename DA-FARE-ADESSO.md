@@ -95,13 +95,11 @@ per uno scooter per anziani è inevitabile. Toglierlo vorrebbe dire levare «per
   manuale del produttore dice 116 kg e 100 kg. Da chiarire con Valentina prima di
   correggere: vedi `seo/specifiche-faster-manuale.md`. La pagina Prezzi è quella di
   destinazione di Merchant Center.
-- **Instagram** (analizzato il 4/11, scheda in `seo/instagram.md`): il profilo
-  `@easyscooter_scooterelettrici` ha **656 follower** ma è fermo — nessun post in tre mesi,
-  copertura 0-5 al giorno, interazioni zero, perde circa un follower ogni due giorni. Il
-  problema non è la bio scritta male: è che il profilo è dell'**altra attività**, il
-  noleggio (link a easyscootergenova.it, bio che apre con «NOLEGGIO», nome «Easyscooter»).
-  Dal 5/11 ci escono sopra i post Veleco programmati su Metricool.
-  **Domanda da sciogliere: il noleggio è ancora vivo?** Se no, si riconverte il profilo al
-  Veleco e si tengono i 656 follower; se sì, serve un account nuovo e questo resta al
-  noleggio. Nome, bio, link e impostazioni pronti da incollare in `seo/instagram.md`. Il
-  profilo si modifica solo a mano dall'app: non ho strumenti per farlo.
+- **Instagram: convertire il profilo** (deciso da Maurizio il 4/11; scheda completa in
+  `seo/instagram.md`). `@easyscooter_scooterelettrici` passa dal noleggio al concessionario
+  Veleco: si tengono i 656 follower e si cambiano nome, bio, link, categoria, pulsanti,
+  indirizzo e foto. **Entro il 5/11 alle 12:00**, perché a quell'ora esce il primo post
+  Instagram e dice «Link in bio»: se il link punta ancora a easyscootergenova.it manda la
+  gente sul sito sbagliato. I testi sono pronti da incollare nella scheda. Il cambio di @
+  si fa dopo, a calendario avviato, riverificando il collegamento con Metricool. **Lo deve
+  fare una persona dall'app o da Meta Business: non ho strumenti per modificare il profilo.**

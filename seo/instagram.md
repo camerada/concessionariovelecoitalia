@@ -33,24 +33,16 @@ Non è che la bio sia scritta male. È che **il profilo è di un'altra attività
 Intanto dal **5 novembre** su questo profilo cominciano a uscire 17 post Veleco programmati
 su Metricool. Cioè: contenuti da concessionario su un profilo da noleggio.
 
-## La domanda da sciogliere, ed è di Maurizio e Valentina
+## Decisione: si converte (Maurizio, 4/11/2026)
 
-**Il noleggio è ancora un'attività viva?**
+Il profilo diventa quello del concessionario Veleco. Si tengono i 656 follower, si cambiano
+nome, bio, link e impostazioni. Il noleggio non occupa più questo profilo.
 
-- **Se non lo è più** (o non si promuove più su Instagram): si riconverte questo profilo al
-  Veleco. Si tengono i 656 follower, si cambia nome, bio e link. Costo zero, e il calendario
-  che parte domani ha senso.
-- **Se è ancora viva**: non si può prendere il suo profilo. Serve un account nuovo per il
-  Veleco, si riporta il calendario Metricool lì, e questo resta al noleggio. Si riparte da
-  zero follower — che per noi conta poco: in tre mesi 56 contatti su 67 sono arrivati da
-  Google, non dai social. Instagram qui serve a far vedere che l'attività esiste ed è viva,
-  non a portare clienti.
+**Scadenza: entro domani 5/11 alle 12:00.** A quell'ora esce il primo post Instagram del
+calendario e dice «Link in bio»: il link deve già puntare al sito giusto, altrimenti manda
+la gente sul sito del noleggio.
 
-`seo/parole-chiave.md` e `seo/piano-operativo.md` dicono «easyscootergenova.it non si
-tocca»: quella regola riguarda il sito, ma è lo stesso principio. Non tocco niente senza il
-via.
-
-## Pronto da incollare, se si riconverte questo profilo
+## Da incollare nel profilo
 
 ### Nome (il campo «Nome», non l'@) — massimo 30 caratteri
 È il campo su cui Instagram fa la ricerca: oggi dice «Easyscooter», che nessuno cerca.
@@ -84,11 +76,31 @@ Fino al 31 dicembre, perché è la pagina della promozione. Dal 1° gennaio si s
 - **Indirizzo**: Via Giuseppe Pessale 20r, Genova Nervi, così compare la mappa.
 - **Foto profilo**: il logo Veleco Italia, in `public_html/assets/post-google/foto/`.
 
-### Sul nome utente (@)
-`@easyscooter_scooterelettrici` non contiene «veleco». Cambiarlo in qualcosa come
-`@velecoitalia` aiuterebbe chi cerca la marca. Due avvertenze: i link già in giro verso il
-vecchio @ si rompono, e il collegamento con Metricool va verificato dopo il cambio. Se il
-noleggio resta vivo con questo @, non si tocca.
+### Sul nome utente (@) — da fare dopo, e con calma
+`@easyscooter_scooterelettrici` non contiene «veleco», quindi chi cerca la marca non lo
+trova. Cambiarlo aiuta, ma è l'unica modifica con un rischio: i link già in giro verso il
+vecchio @ si rompono, e il collegamento con Metricool va riverificato subito dopo, perché i
+post programmati passano da lì.
+
+**Quindi si fa in un secondo momento, non insieme al resto**, e non prima che il calendario
+di novembre sia partito. Candidati in ordine di preferenza: `velecoitalia`, `veleco_italia`,
+`velecoitalia.genova`. Se sono liberi si vede solo dall'app: scrivendoli nel campo, Instagram
+dice subito se sono presi (da fuori non è verificabile, Instagram rimanda al login).
+
+### Ordine delle operazioni
+1. **Subito, entro domani alle 12**: nome, bio, link, categoria, pulsanti, indirizzo, foto.
+   Sono tutte modifiche immediate e reversibili, e non toccano il collegamento con Metricool.
+2. **Dopo**: controllare in Metricool che il brand 7853509 risulti ancora collegato e che i
+   post programmati siano intatti.
+3. **Più avanti, a calendario avviato**: l'eventuale cambio di @, con la riverifica del
+   collegamento Metricool subito dopo.
+
+### I post vecchi del noleggio
+Restano nel feed e raccontano un'altra attività. Si possono **archiviare** (si nascondono dal
+profilo ma non si perdono, e si ripristinano quando si vuole) senza toccare i follower.
+Consiglio: archiviare quelli esplicitamente sul noleggio, tenere quelli che mostrano mezzi e
+showroom, che reggono anche adesso. È materiale di Valentina: decide lei quanto indietro
+andare.
 
 ## Cosa non posso fare io
 
