@@ -50,7 +50,9 @@
 
 <!-- Dati di prodotto per Google e Merchant Center.
      ATTENZIONE: la spedizione è indicata gratuita perché la promozione corre fino al
-     31/12/2026. Dal 1° gennaio va aggiornato shippingRate, come la fascia promozionale. -->
+     31/12/2026. Dal 1° gennaio va aggiornato shippingRate, come la fascia promozionale.
+     I tempi di consegna NON sono dichiarati: dipendono dalla fabbrica e si concordano
+     al momento dell'ordine. Non reinserirli senza un dato vero da Valentina. -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -91,7 +93,7 @@
     "priceCurrency": "EUR",
     "price": 2200,
     "priceValidUntil": "2027-12-31",
-    "availability": "https://schema.org/InStock",
+    "availability": "https://schema.org/BackOrder",
     "itemCondition": "https://schema.org/NewCondition",
     "seller": {
       "@type": "Organization",
@@ -109,21 +111,6 @@
       "shippingDestination": {
         "@type": "DefinedRegion",
         "addressCountry": "IT"
-      },
-      "deliveryTime": {
-        "@type": "ShippingDeliveryTime",
-        "handlingTime": {
-          "@type": "QuantitativeValue",
-          "minValue": 1,
-          "maxValue": 5,
-          "unitCode": "DAY"
-        },
-        "transitTime": {
-          "@type": "QuantitativeValue",
-          "minValue": 2,
-          "maxValue": 10,
-          "unitCode": "DAY"
-        }
       }
     },
     "hasMerchantReturnPolicy": {
@@ -177,7 +164,7 @@
     "priceCurrency": "EUR",
     "price": 2850,
     "priceValidUntil": "2027-12-31",
-    "availability": "https://schema.org/InStock",
+    "availability": "https://schema.org/BackOrder",
     "itemCondition": "https://schema.org/NewCondition",
     "seller": {
       "@type": "Organization",
@@ -195,21 +182,6 @@
       "shippingDestination": {
         "@type": "DefinedRegion",
         "addressCountry": "IT"
-      },
-      "deliveryTime": {
-        "@type": "ShippingDeliveryTime",
-        "handlingTime": {
-          "@type": "QuantitativeValue",
-          "minValue": 1,
-          "maxValue": 5,
-          "unitCode": "DAY"
-        },
-        "transitTime": {
-          "@type": "QuantitativeValue",
-          "minValue": 2,
-          "maxValue": 10,
-          "unitCode": "DAY"
-        }
       }
     },
     "hasMerchantReturnPolicy": {
