@@ -66,9 +66,21 @@ Due prodotti caricati da un foglio Google collegato, tutti e due «Non approvati
 - **«il sito o il negozio online deve essere migliorato»** — è il motivo per cui sono state
   fatte le quattro correzioni caricate il 4/11
 
-Adesso che i file sono online: aspettare le 24-48 ore di scansione che Google dichiara, poi
-chiedere il riesame da Merchant Center (Routing ID `GEWB`, Reference ID
+**Quando chiedere il riesame: lunedì 9 novembre.** I file sono andati online il 4/11 verso
+le 22; Google dichiara 24-48 ore per rileggere il sito, quindi la finestra si apre venerdì
+sera. Si aspetta lunedì perché l'avviso dell'immagine in elaborazione si sblocca da solo in
+2-3 giorni e, finché c'è, i prodotti restano «Non approvati» comunque: una richiesta fatta
+prima verrebbe sprecata, e dopo un riesame fallito c'è un periodo di attesa prima di poterne
+chiedere un altro.
+
+**Controllo prima di cliccare**: aprire i due prodotti e vedere se l'avviso «immagine in
+elaborazione» è sparito. Se c'è ancora, aspettare un altro paio di giorni.
+
+Poi chiedere il riesame da Merchant Center (Routing ID `GEWB`, Reference ID
 `644395007|faster-litio`).
+
+Si può verificare in Search Console, con l'account di servizio, quando Google ha ripassato
+davvero la pagina Prezzi, invece di fidarsi della finestra dichiarata.
 
 Il terzo avviso, **«Personalized advertising: personal hardships»**, si lascia stare: è
 informativo (icona blu, «click potential» vuoto), limita solo gli annunci personalizzati e
