@@ -78,11 +78,13 @@ per uno scooter per anziani è inevitabile. Toglierlo vorrebbe dire levare «per
 ## 2. Aperte, da decidere con Maurizio
 
 - **Il plurale nei testi Instagram** di cui sopra.
-- **Il codice a barre (GTIN o EAN) del Faster**, da chiedere a Valentina. È il numero a 13
-  cifre sotto il codice a barre, stampato sull'etichetta dell'imballo o riportato nella
-  fattura Veleco; lo assegna la fabbrica. Serve a Merchant Center per far riconoscere a
-  Google che il nostro Faster è lo stesso prodotto venduto altrove. Se Veleco non lo
-  assegna, si dichiara a Google che il prodotto non ne ha.
+- **Il codice a barre (GTIN o EAN) del Faster.** Maurizio ha trovato tre EAN su eBay e
+  u-buy (Rosso `5060463912314`, Blu `5060463912321`, Grigio `5060463912345`): cifra di
+  controllo corretta, modello giusto (1000 W), ma separano i **colori** mentre i nostri due
+  prodotti a feed separano le **batterie**, e il prefisso è GS1 britannico. Non inseriti: un
+  GTIN sbagliato viene respinto da Google per identificatore non corrispondente, proprio
+  mentre aspettiamo il riesame. Tutta la spiegazione e la domanda da fare a Valentina in
+  `seo/merchant-center.md`. Per ora resta «identificatore esistente = no», che è accettato.
 - **Instagram**: il profilo @easyscooter_scooterelettrici ha il link alla bio verso
   easyscootergenova.it, il nome «Easyscooter» non si trova cercando, e la bio apre con
   «NOLEGGIO». Maurizio ha detto «dobbiamo modificare tutto», non ancora affrontato.
