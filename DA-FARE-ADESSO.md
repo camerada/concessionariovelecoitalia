@@ -1,13 +1,16 @@
-# Da fare adesso — 4/11/2026, sera
+# Da fare adesso — aggiornato il 4/11/2026, notte
 
-Il lavoro è tutto finito e unito in `main`. Mancano due gesti meccanici, tutti e due
-bloccati perché il connettore Hostinger si è staccato dalla sessione del 4/11 e non è
-più rientrato (l'autorizzazione è a posto: è il server MCP che è caduto a metà sessione).
+Il lavoro di contenuto è finito e unito in `main`. Resta il caricamento sul server, ancora
+bloccato, e lo scambio delle immagini su Metricool, che dipende da quello.
 
-**In una sessione nuova il connettore c'è. Si riparte da qui.**
+**Stato del 4/11 notte (sessione cloud):** il connettore Hostinger risulta *da riconnettere*
+(`needs_reconnect`): non è tornato nemmeno in una sessione nuova. Nessuna chiave SSH e nessun
+token API nell'ambiente. Verificato sul server: `/guida/` e le 16 grafiche nuove danno 404,
+quindi niente è stato caricato. Va riconnesso a mano su
+https://claude.ai/customize/connectors e poi aperta una sessione nuova (i connettori si
+leggono all'avvio).
 
 ---
-
 ## 1. Caricare 39 file sul server
 
 Il metodo è quello di CLAUDE.md (API Hostinger, `hosting_files_generate-upload-url` per
@@ -33,22 +36,35 @@ Dopo il caricamento, verificare che online sia uguale al locale, e **unire il ra
 - **`sitemap.xml`**: tolte 5 date di modifica nel futuro, aggiunta `/guida/`
 - **16 grafiche** dei post in `assets/post-google/` e `assets/post-google/ig/`
 
-## 2. Riallineare Metricool
+## 2. Riallineare Metricool — TESTI FATTI, restano le immagini
 
-Brand «Concessionario Veleco», id **7853509**. Dipende dal punto 1: Metricool prende le
-immagini dall'indirizzo del sito, quindi prima devono essere online.
+Brand «Concessionario Veleco», id **7853509**.
 
-I testi definitivi sono in **`seo/post-riscritti-nov-dic-2026.md`**. È quello il documento
-da cui copiare.
+**Fatto il 4/11 notte: 32 post su 48 riscritti** secondo `seo/post-riscritti-nov-dic-2026.md`.
+Non serviva aspettare il caricamento: le immagini dei post sono già sul CDN di Metricool
+(`static.metricool.com`), quindi si può cambiare il testo lasciando la media com'è.
 
-**URGENTE**: su Metricool c'è ancora il calendario vecchio con la pubblicazione automatica
-accesa. **Sabato 7 novembre alle 10:00 esce «il regalo della settimana: la borsa»**, che
-non è più vero: i regali adesso sono tutti e tre.
+- **8 sabati riscritti da capo** (7/11, 14/11, 21/11, 28/11, 5/12, 12/12, 19/12, 26/12):
+  via la rotazione «il regalo della settimana», dentro i testi nuovi dei tre accessori.
+  Sparite anche le scadenze finte (15/11, 29/11, 13/12).
+- **24 post corretti sul conto dei regali**: «un accessorio / un accessorio a scelta» →
+  «tre accessori». Dove il documento era rimasto al singolare (alcuni testi Instagram) ho
+  messo il plurale per coerenza con il fatto: **da segnalare a Maurizio.**
+- Lasciati come sono i due post «Presenta un amico» del 24/12: lì «un accessorio a testa»
+  è il programma passaparola, non la promo.
+- Verificato dopo: nessun post parla più di rotazione o di scadenze intermedie.
 
-Da sapere: `updateScheduledPost` cambia l'id ma tiene l'uuid. Metricool va in errore
-«Failed to normalize media» se lo si chiama troppo in fretta: **aspettare 60 secondi fra
-una chiamata e l'altra** (non è un problema dei file). Il `sleep` semplice è bloccato:
-usare un ciclo di attesa.
+**Resta da fare, dopo il punto 1:** scambiare le grafiche degli 8 sabati. I post portano
+ancora l'immagine vecchia (per esempio il 7/11 mostra la borsa mentre il testo parla dei tre
+regali) e il testo alternativo descrive quell'immagine. Le nuove sono in
+`public_html/assets/post-google/` e `.../ig/` e Metricool le prende dall'indirizzo del sito:
+prima devono essere online.
+
+Da sapere: `updateScheduledPost` cambia l'id ma tiene l'uuid — per ritoccare lo stesso post
+serve l'id nuovo (o si rilegge con `getScheduledPosts`). L'errore «Failed to normalize media»
+non si è presentato: 32 chiamate di fila senza attese, perché la media era già su Metricool.
+Con **immagini nuove** da scaricare serve invece l'attesa di 60 secondi fra una chiamata e
+l'altra (il `sleep` semplice è bloccato: usare un ciclo di attesa).
 
 ## 3. Il post del 5 dicembre vuole un controllo
 
