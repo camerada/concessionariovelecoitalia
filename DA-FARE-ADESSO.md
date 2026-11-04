@@ -34,6 +34,13 @@ dicono al telefono. Adesso è «Tutto quello che c'è nel prezzo», con grafica 
 e caricata sul server). Il calendario non ha più nessun post legato alle scorte: non serve
 più il controllo del venerdì prima.
 
+**`condizioni-vendita` allineato al resto del sito** (4/11 notte, su tua indicazione):
+l'articolo 9 diceva «in tutta Italia (isole escluse)», adesso dice «in tutta Italia
+continentale. Per Sicilia e Sardegna la consegna si valuta caso per caso: contattaci e ti
+indichiamo tempi e costi precisi prima dell'ordine», la stessa cosa che dicono home, Promo e
+modelli. Resto dell'articolo intatto. Caricato sul server con la sitemap (lastmod al 4/11).
+Sul sito non resta nessun «isole escluse».
+
 **Da far confermare a Maurizio**: in alcuni testi Instagram il documento era rimasto al
 singolare («consegna compresa e accessorio in regalo»); ho messo il plurale per non avere lo
 stesso giorno il post Google che dice tre e Instagram che dice uno.
@@ -71,10 +78,11 @@ per uno scooter per anziani è inevitabile. Toglierlo vorrebbe dire levare «per
 ## 2. Aperte, da decidere con Maurizio
 
 - **Il plurale nei testi Instagram** di cui sopra.
-- **`condizioni-vendita` dice ancora «isole escluse»**, mentre la pagina Promo dice che per
-  Sicilia e Sardegna si fa il conto al telefono. Due cose diverse sullo stesso sito, ed è
-  una pagina legale: serve il via prima di toccarla.
-- **Il codice a barre (GTIN) del Faster**, da chiedere a Valentina (scatola o fattura).
+- **Il codice a barre (GTIN o EAN) del Faster**, da chiedere a Valentina. È il numero a 13
+  cifre sotto il codice a barre, stampato sull'etichetta dell'imballo o riportato nella
+  fattura Veleco; lo assegna la fabbrica. Serve a Merchant Center per far riconoscere a
+  Google che il nostro Faster è lo stesso prodotto venduto altrove. Se Veleco non lo
+  assegna, si dichiara a Google che il prodotto non ne ha.
 - **Instagram**: il profilo @easyscooter_scooterelettrici ha il link alla bio verso
   easyscootergenova.it, il nome «Easyscooter» non si trova cercando, e la bio apre con
   «NOLEGGIO». Maurizio ha detto «dobbiamo modificare tutto», non ancora affrontato.
