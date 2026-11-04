@@ -95,11 +95,19 @@ per uno scooter per anziani è inevitabile. Toglierlo vorrebbe dire levare «per
   manuale del produttore dice 116 kg e 100 kg. Da chiarire con Valentina prima di
   correggere: vedi `seo/specifiche-faster-manuale.md`. La pagina Prezzi è quella di
   destinazione di Merchant Center.
-- **Instagram: convertire il profilo** (deciso da Maurizio il 4/11; scheda completa in
-  `seo/instagram.md`). `@easyscooter_scooterelettrici` passa dal noleggio al concessionario
-  Veleco: si tengono i 656 follower e si cambiano nome, bio, link, categoria, pulsanti,
-  indirizzo e foto. **Entro il 5/11 alle 12:00**, perché a quell'ora esce il primo post
-  Instagram e dice «Link in bio»: se il link punta ancora a easyscootergenova.it manda la
-  gente sul sito sbagliato. I testi sono pronti da incollare nella scheda. Il cambio di @
-  si fa dopo, a calendario avviato, riverificando il collegamento con Metricool. **Lo deve
-  fare una persona dall'app o da Meta Business: non ho strumenti per modificare il profilo.**
+- **Instagram: profilo convertito** ✔ (4/11 sera, fatto da Maurizio). Nome, bio, link,
+  titolo del link, categoria, pulsanti, indirizzo e foto passati dal noleggio al
+  concessionario Veleco, tenendo i 656 follower. Verificato subito dopo che il collegamento
+  con Metricool regge: i post del 5/11 e del 7/11 risultano in attesa con la pubblicazione
+  automatica attiva, su Instagram e sulla scheda Google. Testi e impostazioni restano in
+  `seo/instagram.md`.
+  Restano tre code, nessuna urgente:
+  - **Nome utente**: `@easyscooter_scooterelettrici` non contiene «veleco». Si cambia a
+    calendario avviato, non adesso, e subito dopo si riverifica il collegamento Metricool.
+    Candidati: `velecoitalia`, `veleco_italia`, `velecoitalia.genova` (la disponibilità si
+    vede solo dall'app).
+  - **Post vecchi del noleggio**: si possono archiviare senza perderli né toccare i
+    follower. Decide Valentina quanto indietro andare.
+  - **1° gennaio**: il link in bio passa da `/promo/` a `/scooter-elettrico-anziani-prezzi/`
+    e il titolo da «Promo fino al 31 dicembre» a «Prezzi del Veleco Faster», altrimenti
+    promette una promozione finita.
