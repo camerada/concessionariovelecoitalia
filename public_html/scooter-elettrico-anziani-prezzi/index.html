@@ -51,8 +51,10 @@
 <!-- Dati di prodotto per Google e Merchant Center.
      ATTENZIONE: la spedizione è indicata gratuita perché la promozione corre fino al
      31/12/2026. Dal 1° gennaio va aggiornato shippingRate, come la fascia promozionale.
-     I tempi di consegna NON sono dichiarati: dipendono dalla fabbrica e si concordano
-     al momento dell'ordine. Non reinserirli senza un dato vero da Valentina. -->
+     I tempi di consegna NON sono dichiarati: dipendono dalla fabbrica (entro 90 giorni)
+     e si concordano al momento dell'ordine. Non reinserirli senza un dato vero da Valentina.
+     DISPONIBILITA': InStock perche' Valentina ha un Faster pronto in magazzino (4/11/2026).
+     Quando lo vende, rimettere BackOrder qui e su Merchant Center. -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,7 +68,9 @@
     "@type": "Brand",
     "name": "Veleco"
   },
-  "mpn": "FASTER",
+  "sku": "faster-piombo",
+  "mpn": "FASTER-PB",
+  "inProductGroupWithID": "veleco-faster",
   "manufacturer": {
     "@type": "Organization",
     "name": "Veleco"
@@ -93,7 +97,7 @@
     "priceCurrency": "EUR",
     "price": 2200,
     "priceValidUntil": "2027-12-31",
-    "availability": "https://schema.org/BackOrder",
+    "availability": "https://schema.org/InStock",
     "itemCondition": "https://schema.org/NewCondition",
     "seller": {
       "@type": "Organization",
@@ -137,7 +141,9 @@
     "@type": "Brand",
     "name": "Veleco"
   },
-  "mpn": "FASTER",
+  "sku": "faster-litio",
+  "mpn": "FASTER-LI",
+  "inProductGroupWithID": "veleco-faster",
   "manufacturer": {
     "@type": "Organization",
     "name": "Veleco"
@@ -164,7 +170,7 @@
     "priceCurrency": "EUR",
     "price": 2850,
     "priceValidUntil": "2027-12-31",
-    "availability": "https://schema.org/BackOrder",
+    "availability": "https://schema.org/InStock",
     "itemCondition": "https://schema.org/NewCondition",
     "seller": {
       "@type": "Organization",
@@ -433,7 +439,7 @@ footer h4{color:var(--white); font-family:'Zilla Slab',serif; margin-bottom:12px
       <p>Stessa scocca, stessa comodità, stesse prestazioni. Cambia la batteria, e cambia dove la ricarichi.</p>
     </div>
     <div class="price-grid">
-      <div class="price-card reco">
+      <div class="price-card reco" id="piombo">
         <span class="badge">Il più scelto</span>
         <h3>Faster Piombo Gel</h3>
         <div class="amount">2.200 €<small> IVA 22% inclusa</small></div>
@@ -447,7 +453,7 @@ footer h4{color:var(--white); font-family:'Zilla Slab',serif; margin-bottom:12px
         </ul>
         <a class="btn btn-accent" href="tel:+393289754412">📞 Chiama e ordinalo</a>
       </div>
-      <div class="price-card">
+      <div class="price-card" id="litio">
         <h3>Faster Litio estraibile</h3>
         <div class="amount">2.850 €<small> IVA 22% inclusa</small></div>
         <ul>
