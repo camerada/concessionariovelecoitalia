@@ -34,7 +34,7 @@ Aggiornato il 4/11/2026. Account «Concessionario Veleco», sito concessionariov
 | Prezzo | 2200.00 EUR |
 | Marca | Veleco |
 | Codice produttore (MPN) | FASTER-PB |
-| GTIN | *da chiedere a Valentina (codice a barre sulla scatola o in fattura). Se non c'è: «identificatore esistente = no»* |
+| GTIN | *vuoto, «identificatore esistente = no» — vedi la nota qui sotto* |
 | Gruppo di prodotti | `veleco-faster` |
 | Categoria Google | Salute e bellezza > Assistenza sanitaria > Mobilità e accessibilità > Scooter per la mobilità |
 | Tipo di prodotto | Scooter elettrici > Scooter per anziani > Veleco Faster |
@@ -91,3 +91,44 @@ In magazzino ci sono **due Faster pronti**: un Piombo Gel a 2.200 € e un Litio
 prima di Natale**. È vero, non costa niente e ha una scadenza sua: quando sono venduti, il
 messaggio si spegne da solo. Vale per i post, per la scheda Google e per una riga sulla
 pagina Promo.
+
+
+## GTIN: tre codici trovati, non ancora utilizzabili (4/11/2026)
+
+Maurizio ha trovato su eBay e u-buy tre EAN-13 attribuiti al Veleco Faster, distinti **per
+colore**:
+
+| Colore | EAN |
+|---|---|
+| Rosso | `5060463912314` |
+| Blu | `5060463912321` |
+| Grigio | `5060463912345` |
+
+**Cosa torna:** tutti e tre hanno la cifra di controllo corretta, quindi sono codici ben
+formati e non refusi. L'annuncio u-buy parla di 1000 W, che è la potenza del Faster come la
+dichiara il nostro sito: il modello è quello giusto.
+
+**Perché non li ho inseriti.** Il GTIN identifica **un solo articolo vendibile**, e questi
+tre separano i colori, mentre i nostri due prodotti a feed separano le batterie
+(`faster-piombo` 2.200 € e `faster-litio` 2.850 €). Non c'è una corrispondenza:
+
+- mettere lo stesso codice su tutti e due vuol dire dire a Google che due prodotti con
+  prezzi diversi sono lo stesso articolo;
+- metterlo su uno solo vuol dire affermare che è quello il codice del piombo gel, cosa che
+  non sappiamo.
+
+Inoltre il prefisso `5060463` è un prefisso GS1 **britannico**: il codice è stato registrato
+da una società nel Regno Unito. Può essere il ramo inglese di Veleco (veleco.co.uk esiste) o
+un importatore: dalle due inserzioni non si distingue, e una ricerca non ha trovato nessun
+altro riscontro.
+
+Un GTIN sbagliato è peggio di nessun GTIN: Google lo respinge per identificatore non
+corrispondente, ed è proprio il tipo di problema che stiamo cercando di chiudere con il
+riesame in corso. Finché non c'è il dato vero, «identificatore esistente = no» è una
+risposta accettata e non blocca l'approvazione.
+
+**Domanda da fare a Valentina**, più precisa di prima: *«Sulla scatola del Faster c'è
+un'etichetta con un codice a barre e 13 cifre sotto. Me le mandi, sia per il piombo gel che
+per il litio? E di che colore erano i mezzi?»* Se Veleco non assegna codici diversi per le
+due batterie, bisogna saperlo: in quel caso i due prodotti del feed non possono portare lo
+stesso GTIN e si lascia vuoto.
