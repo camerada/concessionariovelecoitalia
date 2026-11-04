@@ -97,6 +97,8 @@ footer h4{color:var(--white);font-family:'Zilla Slab',serif;margin-bottom:12px;}
 .nav-cta{display:flex;gap:8px;align-items:center;flex-shrink:0;}.nav-cta .phone{font-family:IBM Plex Mono,monospace;font-weight:600;color:var(--green-dark);text-decoration:none;display:none;white-space:nowrap;}@media(min-width:700px){.nav-cta .phone{display:inline;}}.btn-ghost{border-color:var(--green);color:var(--green);}
 .mobile-cta{position:fixed;bottom:0;left:0;right:0;display:flex;gap:10px;padding:12px 16px;background:var(--white);border-top:1px solid var(--line);box-shadow:0 -6px 18px rgba(0,0,0,.08);z-index:60;}.mobile-cta .btn{flex:1;justify-content:center;padding:14px;}@media(min-width:900px){.mobile-cta{display:none;}}@media(max-width:900px){body{padding-bottom:78px;}}
 </style>
+<script src="/assets/promo.js" defer></script>
+<script src="/assets/testata.js" defer></script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -271,7 +273,7 @@ footer h4{color:var(--white);font-family:'Zilla Slab',serif;margin-bottom:12px;}
       </div>
       <div>
         <h4>Assistenza</h4>
-        <p><a href="/chi-siamo/">Chi è Valentina</a><br><a href="/assistenza-ricambi/">Assistenza e ricambi</a><br><a href="/#faq">Domande frequenti</a><br><a href="/modelli-veleco/">Tutti i modelli Veleco</a><br><a href="/rivenditori-veleco-italia/">Dove comprare Veleco</a><br><a href="/guida-scooter-elettrico-anziani/">Guida alla scelta</a><br><a href="/#dove-siamo">Zone servite</a></p>
+        <p><a href="/chi-siamo/">Chi è Valentina</a><br><a href="/assistenza-ricambi/">Assistenza e ricambi</a><br><a href="/#faq">Domande frequenti</a><br><a href="/modelli-veleco/">Tutti i modelli Veleco</a><br><a href="/rivenditori-veleco-italia/">Dove comprare Veleco</a><br><a href="/promo/">Promo: consegna e regalo</a><br><a href="/guida-scooter-elettrico-anziani/">Guida: scooter elettrico per anziani</a><br><a href="/#dove-siamo">Zone servite</a></p>
       </div>
     </div>
     <div class="footer-bottom">
@@ -290,7 +292,6 @@ footer h4{color:var(--white);font-family:'Zilla Slab',serif;margin-bottom:12px;}
   function track(eventName, extra) {
     var payload = Object.assign({ event: eventName }, extra || {});
     window.dataLayer.push(payload);
-    if (typeof window.gtag === 'function') { window.gtag('event', eventName, extra || {}); }
   }
   document.addEventListener('click', function (e) {
     var el = e.target.closest('a[href]');
