@@ -119,25 +119,34 @@ cioè la non corrispondenza fra identificativo e marca. È precisamente il motiv
 che stiamo cercando di togliere di mezzo con il riesame in corso. Resta
 «identificatore esistente = no», che Google accetta e non blocca l'approvazione.
 
-**Come si riconosce un GTIN vero di Veleco:** comincia per **`590`**, il prefisso di GS1
-Polonia, e precisamente per uno dei prefissi licenziati a Veleco. Quello che abbiamo visto è
-`59045539942`.
+**Come si riconosce un GTIN vero di Veleco:** comincia per **`590`** (GS1 Polonia) e
+precisamente per uno dei prefissi licenziati a Veleco. Dalla ricerca per nome sul registro
+GS1 (Maurizio, 4/11/2026) ne sono emersi tre, tutti con sede in ul. Bernarda Ludwika
+Hantkego 7, 42-202 Częstochowa, tutti GS1 Poland:
 
-Attenzione a non stringere troppo la regola: quella licenza è di 11 cifre, quindi lascia
-spazio a **soli 10 codici** (una cifra di prodotto più il controllo), e Veleco ha molti più
-di dieci modelli. La ricerca per nome sul registro GS1 restituisce **7 voci** per «veleco»:
-hanno quasi certamente altre licenze, con prefissi più corti. Per avere la lista completa dei
-prefissi basta aprire le altre sei voci di quella ricerca.
+| Ragione sociale | Licenza GS1 | Lunghezza | Codici possibili | GLN |
+|---|---|---|---|---|
+| VELECO sp. z o.o. | `5905525308` | 10 cifre | 100 | 5904553994210 |
+| VELECO sp. z o.o. | `59045539942` | 11 cifre | 10 | 5904553994210 |
+| VELECO Jakub Marek | `59054136526` | 11 cifre | 10 | 5909000836716 |
 
-**Il GLN non è un GTIN.** Il Global Location Number di Veleco è `5904553994210` (cifra di
-controllo corretta; si legge come la licenza `59045539942` + `1` + controllo). Identifica
-l'azienda e la sede, non l'articolo: serve in fatture, documenti di trasporto e scambi EDI.
-Nel campo GTIN di Merchant Center non si può usare.
+«VELECO Jakub Marek» è la ditta individuale, stessa sede: probabilmente la forma originaria
+dell'attività, con le licenze più vecchie rimaste intestate lì. Il prefisso più capiente è
+`5905525308`, che da solo permette cento articoli: è il candidato più probabile per la gamma
+di scooter.
+
+La ricerca restituisce **7 voci** in tutto per «veleco»: quattro non sono state aperte, quindi
+potrebbero esserci altri prefissi. Per il nostro scopo basta la regola del `590`.
+
+**Il GLN non è un GTIN.** `5904553994210` (cifra di controllo corretta) identifica azienda e
+sede, non l'articolo: serve in fatture, documenti di trasporto e scambi EDI. Nel campo GTIN
+di Merchant Center non si può usare.
 
 **Domanda per Valentina:** *«Sulla scatola del Faster c'è un'etichetta con un codice a barre
-e 13 cifre sotto. Me le mandi, per il piombo gel e per il litio?»* Se le cifre cominciano
-per `59045539942` è il codice buono di Veleco. Se cominciano per `5060463` è l'etichetta
-dell'importatore inglese e non ci serve.
+e 13 cifre sotto. Me le mandi, per il piombo gel e per il litio?»* Lo scooter di Valentina arriva dalla
+Polonia, quindi l'etichetta dovrebbe portare un codice che comincia per `590`, e in
+particolare per uno dei tre prefissi della tabella qui sopra. Se comincia per `5060463` è
+l'etichetta dell'importatore inglese e non ci serve.
 
 Resta poi da capire, se il codice arriva, se Veleco ne assegna uno diverso per le due
 batterie: i nostri due prodotti a feed si distinguono per quello, e due prodotti con prezzi
