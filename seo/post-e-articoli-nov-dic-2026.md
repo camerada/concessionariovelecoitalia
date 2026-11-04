@@ -1,5 +1,10 @@
 # Post e articoli, novembre–dicembre 2026: testi da rivedere
 
+> **SUPERATO.** Questo è lo schema vecchio (modello della settimana, showroom, notizia del martedì),
+> tenuto come storia. I testi validi, da cui copiare nel planner, stanno in
+> `seo/post-riscritti-nov-dic-2026.md`.
+
+
 Stato al 3/11/2026, sera. I post qui sotto sono già inseriti nel planner di Metricool (brand «Concessionario Veleco»):
 scheda Google alle 10, Instagram alle 12, stesso tema e stessa immagine. **Il primo esce giovedì 5/11.** Fino ad allora si
 può cambiare o togliere tutto. Le due attività pianificate che pubblicavano via Pabbly sono spente.
