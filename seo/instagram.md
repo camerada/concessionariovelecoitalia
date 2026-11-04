@@ -66,8 +66,25 @@ Showroom Genova Nervi · prova gratuita
 ```
 https://concessionariovelecoitalia.it/promo/
 ```
-Fino al 31 dicembre, perché è la pagina della promozione. Dal 1° gennaio si sposta su
-`/scooter-elettrico-anziani-prezzi/`.
+Fino al 31 dicembre, perché è la pagina della promozione.
+
+**Titolo del link** (il campo che sostituisce l'URL nudo; è corto, intorno ai 30 caratteri,
+e l'app indica il limite mentre si scrive):
+```
+Promo fino al 31 dicembre
+```
+25 caratteri. Concreto e con la scadenza dentro: chi lo legge a metà dicembre sa che sta per
+finire. Alternative: `Consegna e 3 accessori inclusi` (30 esatti, al limite) oppure
+`Prezzi, promo e contatti` (24, più generico ma non scade).
+
+Da evitare «Sito ufficiale» o «Scopri di più»: occupano lo spazio senza dire niente, e chi
+arriva da un post che parla di tre accessori in regalo si aspetta di ritrovarli.
+
+**Dal 1° gennaio** il link si sposta su `/scooter-elettrico-anziani-prezzi/` e il titolo
+cambia insieme, altrimenti promette una promozione finita:
+```
+Prezzi del Veleco Faster
+```
 
 ### Resto del profilo
 - **Categoria**: «Negozio di articoli medicali» o «Concessionario» (non «Noleggio»).
