@@ -26,6 +26,14 @@ piè di pagina.
   il programma passaparola, non la promo.
 - Riletto il calendario dopo: 48 post, nessun residuo di rotazione o di scadenze intermedie.
 
+**Post del 5 dicembre riscritto** (indicazione di Maurizio, 4/11 notte): diceva che c'erano
+due Faster pronti in magazzino e che erano gli unici che arrivavano per Natale. Tolto: il
+magazzino non si dichiara e non si promettono arrivi entro una data; i tempi di consegna si
+dicono al telefono. Adesso è «Tutto quello che c'è nel prezzo», con grafica nuova
+(`2026-12-05-nel-prezzo.jpg` nei due formati, generata con `post-google/strumenti/immagine.js`
+e caricata sul server). Il calendario non ha più nessun post legato alle scorte: non serve
+più il controllo del venerdì prima.
+
 **Da far confermare a Maurizio**: in alcuni testi Instagram il documento era rimasto al
 singolare («consegna compresa e accessorio in regalo»); ho messo il plurale per non avere lo
 stesso giorno il post Google che dice tre e Instagram che dice uno.
@@ -44,14 +52,7 @@ stesso giorno il post Google che dice tre e Instagram che dice uno.
 
 ---
 
-## 1. Il post del 5 dicembre vuole un controllo
-
-`sab 5/12 · Due pronti, in magazzino` dice che ci sono due Faster pronti (piombo 2.200 €,
-litio 2.850 €) e che sono gli unici che arrivano per Natale. **Se Valentina li vende prima,
-quel post non deve uscire.** Da controllare il venerdì prima. È l'unico post legato al
-magazzino.
-
-## 2. Merchant Center, in attesa
+## 1. Merchant Center, in attesa
 
 Due prodotti caricati da un foglio Google collegato, tutti e due «Non approvati» per:
 - **immagine in elaborazione** — normale, si sblocca da solo (2-3 giorni, fino a 30)
@@ -67,7 +68,7 @@ informativo (icona blu, «click potential» vuoto), limita solo gli annunci pers
 per uno scooter per anziani è inevitabile. Toglierlo vorrebbe dire levare «per anziani» e
 «per chi cammina con fatica» dalla descrizione.
 
-## 3. Aperte, da decidere con Maurizio
+## 2. Aperte, da decidere con Maurizio
 
 - **Il plurale nei testi Instagram** di cui sopra.
 - **`condizioni-vendita` dice ancora «isole escluse»**, mentre la pagina Promo dice che per

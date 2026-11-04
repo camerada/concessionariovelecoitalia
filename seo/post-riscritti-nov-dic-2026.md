@@ -202,21 +202,24 @@ Oggi sul sito esce l'articolo completo. 328 975 4412.
 
 **Instagram** — Scooter per disabili e anziani: chi può guidarlo? Serve saper stare seduto, vedere la strada e avere la mano ferma sul comando. Niente patente, nessun certificato, nessun limite d'età. Nel dubbio si prova: dieci minuti a Genova Nervi. Link in bio. #scooterperdisabili #scooterperanziani #veleco
 
-## sab 5/12 · Due pronti, in magazzino
-Grafica: `2026-12-05-due-pronti.jpg` · `ig/2026-12-05-due-pronti.jpg` · Link: Promo
+## sab 5/12 · Tutto quello che c'è nel prezzo
+Grafica: `2026-12-05-nel-prezzo.jpg` · `ig/2026-12-05-nel-prezzo.jpg` · Link: Promo
 
-> ⚠️ **Da controllare con Valentina il venerdì prima.** Se nel frattempo li ha venduti,
-> questo post non esce e si sostituisce. È l'unico post del calendario legato al magazzino.
+> Riscritto il 4/11/2026 su indicazione di Maurizio. La versione precedente («Due pronti, in
+> magazzino», con i due Faster indicati come gli unici che arrivavano per Natale) è stata
+> tolta: il magazzino non si dichiara e non si promettono arrivi entro una data. I tempi di
+> consegna si dicono al telefono. Così il post non è più legato alle scorte e non va
+> controllato il venerdì prima.
 
-Ne abbiamo due pronti: un Faster piombo gel a 2.200 € e un Faster litio a 2.850 €.
+Fino al 31 dicembre, con ogni Veleco Faster la consegna a casa è compresa nel prezzo e nella scatola entrano tre accessori originali Veleco.
 
-Sono gli unici due che possono arrivare prima di Natale. Gli altri si ordinano alla fabbrica, e i tempi te li diciamo al telefono.
+Non devi sceglierne uno e non devi chiamare entro una certa settimana: la borsa da bracciolo, il supporto per il telefono e la copertura impermeabile arrivano tutti e tre.
 
-Consegna compresa nel prezzo, i tre accessori nella scatola, già montato e collaudato.
+Lo scooter arriva già montato e collaudato, con telecomando e allarme di serie, due anni di garanzia che gestiamo noi e un numero diretto a cui risponde chi te l'ha venduto.
 
-Quando sono andati, sono andati. 328 975 4412.
+Per i tempi di consegna chiama: te li diciamo al telefono, caso per caso. 328 975 4412.
 
-**Instagram** — Due Faster pronti: piombo gel a 2.200 € e litio a 2.850 €. Sono gli unici due che possono arrivare prima di Natale, gli altri si ordinano alla fabbrica. Consegna compresa e i tre accessori nella scatola. 328 975 4412. Link in bio. #veleco #scooterperanziani #natale
+**Instagram** — Tutto quello che c'è nel prezzo: lo scooter già montato e collaudato, telecomando e allarme di serie, due anni di garanzia e un numero diretto. Fino al 31 dicembre la consegna a casa è compresa e nella scatola entrano tre accessori Veleco: borsa da bracciolo, supporto per il telefono, copertura impermeabile. Per i tempi di consegna chiama, 328 975 4412. Link in bio. #veleco #scooterperanziani #regalo
 
 ## mar 8/12 · Lo dice chi l'ha comprato: Stefania
 Grafica: da fare · Link: Promo
