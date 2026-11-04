@@ -34,7 +34,7 @@ Aggiornato il 4/11/2026. Account «Concessionario Veleco», sito concessionariov
 | Prezzo | 2200.00 EUR |
 | Marca | Veleco |
 | Codice produttore (MPN) | FASTER-PB |
-| GTIN | *vuoto, «identificatore esistente = no» — vedi la nota qui sotto* |
+| GTIN | *vuoto. NON «identificatore esistente = no»: abbiamo marca e MPN — vedi la nota qui sotto* |
 | Gruppo di prodotti | `veleco-faster` |
 | Categoria Google | Salute e bellezza > Assistenza sanitaria > Mobilità e accessibilità > Scooter per la mobilità |
 | Tipo di prodotto | Scooter elettrici > Scooter per anziani > Veleco Faster |
@@ -79,7 +79,7 @@ Uguale al primo, tranne:
 ## Da chiedere a Valentina
 
 1. **Il codice a barre (GTIN/EAN)** del Faster: è sulla scatola o in fattura. Senza, si dichiara
-   «identificatore esistente = no» e funziona lo stesso, ma con il codice il prodotto si
+   il campo vuoto tenendo marca e MPN, e funziona lo stesso, ma con il codice il prodotto si
    aggancia meglio alle ricerche.
 2. **Avvisarci quando vende i pezzi pronti.** È l'unica manutenzione che chiede questa scheda:
    finito il magazzino di una versione, quella passa a `backorder`.
@@ -116,8 +116,7 @@ sono i GTIN del produttore.
 **Perché non vanno usati.** Nel feed dichiariamo marca «Veleco». Google confronta il GTIN
 con il registro GS1: troverebbe un codice intestato a Lunex Technology e una marca Veleco,
 cioè la non corrispondenza fra identificativo e marca. È precisamente il motivo di rifiuto
-che stiamo cercando di togliere di mezzo con il riesame in corso. Resta
-«identificatore esistente = no», che Google accetta e non blocca l'approvazione.
+che stiamo cercando di togliere di mezzo con il riesame in corso.
 
 **Come si riconosce un GTIN vero di Veleco:** comincia per **`590`** (GS1 Polonia) e
 precisamente per uno dei prefissi licenziati a Veleco. Dalla ricerca per nome sul registro
@@ -151,3 +150,39 @@ l'etichetta dell'importatore inglese e non ci serve.
 Resta poi da capire, se il codice arriva, se Veleco ne assegna uno diverso per le due
 batterie: i nostri due prodotti a feed si distinguono per quello, e due prodotti con prezzi
 diversi non possono portare lo stesso GTIN.
+
+
+## Il GTIN si può lasciare vuoto (deciso il 4/11/2026)
+
+**Sì, e non è quello che ci blocca.** I due prodotti sono «Non approvati» per l'immagine in
+elaborazione e per «il sito o il negozio online deve essere migliorato»: nessuno dei due
+avvisi parla di identificativi. Il GTIN non c'entra con il riesame in corso.
+
+Google chiede il GTIN **solo se il produttore ne ha assegnato uno** e noi lo conosciamo.
+Non conoscendolo, la scheda resta valida.
+
+**Come va configurato, però, non è come avevo scritto prima.** `identifier_exists = no` è
+per i prodotti che non hanno **né GTIN né MPN né marca**. Il nostro ha marca («Veleco») e un
+MPN, quindi la configurazione giusta è:
+
+- **GTIN**: vuoto
+- **Marca**: `Veleco`
+- **MPN**: `FASTER-PB` / `FASTER-LI`
+- **`identifier_exists`**: *non impostarlo a «no»*
+
+Mettere «no» avendo marca e MPN è dichiarare il falso a Google e può generare un avviso di
+identificativo incoerente — l'opposto di quello che vogliamo adesso.
+
+**Nota onesta sull'MPN**: `FASTER-PB` e `FASTER-LI` li abbiamo inventati noi, non sono codici
+di Veleco (il manuale non riporta nessun codice articolo, solo il numero di serie, diverso per
+ogni pezzo). Google non verifica gli MPN contro un registro esterno come fa con i GTIN, quindi
+il rischio è basso ed è una pratica diffusa fra i rivenditori. Se Veleco dà un codice articolo
+vero, si sostituisce.
+
+**Cosa si perde senza GTIN**: il prodotto si aggancia peggio al catalogo di Google, quindi
+niente pagina di prodotto condivisa, niente recensioni aggregate, confronto prezzi più debole
+e in generale un po' meno visibilità. Per un concessionario che vende un modello di nicchia a
+2.200 € la perdita è contenuta: non vale il rischio di un identificativo sbagliato.
+
+**Conclusione operativa**: si va avanti senza GTIN. Se un giorno arriva il codice dall'etichetta
+di Valentina, si aggiunge e si guadagna qualcosa. Non è una porta chiusa.

@@ -84,8 +84,11 @@ per uno scooter per anziani è inevitabile. Toglierlo vorrebbe dire levare «per
   la cui licenza GS1 è polacca (prefisso visto: `59045539942`; ce ne sono altri, la ricerca
   per nome sul registro dà 7 voci). Un codice Veleco comincia per `590`. Usarli significherebbe
   dichiarare marca Veleco con un identificativo di un'altra società: è il rifiuto che
-  stiamo cercando di evitare. Il manuale ufficiale non riporta nessun EAN. Resta
-  «identificatore esistente = no». A Valentina si chiede il codice sull'etichetta
+  stiamo cercando di evitare. Il manuale ufficiale non riporta nessun EAN. Si va avanti **senza GTIN**: non è
+  quello che blocca il riesame (i due avvisi sono l'immagine in elaborazione e il sito da
+  migliorare). Campo GTIN vuoto tenendo marca e MPN, **senza** impostare
+  `identifier_exists = no`, che vale solo per i prodotti privi anche di marca e MPN.
+  A Valentina si chiede comunque il codice sull'etichetta
   dell'imballo, per tutte e due le batterie: se comincia per `590` è Veleco, se comincia per `5060463` è l'importatore inglese.
   Dettagli in `seo/merchant-center.md`.
 - **Il peso del Faster sulla pagina Prezzi.** Diciamo 133 kg (piombo) e 117 kg (litio); il
