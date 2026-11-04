@@ -1,0 +1,157 @@
+<!doctype html><html lang="it"><head><meta charset="utf-8"><link rel="stylesheet" href="stile.css">
+<style>
+@page{size:A4;margin:18mm 18mm 20mm}
+@page copertina{size:A4;margin:0}
+.copertina{page:copertina;width:210mm;height:297mm;background:var(--teal);color:#fff;position:relative;overflow:hidden;break-after:page}
+.copertina .logo{position:absolute;top:22mm;left:18mm;display:flex;align-items:center;gap:12px}
+.copertina .logo img{width:72px;height:72px}
+.copertina .logo b{display:block;font-size:11pt;font-weight:700}.copertina .logo span{font-size:9pt;color:#CFE6EB}
+.copertina .data{position:absolute;top:95mm;left:18mm;font-family:'Space Mono',monospace;font-size:9pt;color:#9FD6E0;letter-spacing:.02em}
+.copertina h1{position:absolute;top:104mm;left:18mm;right:18mm;margin:0;font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:32pt;line-height:1.08;letter-spacing:-.01em;color:#fff}
+.copertina .sotto{position:absolute;top:172mm;left:18mm;font-size:11pt;line-height:1.5;color:#E6F3F6}
+.copertina .barra{position:absolute;top:227mm;left:18mm;width:46mm;height:3mm;background:var(--lime)}
+.copertina .piede{position:absolute;left:0;right:0;bottom:0;height:52mm;background:var(--teal2);padding:14mm 18mm 0;font-size:9.5pt;line-height:1.55;color:#F3FAFB}
+.copertina .piede b{color:#fff}
+h2{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:19pt;color:var(--teal);margin:0 0 7px;line-height:1.15;break-after:avoid}
+h2.dopo{margin-top:22px}
+h3.sez{font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:13pt;color:var(--teal);margin:16px 0 5px;break-after:avoid}
+p{margin:0 0 9px}
+p.intro{margin:0 0 12px;color:var(--ink)}
+.voci{display:grid;grid-template-columns:34mm 1fr;column-gap:10px;row-gap:0;margin:0 0 6px}
+.voci dt{font-family:'Space Mono',monospace;font-size:8.5pt;color:var(--mono);padding:7px 0 0;line-height:1.4}
+.voci dd{margin:0;padding:6px 0 8px;border-bottom:1px solid var(--riga);break-inside:avoid}
+.voci dd:last-child{border-bottom:0}
+.cit{border-left:3px solid var(--lime);background:var(--chiaro);padding:7px 11px;margin:6px 0 2px;font-size:10pt}
+.nota{font-size:9.5pt;color:var(--grigio)}
+table{width:100%;border-collapse:collapse;font-size:9.2pt;margin:4px 0 8px;break-inside:avoid}
+th{text-align:left;font-family:'Space Mono',monospace;font-weight:400;font-size:8.5pt;color:var(--mono);padding:4px 8px;border-bottom:1px solid var(--riga);vertical-align:bottom}
+td{padding:4px 8px;border-bottom:1px solid var(--riga);vertical-align:top}
+td.n{font-family:'Space Mono',monospace;font-size:9pt;white-space:nowrap}
+tr.ev td{background:var(--chiaro)}
+.kpi{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:6px 0 14px}
+.kpi div{background:var(--chiaro);border-radius:8px;padding:9px 10px}
+.kpi b{display:block;font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:20pt;color:var(--teal);line-height:1}
+.kpi small{display:block;font-size:8.5pt;color:var(--ink);margin-top:4px;font-weight:600}
+.kpi em{display:block;font-style:normal;font-size:8pt;color:var(--grigio)}
+.box{border:1px solid var(--riga);border-radius:10px;padding:11px 14px;margin:0 0 10px;break-inside:avoid}
+.box h3{margin:0 0 6px;font-size:11.5pt;color:var(--teal);font-weight:700}
+.box p{margin:0 0 6px}.box p:last-child{margin:0}
+.box.pieno{background:var(--teal);color:#fff;border-color:var(--teal)}
+.box.pieno h3{color:#fff}
+.box ul,.box ol{margin:0;padding-left:18px}.box li{margin:0 0 4px}
+.due{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.tit{font-family:'Bricolage Grotesque',sans-serif;font-weight:700;color:var(--teal)}
+.google{display:block;font-size:9.5pt;margin:2px 0 8px}
+.google .t{color:#1a0dab;font-size:11pt;display:block}.google .u{color:#006621;font-size:8.5pt;display:block}.google .d{color:#545454;display:block}
+.firma{display:flex;align-items:center;gap:12px;margin-top:16px}
+.firma img{width:56px;height:56px}
+.firma b{display:block;font-size:10.5pt}.firma span{font-size:9.5pt;color:var(--grigio)}
+.firma code{font-family:'Space Mono',monospace;font-size:8.5pt;color:var(--mono)}
+.pb{break-before:page}
+</style></head><body><style>
+a{color:var(--teal);text-decoration:none;border-bottom:1px solid var(--riga)}
+a:hover{border-bottom-color:var(--teal)}
+ul.el{margin:0 0 10px;padding-left:18px}
+ul.el li{margin:0 0 7px}
+h3.sez a{border:0}
+.gruppo{margin:0 0 16px}
+.gruppo h3{font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:12pt;color:var(--teal);margin:14px 0 6px}
+.etichetta{display:inline-block;background:var(--chiaro);color:var(--teal);font-family:'Space Mono',monospace;font-size:7.5pt;padding:2px 7px;border-radius:999px;margin-left:6px;vertical-align:middle}
+</style>
+
+<div class="copertina">
+<div class="logo"><img src="logo-came.png" alt=""><div><b>CAME Comunicazione</b><span>camecomunicazione.it</span></div></div>
+<div class="data">Resoconto · 4 novembre 2026</div>
+<h1>Cosa è cambiato<br>sul tuo sito</h1>
+<div class="sotto">Concessionario Veleco Italia<br>concessionariovelecoitalia.it</div>
+<div class="barra"></div>
+<div class="piede">Preparato per <b>Valentina Colomba</b><br>da Maurizio Camerada, CAME Comunicazione<br>Genova, 4 novembre 2026</div>
+</div>
+
+<h2>Pagine nuove, online</h2>
+<p class="intro">Otto pagine che prima non esistevano. Le prime tre rispondono a ricerche precise su cui il sito era del tutto assente; le altre cinque sono gli articoli della guida.</p>
+<ul class="el">
+  <li><a href="https://concessionariovelecoitalia.it/scooter-elettrico-anziani-prezzi/">Scooter elettrico per anziani: prezzi 2026 e cosa è incluso</a> <span class="etichetta">500 ricerche al mese</span><br>
+      Le due versioni del Faster, cosa comprende la cifra, peso e misure esatte, il confronto con Amazon, gli altri modelli su richiesta.</li>
+  <li><a href="https://concessionariovelecoitalia.it/scooter-elettrico-senza-patente-anziani/">Scooter elettrico senza patente per anziani: come funziona</a> <span class="etichetta">500 ricerche al mese</span><br>
+      Perché non serve la patente, dove si guida e dove no, chi può usarlo, e la differenza con i motorini «senza patente».</li>
+  <li><a href="https://concessionariovelecoitalia.it/promo/">La promozione fino al 31 dicembre</a><br>
+      Le due offerte in chiaro, i tre accessori con foto, il giro dei regali, i prezzi del Faster.</li>
+  <li><a href="https://concessionariovelecoitalia.it/guida/scooter-per-disabili-chi-puo-guidarlo/">Scooter per disabili: chi può guidarlo e serve la patente?</a> <span class="etichetta">5.000 ricerche al mese</span></li>
+  <li><a href="https://concessionariovelecoitalia.it/guida/scooter-elettrico-anziani-normativa/">Normativa e Codice della Strada</a></li>
+  <li><a href="https://concessionariovelecoitalia.it/guida/autonomia-scooter-elettrico-anziani/">Quanta autonomia ha uno scooter elettrico per anziani</a></li>
+  <li><a href="https://concessionariovelecoitalia.it/guida/mobility-scooter-cosa-sono/">Mobility scooter: cosa sono e quali modelli esistono</a> <span class="etichetta">500 ricerche al mese</span></li>
+  <li><a href="https://concessionariovelecoitalia.it/guida/scooter-elettrico-anziani-coperto/">Scooter elettrico per anziani coperto: uscire anche quando piove</a></li>
+</ul>
+<p class="nota">La mappa che il sito consegna a Google è passata da 14 a 22 pagine.</p>
+
+<h2 class="dopo">Migliorie al sito</h2>
+
+<div class="gruppo">
+<h3>La promozione, visibile ovunque</h3>
+<ul class="el">
+  <li>Fascia gialla in cima a tutte le pagine, con la crocetta per chiuderla.</li>
+  <li>Sul computer, una pastiglia fissa in basso a destra che <b>cambia da sola</b> il nome del regalo a ogni scadenza, e sparisce il 1° gennaio senza che nessuno debba ricordarsene.</li>
+  <li>Sul telefono, una linguetta gialla attaccata al bordo che porta alla pagina Promo.</li>
+  <li>Tutto in un file solo: a fine promozione si svuota quello e sparisce ovunque.</li>
+</ul>
+</div>
+
+<div class="gruppo">
+<h3>Navigazione e lettura</h3>
+<ul class="el">
+  <li>Sul telefono la testata si ritira quando scendi e torna quando risali, lasciando fisso il pulsante <b>Chiama</b>.</li>
+  <li>In fondo a diciannove pagine è comparso il blocco <b>«La prossima domanda»</b>: tre schede grandi che pongono la domanda successiva con le parole del lettore — <i>Quanto costa? · Serve la patente? · Quale modello fa per me? · Con chi parlo?</i></li>
+  <li><a href="https://concessionariovelecoitalia.it/chi-siamo/">Chi siamo</a> è stata portata in evidenza come «Con chi parlo?». Il motivo è nei dati: dieci contatti da diciassette visitatori, ed è la seconda pagina da cui si entra nel sito.</li>
+  <li>Nella guida è nata la sezione <b>Approfondimenti</b>, che elenca i cinque articoli e crescerà con loro.</li>
+</ul>
+</div>
+
+<div class="gruppo">
+<h3>Parole che mancavano</h3>
+<ul class="el">
+  <li><b>«Mobility scooter»</b> nel primo capoverso della pagina Modelli: cinquecento persone al mese lo cercano così, e il sito non lo diceva mai.</li>
+  <li><b>«Scooter elettrico 4 ruote per anziani»</b>, la frase esatta, nella home.</li>
+  <li><b>«Scooter elettrico per anziani coperto»</b> nella sezione sulle versioni con tetto.</li>
+</ul>
+</div>
+
+<div class="gruppo">
+<h3>Contenuti nuovi dentro pagine esistenti</h3>
+<ul class="el">
+  <li>Nei <a href="https://concessionariovelecoitalia.it/modelli-veleco/#con-tetto">Modelli</a> è nata la sezione <b>«Le versioni con tetto»</b>, con la foto del Faster coperto: prima la pagina lo diceva soltanto, sotto quattro schede, senza far vedere com'è fatto.</li>
+  <li>Nella home e nelle cinque pagine regionali, i blocchi sui prezzi e sulle regole rimandano alle due pagine nuove.</li>
+  <li>Nel piè di tutte le pagine sono comparsi i link a Prezzi, Senza patente e Promo.</li>
+</ul>
+</div>
+
+<h2 class="pb">Materiale pronto, non ancora pubblicato</h2>
+<ul class="el">
+  <li><b>24 post</b> dal 5 novembre al 31 dicembre, ognuno con il testo per la scheda Google e quello per Instagram. Martedì la recensione di un cliente, giovedì il post nostro, sabato il regalo della settimana.</li>
+  <li><b>38 grafiche</b> nel formato della scheda Google e <b>24</b> nel formato verticale di Instagram.</li>
+  <li><b>4 reel</b> verticali ricavati dalla video prova del Faster girata a Nervi.</li>
+  <li>Il vecchio video promozionale ripulito dalla cornice che riportava il numero di telefono e il sito di una volta.</li>
+</ul>
+
+<h2 class="dopo">Cosa succede adesso</h2>
+<p class="intro">Tre cose, nell'ordine in cui le vedrai.</p>
+<dl class="voci">
+  <dt>Da giovedì</dt><dd>Partono i post: tre a settimana sulla scheda Google e su Instagram, fino al 31 dicembre. Il martedì una recensione dei tuoi clienti, il giovedì un motivo per cui il Faster cambia la giornata, il sabato il regalo della settimana.</dd>
+  <dt>Ogni settimana</dt><dd>Esce un articolo della guida. I primi cinque sono già online: chi arriva su Google con una domanda trova una risposta scritta per bene, e da lì torna al Faster.</dd>
+  <dt>A fine novembre</dt><dd>Ti mandiamo il riepilogo del mese: dove sei arrivata sulle frasi scelte, quante persone sono arrivate sul sito senza scrivere «Veleco», quante telefonate e WhatsApp sono partiti da lì.</dd>
+</dl>
+
+<div class="box">
+<h3>Cosa aspettarsi, onestamente</h3>
+<p>Le pagine nuove e gli articoli cominciano a muoversi dopo quattro-otto settimane: Google ha bisogno di leggerli, confrontarli con gli altri e decidere dove metterli. La prima verifica vera è a fine gennaio.</p>
+<p>Quello che si può dire già oggi è che prima queste domande, sul tuo sito, non trovavano risposta: chi cercava i prezzi o le regole sulla patente non ci arrivava proprio. Adesso ci arriva.</p>
+</div>
+
+<div class="box pieno">
+<h3>Una cosa che serve da te</h3>
+<p><b>Le recensioni.</b> Continua a mandare il messaggio dopo ogni consegna, con l'indirizzo <b>concessionariovelecoitalia.it/recensione</b>: porta la persona dritta nella casella della recensione, senza cercare niente.</p>
+<p>Siamo a otto, tutte a cinque stelle. Venti entro gennaio è un traguardo alla portata, ed è la cosa che costa meno e rende di più di tutto quello che stiamo facendo.</p>
+</div>
+
+<div class="firma"><img src="logo-came.png" alt=""><div><b>Maurizio Camerada</b><span>CAME Comunicazione, Genova · 348 156 4774</span><br><code>camecomunicazione.it</code></div></div>
+</body></html>
