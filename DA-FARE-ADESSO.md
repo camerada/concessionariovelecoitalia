@@ -81,11 +81,12 @@ per uno scooter per anziani è inevitabile. Toglierlo vorrebbe dire levare «per
 - **Il codice a barre (GTIN o EAN) del Faster.** Chiuso il filone dei codici trovati in
   rete: la verifica sul registro GS1 (fatta da Maurizio il 4/11) dice che `5060463912314` e
   gli altri due sono licenziati a **Lunex Technology Limited**, Regno Unito — non a Veleco,
-  la cui licenza GS1 è polacca e comincia per **`59045539942`**. Usarli significherebbe
+  la cui licenza GS1 è polacca (prefisso visto: `59045539942`; ce ne sono altri, la ricerca
+  per nome sul registro dà 7 voci). Un codice Veleco comincia per `590`. Usarli significherebbe
   dichiarare marca Veleco con un identificativo di un'altra società: è il rifiuto che
   stiamo cercando di evitare. Il manuale ufficiale non riporta nessun EAN. Resta
   «identificatore esistente = no». A Valentina si chiede il codice sull'etichetta
-  dell'imballo, per tutte e due le batterie: se comincia per `59045539942` è quello giusto.
+  dell'imballo, per tutte e due le batterie: se comincia per `590` è Veleco, se comincia per `5060463` è l'importatore inglese.
   Dettagli in `seo/merchant-center.md`.
 - **Il peso del Faster sulla pagina Prezzi.** Diciamo 133 kg (piombo) e 117 kg (litio); il
   manuale del produttore dice 116 kg e 100 kg. Da chiarire con Valentina prima di

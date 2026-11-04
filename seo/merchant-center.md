@@ -119,8 +119,20 @@ cioè la non corrispondenza fra identificativo e marca. È precisamente il motiv
 che stiamo cercando di togliere di mezzo con il riesame in corso. Resta
 «identificatore esistente = no», che Google accetta e non blocca l'approvazione.
 
-**Come si riconosce un GTIN vero di Veleco:** comincia per **`59045539942`**. Sono le prime
-undici cifre della loro licenza GS1, uguali su tutti i loro prodotti.
+**Come si riconosce un GTIN vero di Veleco:** comincia per **`590`**, il prefisso di GS1
+Polonia, e precisamente per uno dei prefissi licenziati a Veleco. Quello che abbiamo visto è
+`59045539942`.
+
+Attenzione a non stringere troppo la regola: quella licenza è di 11 cifre, quindi lascia
+spazio a **soli 10 codici** (una cifra di prodotto più il controllo), e Veleco ha molti più
+di dieci modelli. La ricerca per nome sul registro GS1 restituisce **7 voci** per «veleco»:
+hanno quasi certamente altre licenze, con prefissi più corti. Per avere la lista completa dei
+prefissi basta aprire le altre sei voci di quella ricerca.
+
+**Il GLN non è un GTIN.** Il Global Location Number di Veleco è `5904553994210` (cifra di
+controllo corretta; si legge come la licenza `59045539942` + `1` + controllo). Identifica
+l'azienda e la sede, non l'articolo: serve in fatture, documenti di trasporto e scambi EDI.
+Nel campo GTIN di Merchant Center non si può usare.
 
 **Domanda per Valentina:** *«Sulla scatola del Faster c'è un'etichetta con un codice a barre
 e 13 cifre sotto. Me le mandi, per il piombo gel e per il litio?»* Se le cifre cominciano
