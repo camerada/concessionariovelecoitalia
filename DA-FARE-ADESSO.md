@@ -95,6 +95,13 @@ per uno scooter per anziani è inevitabile. Toglierlo vorrebbe dire levare «per
   manuale del produttore dice 116 kg e 100 kg. Da chiarire con Valentina prima di
   correggere: vedi `seo/specifiche-faster-manuale.md`. La pagina Prezzi è quella di
   destinazione di Merchant Center.
-- **Instagram**: il profilo @easyscooter_scooterelettrici ha il link alla bio verso
-  easyscootergenova.it, il nome «Easyscooter» non si trova cercando, e la bio apre con
-  «NOLEGGIO». Maurizio ha detto «dobbiamo modificare tutto», non ancora affrontato.
+- **Instagram** (analizzato il 4/11, scheda in `seo/instagram.md`): il profilo
+  `@easyscooter_scooterelettrici` ha **656 follower** ma è fermo — nessun post in tre mesi,
+  copertura 0-5 al giorno, interazioni zero, perde circa un follower ogni due giorni. Il
+  problema non è la bio scritta male: è che il profilo è dell'**altra attività**, il
+  noleggio (link a easyscootergenova.it, bio che apre con «NOLEGGIO», nome «Easyscooter»).
+  Dal 5/11 ci escono sopra i post Veleco programmati su Metricool.
+  **Domanda da sciogliere: il noleggio è ancora vivo?** Se no, si riconverte il profilo al
+  Veleco e si tengono i 656 follower; se sì, serve un account nuovo e questo resta al
+  noleggio. Nome, bio, link e impostazioni pronti da incollare in `seo/instagram.md`. Il
+  profilo si modifica solo a mano dall'app: non ho strumenti per farlo.
