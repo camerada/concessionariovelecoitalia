@@ -78,13 +78,20 @@ per uno scooter per anziani è inevitabile. Toglierlo vorrebbe dire levare «per
 ## 2. Aperte, da decidere con Maurizio
 
 - **Il plurale nei testi Instagram** di cui sopra.
-- **Il codice a barre (GTIN o EAN) del Faster.** Maurizio ha trovato tre EAN su eBay e
-  u-buy (Rosso `5060463912314`, Blu `5060463912321`, Grigio `5060463912345`): cifra di
-  controllo corretta, modello giusto (1000 W), ma separano i **colori** mentre i nostri due
-  prodotti a feed separano le **batterie**, e il prefisso è GS1 britannico. Non inseriti: un
-  GTIN sbagliato viene respinto da Google per identificatore non corrispondente, proprio
-  mentre aspettiamo il riesame. Tutta la spiegazione e la domanda da fare a Valentina in
-  `seo/merchant-center.md`. Per ora resta «identificatore esistente = no», che è accettato.
+- **Il codice a barre (GTIN o EAN) del Faster.** Il manuale ufficiale Veleco (caricato il
+  4/11, ora in `seo/specifiche-faster-manuale.md`) **non riporta nessun EAN**: ha solo il
+  numero di serie, che è diverso per ogni esemplare e non serve. I tre EAN trovati da
+  Maurizio su eBay e u-buy (Rosso `5060463912314`, Blu `5060463912321`, Grigio
+  `5060463912345`) hanno la cifra di controllo corretta ma separano i **colori**, mentre i
+  nostri due prodotti a feed separano le **batterie**; il prefisso è GS1 britannico.
+  L'ASIN Amazon `B09JWYRW4X` è il Faster rosso venduto da Technologic s.r.l: è un codice
+  interno di Amazon, non un GTIN, e nel campo di Merchant Center non si può mettere.
+  Resta «identificatore esistente = no», che Google accetta. Per chiudere la questione serve
+  il codice dall'etichetta dell'imballo, chiesto a Valentina per tutte e due le batterie.
+- **Il peso del Faster sulla pagina Prezzi.** Diciamo 133 kg (piombo) e 117 kg (litio); il
+  manuale del produttore dice 116 kg e 100 kg. Da chiarire con Valentina prima di
+  correggere: vedi `seo/specifiche-faster-manuale.md`. La pagina Prezzi è quella di
+  destinazione di Merchant Center.
 - **Instagram**: il profilo @easyscooter_scooterelettrici ha il link alla bio verso
   easyscootergenova.it, il nome «Easyscooter» non si trova cercando, e la bio apre con
   «NOLEGGIO». Maurizio ha detto «dobbiamo modificare tutto», non ancora affrontato.
