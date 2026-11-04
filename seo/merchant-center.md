@@ -10,31 +10,16 @@ Aggiornato il 4/11/2026. Account «Concessionario Veleco», sito concessionariov
   descrizione del prodotto: si vedono lo stesso, senza chiedere niente a Google.
 - **Niente tempi di consegna dichiarati.** Dalla fabbrica entro 90 giorni, ma si concordano
   al telefono: non si scrivono né sul sito né nel feed.
-- **In magazzino c'è il Piombo Gel, non il Litio** (confermato il 4/11/2026). Quindi le due
-  versioni non hanno la stessa disponibilità:
-  - **Piombo Gel → `in stock`.** È vero oggi, e `in stock` è l'unico stato che non chiede
-    nessuna data. **Quando Valentina lo vende → passare a `backorder`.**
-  - **Litio → si ordina alla fabbrica.** Su Merchant Center `backorder` chiede per forza una
-    *data di disponibilità*: una data fissa, non «90 giorni». Per questo **il Litio non si
-    carica adesso** (vedi «In due tempi» qui sotto).
+- **Tutte e due disponibili** (4/11/2026): un Piombo Gel pronto in magazzino e un Litio in
+  arrivo il 5/11. Tutte e due `in stock`, che è l'unico stato che non chiede una *data di
+  disponibilità*. **Quando Valentina vende l'ultimo pezzo di una versione, quella torna
+  `backorder`** — qui e nei dati della pagina Prezzi.
 - **Due prodotti, un gruppo solo**: stesso `item group id`, perché sono due versioni dello
   stesso scooter. Serve anche perché condividono lo stesso codice produttore.
 
 ---
 
-## In due tempi
-
-**Adesso carichiamo solo il Piombo Gel.** Un prodotto solo, vero, disponibile, senza nessuna
-data da dichiarare e senza niente da inventare. È anche la versione più venduta, e quella
-che regge il confronto con Amazon (2.200 € contro 1.880 €).
-
-**Il Litio lo aggiungiamo dopo**, quando sapremo due cose: se le schede gratuite portano
-davvero qualcuno, e che data di disponibilità possiamo scrivere senza prometterla a vuoto.
-La scheda qui sotto è già pronta per quel momento.
-
----
-
-## Prodotto 1 — Faster Piombo Gel — DA CARICARE ADESSO
+## Prodotto 1 — Faster Piombo Gel
 
 | Campo | Valore |
 |---|---|
@@ -70,7 +55,7 @@ La scheda qui sotto è già pronta per quel momento.
 
 ---
 
-## Prodotto 2 — Faster Litio estraibile — NON ANCORA
+## Prodotto 2 — Faster Litio estraibile
 
 Uguale al primo, tranne:
 
@@ -82,7 +67,6 @@ Uguale al primo, tranne:
 | Prezzo | 2850.00 EUR |
 | Codice produttore (MPN) | FASTER-LI |
 | Gruppo di prodotti | `veleco-faster` (lo stesso) |
-| Disponibilità | **Backorder** — e serve una *data di disponibilità*, che non abbiamo ancora |
 
 **Nella descrizione cambia solo il paragrafo della batteria e il peso:**
 
@@ -97,13 +81,13 @@ Uguale al primo, tranne:
 1. **Il codice a barre (GTIN/EAN)** del Faster: è sulla scatola o in fattura. Senza, si dichiara
    «identificatore esistente = no» e funziona lo stesso, ma con il codice il prodotto si
    aggancia meglio alle ricerche.
-2. ~~Quale versione è quella pronta~~ — risposto il 4/11: **il Piombo Gel**.
-3. Per quando vorremo caricare anche il Litio: **una data di disponibilità credibile**. Non
-   «90 giorni», ma una data sul calendario, del tipo «chi ordina adesso ce l'ha entro il …».
+2. **Avvisarci quando vende i pezzi pronti.** È l'unica manutenzione che chiede questa scheda:
+   finito il magazzino di una versione, quella passa a `backorder`.
 
 ## Il messaggio di Natale
 
-Il Faster pronto in magazzino è il **Piombo Gel a 2.200 €**, ed è l'unico che può arrivare
-prima di Natale: gli altri partono dalla fabbrica. È vero, non costa niente e ha una scadenza
-sua. Vale per i post, per la scheda Google e per una riga sulla pagina Promo.
-Quando Valentina lo vende, quella riga si toglie.
+In magazzino ci sono **due Faster pronti**: un Piombo Gel a 2.200 € e un Litio a 2.850 €
+(in arrivo il 5/11). Con 90 giorni dalla fabbrica, sono **gli unici due che possono arrivare
+prima di Natale**. È vero, non costa niente e ha una scadenza sua: quando sono venduti, il
+messaggio si spegne da solo. Vale per i post, per la scheda Google e per una riga sulla
+pagina Promo.
