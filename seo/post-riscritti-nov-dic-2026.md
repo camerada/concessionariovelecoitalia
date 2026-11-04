@@ -9,7 +9,7 @@ Versione del 4/11/2026. **È questo il documento da cui copiare nel planner.** S
 |---|---|---|
 | Martedì | **Lo dice chi l'ha comprato**: una recensione vera, due righe di Valentina | 10:00 |
 | Giovedì | **Il post nostro**: un motivo per cui il Faster cambia la giornata; dal 19/11 rilancia l'articolo del giorno | 10:00 |
-| Sabato | **Il regalo della settimana**: l'accessorio in corso e cosa risolve | 10:00 |
+| Sabato | **I regali**: uno dei tre accessori e cosa risolve, o la promozione nel suo insieme | 10:00 |
 
 Instagram esce lo stesso giorno alle 12:00, stesso tema e stessa immagine, testo più corto, nessun link
 cliccabile (il sito sta nella bio). Il sabato, dove c'è, va il reel.
@@ -17,8 +17,9 @@ cliccabile (il sito sta nella bio). Il sabato, dove c'è, va il reel.
 **I link dei post Google**: alla pagina Promo (`/promo/`) finché dura l'offerta. Fanno eccezione i giovedì
 che rilanciano un articolo: quelli portano all'articolo. Dal 1° gennaio tutti alla pagina Prezzi.
 
-**Il giro dei regali**: borsa da bracciolo 5–15/11 · supporto per il telefono 16–29/11 ·
-copertura impermeabile 30/11–13/12 · «scegli tu» 14–31/12. Chi chiama a cavallo di due settimane sceglie lui.
+**I regali**: dal 4/11 non ruotano più. Con ogni Faster entrano nella scatola tutti e tre gli
+accessori — borsa da bracciolo, supporto per il telefono, copertura impermeabile — fino al 31 dicembre.
+I sabati di novembre ne raccontano uno per volta, dicembre tiene il conto alla rovescia.
 
 **Le recensioni usate**, una per martedì, in ordine: Gemma, Roberto, Andrea, «La Guerriera di Polaris»,
 Stefania, Emiliana, Asia, Lucifero. Se la recensione di Francesca Mazzarello torna visibile su Google,
@@ -35,24 +36,26 @@ Prima di decidere, salici sopra.
 
 Nello showroom di Genova Nervi, in Via Giuseppe Pessale 20r, provi il Veleco Faster gratis. Dieci minuti bastano: capisci come si sale, come si scende, se i comandi ti vengono comodi sotto le mani. Lo guidi tu, con calma, senza nessuno che ti mette fretta.
 
-Fino al 31 dicembre, con ogni Faster la consegna a casa è compresa nel prezzo e scegli un accessorio Veleco in regalo.
+Fino al 31 dicembre, con ogni Faster la consegna a casa è compresa nel prezzo e ricevi tre accessori Veleco in regalo.
 
 Aperto da martedì a sabato, dalle 10 alle 20. Chiama Valentina al 328 975 4412 e fissa la prova.
 
-**Instagram** — Dieci minuti sul Veleco Faster e lo sai: come si sale, come si scende, dove arrivano le mani. La prova è gratuita, a Genova Nervi. Fino al 31 dicembre consegna compresa e un accessorio in regalo con ogni Faster. 328 975 4412. Sito nel link in bio. #scooterperanziani #scooterelettrico #veleco #genova #nervi
+**Instagram** — Dieci minuti sul Veleco Faster e lo sai: come si sale, come si scende, dove arrivano le mani. La prova è gratuita, a Genova Nervi. Fino al 31 dicembre consegna compresa e tre accessori in regalo con ogni Faster. 328 975 4412. Sito nel link in bio. #scooterperanziani #scooterelettrico #veleco #genova #nervi
 
-## sab 7/11 · Il regalo della settimana: la borsa
-Grafica: `2026-11-07-regalo-borsa.jpg` · `ig/2026-11-07-regalo-borsa.jpg` · Link: Promo
+## sab 7/11 · Tre regali, non uno
+Grafica: `2026-11-07-tre-regali.jpg` · `ig/2026-11-07-tre-regali.jpg` · Link: Promo
 
-Il regalo di questa settimana è la borsa da bracciolo Veleco.
+Fino al 31 dicembre, con ogni Veleco Faster entrano nella scatola tre accessori originali Veleco. Tutti e tre.
 
-Si aggancia al bracciolo, esattamente all'altezza della mano. Portafoglio, telefono, chiavi e medicine restano lì, sempre nello stesso posto: li prendi restando seduto composto, con la schiena dritta e gli occhi sulla strada.
+La borsa da bracciolo: portafoglio, telefono, chiavi e medicine all'altezza della mano.
 
-Tasca con zip davanti, scomparto grande dietro, rete laterale per la bottiglietta.
+Il supporto per il telefono: davanti agli occhi, le mani restano sui comandi.
 
-È tua con ogni Veleco Faster ordinato entro il 15 novembre, insieme alla consegna a casa compresa nel prezzo. 328 975 4412.
+La copertura impermeabile: piove di notte, la mattina il sellino è asciutto.
 
-**Instagram** — Il regalo di questa settimana: la borsa da bracciolo Veleco. Portafoglio, telefono, chiavi e medicine all'altezza della mano: li prendi senza torcerti. Tua con ogni Faster ordinato entro il 15 novembre, consegna compresa. 328 975 4412. Link in bio. #veleco #scooterperanziani #regalo
+Non devi sceglierne uno e non devi chiamare entro una certa settimana. Arrivano insieme allo scooter, con la consegna a casa compresa nel prezzo. 328 975 4412.
+
+**Instagram** — Tre regali, non uno. Fino al 31 dicembre con ogni Veleco Faster entrano nella scatola la borsa da bracciolo, il supporto per il telefono e la copertura impermeabile. Tutti e tre, più la consegna a casa compresa nel prezzo. 328 975 4412. Link in bio. #veleco #scooterperanziani #regalo
 
 ## mar 10/11 · Lo dice chi l'ha comprato: Gemma
 Grafica: `05-gemma.jpg` · `ig/2026-11-10-gemma.jpg` · Link: Promo
@@ -61,7 +64,7 @@ Grafica: `05-gemma.jpg` · `ig/2026-11-10-gemma.jpg` · Link: Promo
 
 Grazie Gemma. Spesso a cercarci è la moglie, il figlio o la figlia di chi ha smesso di uscire come prima. Scegliamo insieme il modello, organizziamo la prova, e se Genova è lontana il Faster arriva a casa già montato.
 
-Fino al 31 dicembre la consegna è compresa nel prezzo e con ogni Faster scegli un accessorio Veleco in regalo.
+Fino al 31 dicembre la consegna è compresa nel prezzo e con ogni Faster ricevi tre accessori Veleco in regalo.
 
 Al telefono risponde Valentina: 328 975 4412.
 
@@ -76,22 +79,22 @@ Il bar alle dieci. L'edicola. La panchina al sole. I nipoti all'uscita da scuola
 
 Quattro ruote a terra e una sospensione su ognuna: stai stabile sul marciapiede, sulla rampa, sul selciato. Si guida senza patente, senza bollo, senza assicurazione obbligatoria.
 
-Fino al 31 dicembre consegna a casa compresa nel prezzo e un accessorio Veleco in regalo. 328 975 4412.
+Fino al 31 dicembre consegna a casa compresa nel prezzo e tre accessori Veleco in regalo. 328 975 4412.
 
 **Instagram** — Scooter elettrico per anziani: esci quando lo decidi tu. Il bar, l'edicola, la panchina al sole. Quattro ruote a terra, si guida senza patente. Fino al 31 dicembre consegna compresa e accessorio in regalo. 328 975 4412. Link in bio. #scooterperanziani #scooterelettrico #veleco
 
-## sab 14/11 · Ultimi giorni per la borsa
-Grafica: `2026-11-14-borsa-ultimi-giorni.jpg` · `ig/2026-11-14-borsa-ultimi-giorni.jpg` · Link: Promo
+## sab 14/11 · La borsa da bracciolo
+Grafica: `2026-11-14-borsa.jpg` · `ig/2026-11-14-borsa.jpg` · Link: Promo
 
-Ultimi giorni per la borsa da bracciolo.
+Dei tre accessori che entrano nella scatola, questo è quello che usi dal primo giorno.
 
-Ci metti il pane e il giornale all'andata, la farmacia al ritorno, e le mani restano sui comandi. Chi ha male alla schiena smette di torcersi per arrivare al cestino dietro: qui è tutto davanti, all'altezza della mano.
+Si aggancia al bracciolo, esattamente all'altezza della mano. Portafoglio, telefono, chiavi e medicine restano lì, sempre nello stesso posto: li prendi restando seduto composto, con la schiena dritta e gli occhi sulla strada.
 
-È in regalo con ogni Veleco Faster ordinato entro domenica 15 novembre, insieme alla consegna a casa compresa nel prezzo. Dal 16 il regalo cambia.
+Tasca con zip davanti, scomparto grande dietro, rete laterale per la bottiglietta.
 
-328 975 4412.
+Arriva con ogni Faster ordinato entro il 31 dicembre, insieme agli altri due e alla consegna compresa nel prezzo. 328 975 4412.
 
-**Instagram** — Ultimi giorni: la borsa da bracciolo Veleco in regalo con ogni Faster ordinato entro il 15 novembre. Il pane, il giornale, la farmacia — tutto all'altezza della mano, senza torcerti. Consegna compresa. 328 975 4412. Link in bio. #veleco #scooterperanziani #genova
+**Instagram** — La borsa da bracciolo Veleco: portafoglio, telefono, chiavi e medicine all'altezza della mano, li prendi senza torcerti. È uno dei tre accessori che entrano nella scatola con ogni Faster, fino al 31 dicembre. 328 975 4412. Link in bio. #veleco #scooterperanziani #regalo
 
 ## mar 17/11 · Lo dice chi l'ha comprato: Roberto
 Grafica: `2-recensione-roberto.jpg` · da fare per Instagram · Link: Promo
@@ -102,7 +105,7 @@ Lo ha scritto Roberto su Google, parlando di Valentina. È la frase che sentiamo
 
 Se stai valutando uno scooter per te o per un familiare, la prova allo showroom di Genova Nervi è gratuita e dura dieci minuti.
 
-Fino al 31 dicembre: consegna a casa compresa nel prezzo e un accessorio Veleco in regalo con ogni Faster. 328 975 4412.
+Fino al 31 dicembre: consegna a casa compresa nel prezzo e tre accessori Veleco in regalo con ogni Faster. 328 975 4412.
 
 **Instagram** — «Sono tornato indipendente nei miei spostamenti.» Grazie, Roberto. È la frase che sentiamo più spesso. Prova gratuita a Genova Nervi, e fino al 31 dicembre consegna compresa e accessorio in regalo. Link in bio. #recensioni #veleco #scooterperanziani #indipendenza
 
@@ -115,24 +118,22 @@ Da qui viene tutto il resto. Niente patente. Niente targa. Niente bollo. L'assic
 
 Si usa su marciapiedi, aree pedonali e piste ciclopedonali, a passo d'uomo in mezzo alle persone.
 
-Oggi sul sito esce la guida completa alle regole, spiegata semplice. E fino al 31 dicembre la consegna è compresa nel prezzo, con un accessorio Veleco in regalo.
+Oggi sul sito esce la guida completa alle regole, spiegata semplice. E fino al 31 dicembre la consegna è compresa nel prezzo, con tre accessori Veleco in regalo.
 
 **Instagram** — Scooter elettrico senza patente per anziani: perché non serve. È un dispositivo medico CE, non un veicolo a motore: niente patente, niente targa, niente bollo, assicurazione non obbligatoria. Si va su marciapiedi e aree pedonali, a passo d'uomo. Tutte le regole nella guida: link in bio. #senzapatente #scooterperanziani #veleco #codicedellastrada
 
-## sab 21/11 · Il regalo della settimana: il supporto per il telefono
-Grafica: da fare · Link: Promo
+## sab 21/11 · Il supporto per il telefono
+Grafica: `2026-11-21-telefono.jpg` · `ig/2026-11-21-telefono.jpg` · Link: Promo
 
-Da questa settimana il regalo cambia: è il supporto per il telefono Veleco.
+Il secondo dei tre. Quattro bracci a molla tengono il telefono davanti agli occhi, accanto al display.
 
-Il telefono sta davanti agli occhi, fissato al manubrio con quattro bracci a molla. Regge la scossa dei sampietrini e resta dove lo metti.
+Tua figlia chiama mentre sei al mercato: vedi chi è senza frugare in tasca e senza fermarti male. Le mani restano dove devono stare.
 
-Rispondi a tua figlia mentre sei fuori. Segui le indicazioni stradali fino a un indirizzo nuovo. Le mani restano sui comandi per tutto il tempo.
+E se la strada non la conosci, la mappa è lì, grande, dove la vedi.
 
-Il vantaggio vero è un altro: esci più lontano da casa, perché sai di essere raggiungibile e di ritrovare la strada.
+Entra nella scatola con ogni Faster ordinato entro il 31 dicembre, insieme agli altri due. 328 975 4412.
 
-In regalo con ogni Veleco Faster ordinato entro il 29 novembre, consegna a casa compresa. 328 975 4412.
-
-**Instagram** — Il regalo di questa settimana: il supporto per il telefono Veleco. Quattro bracci a molla, il telefono davanti agli occhi, le mani sui comandi. Rispondi a tua figlia mentre sei fuori e ritrovi la strada ovunque. Con ogni Faster entro il 29 novembre. Link in bio. #veleco #scooterperanziani #regalo
+**Instagram** — Il supporto per il telefono Veleco: quattro bracci a molla, il telefono davanti agli occhi, le mani sui comandi. Rispondi a tua figlia mentre sei fuori e ritrovi la strada ovunque. Uno dei tre accessori in regalo con ogni Faster, fino al 31 dicembre. Link in bio. #veleco #scooterperanziani #regalo
 
 ## mar 24/11 · Lo dice chi l'ha comprato: Andrea
 Grafica: `07-andrea.jpg` · da fare per Instagram · Link: Promo
@@ -143,7 +144,7 @@ Grazie Andrea. Lo aveva comprato per suo fratello, che fa fatica a camminare: è
 
 Se sei in quella posizione, sul sito c'è una guida in dieci domande: dove si può andare, quale batteria conviene, quanta autonomia serve davvero, cosa controllare prima di comprare.
 
-Fino al 31 dicembre consegna compresa e un accessorio Veleco in regalo. 328 975 4412.
+Fino al 31 dicembre consegna compresa e tre accessori Veleco in regalo. 328 975 4412.
 
 **Instagram** — «Consegna puntuale, scooter davvero molto bello. Mio fratello è davvero contento.» Grazie, Andrea. Scegli per una persona a cui vuoi bene? Sul sito c'è una guida in dieci domande. Link in bio. #recensioni #veleco #scooterperanziani #famiglia
 
@@ -160,24 +161,18 @@ Oggi sul sito esce l'articolo con i conti fatti per bene. Fino al 31 dicembre co
 
 **Instagram** — Autonomia dello scooter elettrico per anziani: 45-60 km con una carica. Detta in giorni: più di una settimana di uscite. Il mercato, la farmacia, il bar, i nipoti. Attacchi la spina una volta a settimana. Tutti i conti nell'articolo: link in bio. #autonomia #scooterperanziani #veleco #velecofaster
 
-## sab 28/11 · Ultimi giorni per il supporto del telefono
-Grafica: da fare · Link: Promo
+## sab 28/11 · La copertura impermeabile
+Grafica: `2026-11-28-copertura.jpg` · `ig/2026-11-28-copertura.jpg` · Link: Promo
 
-Ultimi giorni per il supporto del telefono.
+Il terzo dei tre, e quello che si apprezza proprio adesso.
 
-È l'accessorio che cambia il raggio delle tue uscite: con il telefono davanti agli occhi e le mani sui comandi, ti spingi dove prima non andavi, perché sai di essere raggiungibile e di ritrovare la strada.
+Lo stendi sopra la sera. L'elastico abbraccia il fondo, la cinghia con la fibbia passa sotto la scocca: resta ferma anche quando tira vento.
 
-Quattro bracci a molla lo tengono fermo anche sui sampietrini.
+La mattina lo scopri e il sellino è asciutto. Sali e parti, senza passare lo straccio.
 
-In regalo con ogni Veleco Faster ordinato entro domenica 29 novembre, insieme alla consegna compresa nel prezzo. Dal 30 il regalo cambia: arriva la copertura impermeabile.
+Arriva con ogni Faster ordinato entro il 31 dicembre, insieme alla borsa e al supporto per il telefono. 328 975 4412.
 
-328 975 4412.
-
-**Instagram** — Ultimi giorni per il supporto del telefono Veleco, in regalo con ogni Faster ordinato entro il 29 novembre. Telefono davanti agli occhi, mani sui comandi, e ti spingi più lontano da casa. Dal 30 cambia il regalo. Link in bio. #veleco #scooterperanziani #regalo
-
----
-
-# DICEMBRE
+**Instagram** — La copertura impermeabile Veleco: copre fino a terra, elastico sul bordo e cinghia sotto la scocca, resta ferma col vento. Piove di notte, la mattina il sellino è asciutto. Uno dei tre accessori in regalo con ogni Faster, fino al 31 dicembre. Link in bio. #veleco #scooterperanziani #regalo
 
 ## mar 1/12 · Lo dice chi l'ha comprato: le quattro ruote
 Grafica: da fare · Link: Promo
@@ -188,7 +183,7 @@ Una delle recensioni più lunghe che abbiamo ricevuto, e il punto è tutto lì: 
 
 Quattro ruote a terra, sospensioni su ognuna, ruotine antiribaltamento. Il marciapiede alto, la rampa, il fondo sconnesso: li affronti seduto comodo.
 
-Fino al 31 dicembre consegna a casa compresa nel prezzo e un accessorio Veleco in regalo con ogni Faster. 328 975 4412.
+Fino al 31 dicembre consegna a casa compresa nel prezzo e tre accessori Veleco in regalo con ogni Faster. 328 975 4412.
 
 **Instagram** — «Le quattro ruote garantiscono una sicurezza ineguagliabile. Ora posso godere di una nuova libertà di movimento.» Dalle recensioni dei nostri clienti su Google. Quattro ruote, sospensioni su ognuna, ruotine antiribaltamento. Link in bio. #recensioni #scooter4ruote #veleco #scooterperanziani
 
@@ -207,20 +202,21 @@ Oggi sul sito esce l'articolo completo. 328 975 4412.
 
 **Instagram** — Scooter per disabili e anziani: chi può guidarlo? Serve saper stare seduto, vedere la strada e avere la mano ferma sul comando. Niente patente, nessun certificato, nessun limite d'età. Nel dubbio si prova: dieci minuti a Genova Nervi. Link in bio. #scooterperdisabili #scooterperanziani #veleco
 
-## sab 5/12 · Il regalo della settimana: la copertura impermeabile
-Grafica: da fare · Link: Promo
+## sab 5/12 · Due pronti, in magazzino
+Grafica: `2026-12-05-due-pronti.jpg` · `ig/2026-12-05-due-pronti.jpg` · Link: Promo
 
-Il regalo di questa settimana è la copertura impermeabile Veleco.
+> ⚠️ **Da controllare con Valentina il venerdì prima.** Se nel frattempo li ha venduti,
+> questo post non esce e si sostituisce. È l'unico post del calendario legato al magazzino.
 
-Copre lo scooter fino a terra. Elastico sul bordo inferiore e cinghia con fibbia sotto la scocca: resta ferma anche con il vento.
+Ne abbiamo due pronti: un Faster piombo gel a 2.200 € e un Faster litio a 2.850 €.
 
-Pioggia, neve e umidità della notte restano fuori. La mattina sollevi il telo e il sellino è asciutto, pronto: non devi passare lo straccio prima di partire.
+Sono gli unici due che possono arrivare prima di Natale. Gli altri si ordinano alla fabbrica, e i tempi te li diciamo al telefono.
 
-È l'accessorio giusto per chi parcheggia in cortile, sotto un portico o in giardino.
+Consegna compresa nel prezzo, i tre accessori nella scatola, già montato e collaudato.
 
-In regalo con ogni Veleco Faster ordinato entro il 13 dicembre, consegna a casa compresa. 328 975 4412.
+Quando sono andati, sono andati. 328 975 4412.
 
-**Instagram** — Il regalo di questa settimana: la copertura impermeabile Veleco. Copre fino a terra, elastico sul bordo e cinghia sotto la scocca: resta ferma col vento. La mattina il sellino è asciutto. Con ogni Faster entro il 13 dicembre. Link in bio. #veleco #scooterperanziani #regalo
+**Instagram** — Due Faster pronti: piombo gel a 2.200 € e litio a 2.850 €. Sono gli unici due che possono arrivare prima di Natale, gli altri si ordinano alla fabbrica. Consegna compresa e i tre accessori nella scatola. 328 975 4412. Link in bio. #veleco #scooterperanziani #natale
 
 ## mar 8/12 · Lo dice chi l'ha comprato: Stefania
 Grafica: da fare · Link: Promo
@@ -231,7 +227,7 @@ Grazie Stefania. Due mezzi diversi per due esigenze diverse, scelti insieme: uno
 
 È il motivo per cui prima di vendere facciamo domande: dove abiti, dove vuoi andare, dove lo tieni, chi lo userà. Il mezzo giusto esce da lì.
 
-Fino al 31 dicembre consegna compresa e un accessorio Veleco in regalo con ogni Faster. 328 975 4412.
+Fino al 31 dicembre consegna compresa e tre accessori Veleco in regalo con ogni Faster. 328 975 4412.
 
 **Instagram** — «Due scooter, di cui uno pieghevole per il bagagliaio. Prodotti prestanti, ma soprattutto grande supporto della titolare.» Grazie, Stefania. Prima di vendere facciamo domande: il mezzo giusto esce da lì. Link in bio. #recensioni #veleco #scooterperanziani
 
@@ -244,24 +240,22 @@ In Italia li chiamiamo scooter per anziani, scooter per disabili, scooter elettr
 
 Quello che cambia davvero non è il nome: sono le ruote (tre per girare stretto, quattro per stare stabili), la batteria (piombo o litio estraibile) e la portata.
 
-Oggi sul sito esce l'articolo che mette ordine fra i modelli. E fino al 31 dicembre, con ogni Faster, consegna compresa e un accessorio in regalo.
+Oggi sul sito esce l'articolo che mette ordine fra i modelli. E fino al 31 dicembre, con ogni Faster, consegna compresa e tre accessori in regalo.
 
 **Instagram** — Mobility scooter: è il nome inglese degli scooter elettrici per anziani e per chi cammina con fatica. Tre ruote per girare stretto, quattro per stare stabili. Batteria al piombo o al litio estraibile. L'articolo che mette ordine: link in bio. #mobilityscooter #scooterperanziani #veleco
 
-## sab 12/12 · Ultimi giorni per la copertura
-Grafica: da fare · Link: Promo
+## sab 12/12 · Una giornata con tutti e tre
+Grafica: `2026-12-12-tutti-e-tre.jpg` · `ig/2026-12-12-tutti-e-tre.jpg` · Link: Promo
 
-Ultimi giorni per la copertura impermeabile.
+Esci la mattina. Il telefono è davanti a te sul manubrio, le chiavi e il portafoglio nella borsa alla tua destra.
 
-È l'accessorio che si apprezza a gennaio, non adesso: la notte in cui piove forte, e la mattina dopo il sellino è asciutto e tu esci lo stesso.
+Fai la spesa, passi in farmacia, ti fermi al bar. Non cerchi niente in tasca e non scendi per rispondere.
 
-Copre fino a terra, elastico sul bordo e cinghia con fibbia sotto la scocca.
+La sera lo lasci sotto casa e lo copri. Domattina è asciutto.
 
-In regalo con ogni Veleco Faster ordinato entro domenica 13 dicembre, insieme alla consegna compresa. Dal 14 scegli tu quale dei tre accessori preferisci.
+Sono i tre accessori che entrano nella scatola con ogni Faster, fino al 31 dicembre. 328 975 4412.
 
-328 975 4412.
-
-**Instagram** — Ultimi giorni per la copertura impermeabile Veleco, in regalo con ogni Faster entro il 13 dicembre. È l'accessorio che si apprezza a gennaio: piove di notte, la mattina il sellino è asciutto. Dal 14 scegli tu il regalo. Link in bio. #veleco #scooterperanziani #regalo
+**Instagram** — Il telefono davanti agli occhi, le chiavi e il portafoglio a portata di mano, la sera la copertura. Tre accessori Veleco, tutti e tre nella scatola con ogni Faster fino al 31 dicembre. 328 975 4412. Link in bio. #veleco #scooterperanziani #regalo
 
 ## mar 15/12 · Lo dice chi l'ha comprato: Emiliana
 Grafica: da fare · Link: Promo
@@ -291,18 +285,18 @@ Oggi sul sito esce l'articolo sugli scooter coperti. 328 975 4412.
 
 **Instagram** — Scooter elettrico per anziani coperto: tetto rigido e parabrezza trasparente. Ripara dal sole e dalla pioggia leggera, il parabrezza ferma il vento. Esci anche nelle giornate in cui prima restavi a casa. Faster, Gravis, Draco e Turris. Link in bio. #scooterconTetto #scooterperanziani #veleco
 
-## sab 19/12 · Scegli tu il regalo
-Grafica: da fare · Link: Promo
+## sab 19/12 · Dodici giorni
+Grafica: `2026-12-19-dodici-giorni.jpg` · `ig/2026-12-19-dodici-giorni.jpg` · Link: Promo
 
-Da oggi il regalo lo scegli tu.
+Mancano dodici giorni alla fine della promozione.
 
-Fino al 31 dicembre, con ogni Veleco Faster, prendi l'accessorio che ti serve davvero: la borsa da bracciolo, il supporto per il telefono o la copertura impermeabile.
+Fino al 31 dicembre il Faster arriva a casa con la consegna compresa nel prezzo e tre accessori originali Veleco nella scatola.
 
-Sono i tre accessori che i clienti comprano più spesso dopo qualche mese di utilizzo. Qui li ricevi subito, senza spendere niente, insieme alla consegna a casa compresa nel prezzo.
+Dal 1º gennaio si torna alle condizioni normali.
 
-Se lo stai regalando a qualcuno, scegliamo insieme al telefono quello giusto per lui: 328 975 4412.
+Se ci stai pensando da un po', è il momento di fare la telefonata. Dieci minuti e sai se è il mezzo giusto. 328 975 4412.
 
-**Instagram** — Da oggi il regalo lo scegli tu: borsa da bracciolo, supporto per il telefono o copertura impermeabile, con ogni Veleco Faster fino al 31 dicembre. Sono i tre accessori che i clienti comprano dopo qualche mese: qui li hai subito. Link in bio. #veleco #scooterperanziani #regalo #natale
+**Instagram** — Dodici giorni alla fine della promozione: consegna a casa compresa nel prezzo e tre accessori Veleco con ogni Faster. Dal 1º gennaio si torna alle condizioni normali. Dieci minuti al telefono e sai se è il mezzo giusto. Link in bio. #veleco #scooterperanziani #ultimigiorni
 
 ## gio 24/12 · Regala un'uscita
 Grafica: `09-presenta-un-amico.jpg` · Link: Presenta un amico
@@ -319,18 +313,18 @@ Ad acquisto concluso scegliete un accessorio in regalo a testa. Il suo viaggia i
 
 **Instagram** — Buon Natale da Valentina. Conosci qualcuno che sta oggi come stavi tu un anno fa? Presentamelo: lo chiamo io e gli spiego tutto con calma, senza pressione. Ad acquisto concluso un accessorio in regalo a testa. Come funziona: link in bio. #buonnatale #presentaunamico #veleco #genova
 
-## sab 26/12 · Ultima settimana per il regalo
-Grafica: da fare · Link: Promo
+## sab 26/12 · Ultima settimana
+Grafica: `2026-12-26-ultima-settimana.jpg` · `ig/2026-12-26-ultima-settimana.jpg` · Link: Promo
 
 Ultima settimana.
 
-Fino al 31 dicembre, con ogni Veleco Faster, la consegna a casa è compresa nel prezzo e scegli un accessorio Veleco in regalo: borsa da bracciolo, supporto per il telefono o copertura impermeabile.
+Consegna a casa compresa nel prezzo e tre accessori Veleco con ogni Faster, fino al 31 dicembre. Faster da 2.200 €, già montato, due anni di garanzia e un numero diretto a cui risponde chi te l'ha venduto.
 
-Il Faster costa 2.200 € con batteria al piombo gel e 2.850 € con batteria al litio estraibile. Nel prezzo c'è lo scooter già montato, telecomando e allarme di serie, due anni di garanzia gestita da noi e un numero diretto a cui risponde chi te l'ha venduto.
+Dal 1º gennaio si torna alle condizioni normali.
 
-Dal 1° gennaio si torna alle condizioni normali. 328 975 4412.
+328 975 4412.
 
-**Instagram** — Ultima settimana: consegna compresa e un accessorio Veleco a scelta con ogni Faster, fino al 31 dicembre. Faster da 2.200 €, già montato, due anni di garanzia e un numero diretto. Dal 1° gennaio si torna alle condizioni normali. Link in bio. #veleco #scooterperanziani #ultimigiorni
+**Instagram** — Ultima settimana: consegna compresa e tre accessori Veleco con ogni Faster, fino al 31 dicembre. Faster da 2.200 €, già montato, due anni di garanzia e un numero diretto. Dal 1º gennaio si torna alle condizioni normali. Link in bio. #veleco #scooterperanziani #ultimigiorni
 
 ## mar 29/12 · Lo dice chi l'ha comprato: dieci su dieci
 Grafica: da fare · Link: Promo
@@ -339,7 +333,7 @@ Grafica: da fare · Link: Promo
 
 Chiudiamo l'anno con le recensioni su Google tutte a cinque stelle. Dietro non c'è un ufficio: c'è una persona sola, Valentina, che risponde al telefono, organizza le prove, segue ogni consegna e resta raggiungibile anche dopo.
 
-Se stai pensando di regalarti un'uscita in più nel 2027, mancano tre giorni alla fine della promozione: consegna compresa e un accessorio a scelta con ogni Faster.
+Se stai pensando di regalarti un'uscita in più nel 2027, mancano tre giorni alla fine della promozione: consegna compresa e tre accessori in regalo con ogni Faster.
 
 328 975 4412.
 
@@ -350,7 +344,7 @@ Grafica: da fare · Link: Promo
 
 Che sia un anno di uscite.
 
-Ultimo giorno della promozione: consegna a casa compresa nel prezzo e un accessorio Veleco a scelta con ogni Faster.
+Ultimo giorno della promozione: consegna a casa compresa nel prezzo e tre accessori Veleco in regalo con ogni Faster.
 
 Ma al di là delle date, l'augurio è semplice: che il 2027 sia l'anno in cui torni al mercato il mercoledì, al bar la mattina, in riva al mare quando c'è il sole. Senza chiedere un passaggio a nessuno.
 
