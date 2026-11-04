@@ -1,4 +1,5 @@
-/* Promo Veleco — fascia in cima, pastiglia fissa (computer) e striscia fissa (telefono).
+/* Promo Veleco — fascia in cima, pastiglia fissa (computer) e linguetta fissa (telefono).
+   Promozione fino al 31/12/2026: consegna compresa e tutti e tre gli accessori in regalo.
    Una riga sola nelle pagine: <script src="/assets/promo.js" defer></script>
    Per chiudere la promozione: svuotare questo file (o lasciare scadere la data).  */
 (function () {
@@ -7,21 +8,7 @@
   var FINE = new Date(2026, 11, 31, 23, 59);           // 31 dicembre 2026
   var PAGINA = '/promo/';
 
-  // Il regalo cambia da solo: niente da aggiornare a mano alle scadenze.
-  var GIRO = [
-    { fino: new Date(2026, 10, 15, 23, 59), nome: 'la borsa da bracciolo' },
-    { fino: new Date(2026, 10, 29, 23, 59), nome: 'il supporto per il telefono' },
-    { fino: new Date(2026, 11, 13, 23, 59), nome: 'la copertura impermeabile' },
-    { fino: FINE,                           nome: 'quello che scegli tu' }
-  ];
-
-  var oggi = new Date();
-  if (oggi > FINE) return;                              // promozione finita: non compare niente
-
-  var regalo = '';
-  for (var i = 0; i < GIRO.length; i++) {
-    if (oggi <= GIRO[i].fino) { regalo = GIRO[i].nome; break; }
-  }
+  if (new Date() > FINE) return;                        // promozione finita: non compare niente
 
   var inPromo = location.pathname.indexOf(PAGINA) === 0;
 
@@ -62,8 +49,8 @@
   if (!sessionStorage.getItem('vp-fascia-chiusa')) {
     var f = document.createElement('div');
     f.className = 'vp-fascia';
-    f.innerHTML = '<div class="vp-in">🎁 <b>Fino al 31 dicembre:</b> consegna a casa compresa nel prezzo e un accessorio Veleco in regalo con ogni Faster. ' +
-                  '<a href="' + PAGINA + '">Scopri il regalo della settimana</a></div>' +
+    f.innerHTML = '<div class="vp-in">🎁 <b>Fino al 31 dicembre:</b> consegna a casa compresa nel prezzo e tre accessori Veleco in regalo con ogni Faster. ' +
+                  '<a href="' + PAGINA + '">Guarda cosa ricevi</a></div>' +
                   '<button class="vp-x" aria-label="Chiudi l\'avviso">&times;</button>';
     document.body.insertBefore(f, document.body.firstChild);
     f.querySelector('.vp-x').addEventListener('click', function () {
@@ -79,7 +66,7 @@
   p.className = 'vp-pastiglia';
   p.href = PAGINA;
   p.innerHTML = '<span class="vp-ico">🎁</span><span><b>Il regalo per te</b>' +
-                '<span>Questa settimana ' + regalo + '</span></span>';
+                '<span>Tre accessori con ogni Faster</span></span>';
   document.body.appendChild(p);
 
   var l = document.createElement('a');
