@@ -93,42 +93,40 @@ messaggio si spegne da solo. Vale per i post, per la scheda Google e per una rig
 pagina Promo.
 
 
-## GTIN: tre codici trovati, non ancora utilizzabili (4/11/2026)
+## GTIN: i tre codici trovati NON sono di Veleco (verificato il 4/11/2026)
 
-Maurizio ha trovato su eBay e u-buy tre EAN-13 attribuiti al Veleco Faster, distinti **per
-colore**:
+Maurizio aveva trovato su eBay e u-buy tre EAN-13 attribuiti al Veleco Faster, distinti per
+colore: Rosso `5060463912314`, Blu `5060463912321`, Grigio `5060463912345`. Tutti e tre con
+cifra di controllo corretta.
 
-| Colore | EAN |
+**La verifica sul registro ufficiale GS1 («Verified by GS1») li ha smentiti.** L'ha fatta
+Maurizio, perché il sito chiede di accettare le proprie condizioni d'uso:
+
+| | Risultato |
 |---|---|
-| Rosso | `5060463912314` |
-| Blu | `5060463912321` |
-| Grigio | `5060463912345` |
+| Chi ha licenziato `5060463912314` | **Lunex Technology Limited** — Unit 9D Shefford Industrial Estate, Shefford SG17 5HQ, Regno Unito. Licenza `506046391`, GS1 UK. Il sito `lunextechnology.co.uk` oggi rimanda a autolamp.com |
+| Licenza GS1 di Veleco | **VELECO SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ** — ul. Bernarda Ludwika Hantkego 7, 42-202 Częstochowa, Polonia. Licenza **`59045539942`**, GS1 **Poland**. GLN 5904553994210 |
 
-**Cosa torna:** tutti e tre hanno la cifra di controllo corretta, quindi sono codici ben
-formati e non refusi. L'annuncio u-buy parla di 1000 W, che è la potenza del Faster come la
-dichiara il nostro sito: il modello è quello giusto.
+L'indirizzo polacco è lo stesso che il manuale indica come produttore: è Veleco, senza dubbi.
 
-**Perché non li ho inseriti.** Il GTIN identifica **un solo articolo vendibile**, e questi
-tre separano i colori, mentre i nostri due prodotti a feed separano le batterie
-(`faster-piombo` 2.200 € e `faster-litio` 2.850 €). Non c'è una corrispondenza:
+**Conclusione: quei tre codici appartengono a una società britannica, non a Veleco.** Sono
+i codici con cui un rivenditore o importatore inglese ha messo a catalogo lo scooter. Non
+sono i GTIN del produttore.
 
-- mettere lo stesso codice su tutti e due vuol dire dire a Google che due prodotti con
-  prezzi diversi sono lo stesso articolo;
-- metterlo su uno solo vuol dire affermare che è quello il codice del piombo gel, cosa che
-  non sappiamo.
+**Perché non vanno usati.** Nel feed dichiariamo marca «Veleco». Google confronta il GTIN
+con il registro GS1: troverebbe un codice intestato a Lunex Technology e una marca Veleco,
+cioè la non corrispondenza fra identificativo e marca. È precisamente il motivo di rifiuto
+che stiamo cercando di togliere di mezzo con il riesame in corso. Resta
+«identificatore esistente = no», che Google accetta e non blocca l'approvazione.
 
-Inoltre il prefisso `5060463` è un prefisso GS1 **britannico**: il codice è stato registrato
-da una società nel Regno Unito. Può essere il ramo inglese di Veleco (veleco.co.uk esiste) o
-un importatore: dalle due inserzioni non si distingue, e una ricerca non ha trovato nessun
-altro riscontro.
+**Come si riconosce un GTIN vero di Veleco:** comincia per **`59045539942`**. Sono le prime
+undici cifre della loro licenza GS1, uguali su tutti i loro prodotti.
 
-Un GTIN sbagliato è peggio di nessun GTIN: Google lo respinge per identificatore non
-corrispondente, ed è proprio il tipo di problema che stiamo cercando di chiudere con il
-riesame in corso. Finché non c'è il dato vero, «identificatore esistente = no» è una
-risposta accettata e non blocca l'approvazione.
+**Domanda per Valentina:** *«Sulla scatola del Faster c'è un'etichetta con un codice a barre
+e 13 cifre sotto. Me le mandi, per il piombo gel e per il litio?»* Se le cifre cominciano
+per `59045539942` è il codice buono di Veleco. Se cominciano per `5060463` è l'etichetta
+dell'importatore inglese e non ci serve.
 
-**Domanda da fare a Valentina**, più precisa di prima: *«Sulla scatola del Faster c'è
-un'etichetta con un codice a barre e 13 cifre sotto. Me le mandi, sia per il piombo gel che
-per il litio? E di che colore erano i mezzi?»* Se Veleco non assegna codici diversi per le
-due batterie, bisogna saperlo: in quel caso i due prodotti del feed non possono portare lo
-stesso GTIN e si lascia vuoto.
+Resta poi da capire, se il codice arriva, se Veleco ne assegna uno diverso per le due
+batterie: i nostri due prodotti a feed si distinguono per quello, e due prodotti con prezzi
+diversi non possono portare lo stesso GTIN.

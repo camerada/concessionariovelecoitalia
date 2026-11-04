@@ -78,16 +78,15 @@ per uno scooter per anziani è inevitabile. Toglierlo vorrebbe dire levare «per
 ## 2. Aperte, da decidere con Maurizio
 
 - **Il plurale nei testi Instagram** di cui sopra.
-- **Il codice a barre (GTIN o EAN) del Faster.** Il manuale ufficiale Veleco (caricato il
-  4/11, ora in `seo/specifiche-faster-manuale.md`) **non riporta nessun EAN**: ha solo il
-  numero di serie, che è diverso per ogni esemplare e non serve. I tre EAN trovati da
-  Maurizio su eBay e u-buy (Rosso `5060463912314`, Blu `5060463912321`, Grigio
-  `5060463912345`) hanno la cifra di controllo corretta ma separano i **colori**, mentre i
-  nostri due prodotti a feed separano le **batterie**; il prefisso è GS1 britannico.
-  L'ASIN Amazon `B09JWYRW4X` è il Faster rosso venduto da Technologic s.r.l: è un codice
-  interno di Amazon, non un GTIN, e nel campo di Merchant Center non si può mettere.
-  Resta «identificatore esistente = no», che Google accetta. Per chiudere la questione serve
-  il codice dall'etichetta dell'imballo, chiesto a Valentina per tutte e due le batterie.
+- **Il codice a barre (GTIN o EAN) del Faster.** Chiuso il filone dei codici trovati in
+  rete: la verifica sul registro GS1 (fatta da Maurizio il 4/11) dice che `5060463912314` e
+  gli altri due sono licenziati a **Lunex Technology Limited**, Regno Unito — non a Veleco,
+  la cui licenza GS1 è polacca e comincia per **`59045539942`**. Usarli significherebbe
+  dichiarare marca Veleco con un identificativo di un'altra società: è il rifiuto che
+  stiamo cercando di evitare. Il manuale ufficiale non riporta nessun EAN. Resta
+  «identificatore esistente = no». A Valentina si chiede il codice sull'etichetta
+  dell'imballo, per tutte e due le batterie: se comincia per `59045539942` è quello giusto.
+  Dettagli in `seo/merchant-center.md`.
 - **Il peso del Faster sulla pagina Prezzi.** Diciamo 133 kg (piombo) e 117 kg (litio); il
   manuale del produttore dice 116 kg e 100 kg. Da chiarire con Valentina prima di
   correggere: vedi `seo/specifiche-faster-manuale.md`. La pagina Prezzi è quella di
