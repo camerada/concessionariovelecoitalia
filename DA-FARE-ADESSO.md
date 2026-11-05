@@ -121,9 +121,12 @@ a Modelli, e le foto sono le JPG online invece dei WEBP locali.
   A Valentina si chiede comunque il codice sull'etichetta
   dell'imballo, per tutte e due le batterie: se comincia per `590` è Veleco, se comincia per `5060463` è l'importatore inglese.
   Dettagli in `seo/merchant-center.md`.
-- **Il WhatsApp sulla scheda Google era su un altro numero** (`348 290 5502`), mai visto né
-  sul sito né altrove: portato sul 328 975 4412 il 5/11. Chiedere a Valentina se quel 348 era
-  suo e se riceve ancora messaggi.
+- **Su quale numero arriva WhatsApp a Valentina?** Sulla scheda Google il campo Chat era sul
+  `348 290 5502` (una sua seconda linea, confermato da Maurizio); il sito usa `328 975 4412`
+  in 95 punti. Il 5/11 la scheda è stata allineata al 328. Da verificare che su quel numero
+  WhatsApp funzioni davvero — basta mandare un messaggio. Se il WhatsApp vero è sul 348, si
+  fa l'opposto: si tiene il 348 e si cambiano i link del sito, che è una modifica meccanica.
+  L'importante è che il numero sia uno solo ovunque.
 - **Il peso del Faster sulla pagina Prezzi.** Diciamo 133 kg (piombo) e 117 kg (litio); il
   manuale del produttore dice 116 kg e 100 kg. Da chiarire con Valentina prima di
   correggere: vedi `seo/specifiche-faster-manuale.md`. La pagina Prezzi è quella di
