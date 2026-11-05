@@ -85,6 +85,17 @@ Se viene rimosso anche lui, il problema è il **link nel testo**. **Si resta su 
    lo trova dal pulsante «Sito web» del profilo. Si perde il clic diretto dal post, che è
    meno grave di un post rimosso.
 
+**Il pulsante non c'è** (verificato da Maurizio il 5/11 nel planner di Metricool): l'icona
+della catena è il *generatore di URL per campagne*, cioè un costruttore di UTM che scrive
+l'indirizzo marcato dentro al testo, e il menù del tipo di post offre solo di aggiungere
+immagini con link propri. Quindi se sabato cade anche il post senza telefono, l'unica mossa
+rimasta è togliere il link dal testo.
+
+**Da fare dopo sabato, se il link resta: marcare i link con gli UTM.** Oggi pubblichiamo al
+buio — le visite dai post non si distinguono dalle altre in Analytics. Schema dei parametri in
+`seo/post-riscritti-nov-dic-2026.md`. Il pezzo più veloce e più utile è **il link nella bio di
+Instagram**: uno solo da cambiare, ed è l'unica strada da Instagram al sito.
+
 Nota: i testi in `seo/post-riscritti-nov-dic-2026.md` hanno ancora il numero. Va tolto a mano
 ogni volta che un testo viene riusato per la scheda Google.
 

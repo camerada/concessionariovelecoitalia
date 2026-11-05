@@ -28,6 +28,33 @@ cliccabile (il sito sta nella bio). Il sabato, dove c'è, va il reel.
 > resta comunque su Metricool (deciso il 5/11), si verifica se il planner sul sito ha un campo
 > «Pulsante» e, se non c'è, il link esce dal testo.
 
+## UTM: come marcare i link dei post (da fare, 5/11/2026)
+
+Oggi i post della scheda Google e la bio di Instagram puntano a `/promo/` senza parametri:
+in Analytics quelle visite sono indistinguibili da tutte le altre, quindi **non sappiamo se i
+post portano gente**. Due volte a settimana pubblichiamo al buio.
+
+Metricool ha il **generatore di URL per campagne** (l'icona della catena nell'editor del post):
+compila i parametri e inserisce l'indirizzo marcato nel testo. Da usare così:
+
+| Campo Metricool | Parametro | Valore |
+|---|---|---|
+| Fonte | `utm_source` | `google-business` · per Instagram: `instagram` |
+| Mezzo | `utm_medium` | `post` · per la bio di Instagram: `bio` |
+| Nome della campagna | `utm_campaign` | `promo-nov-dic-2026`; per i post che rilanciano un articolo: `guida` |
+| Contenuto | `utm_content` | la data del post, `2026-11-07`, per distinguere i singoli post |
+
+**Perché `google-business` e non `google`**: con `utm_source=google` GA4 impasta queste visite
+con la ricerca organica e il dato sparisce dentro il traffico che già abbiamo. Serve un nome
+che non collida.
+
+**Quando**: non prima di sabato 7. Se il post ripulito dal telefono viene rimosso lo stesso, il
+link esce dal testo e l'UTM non serve più lì. Se invece regge, si marcano i 23 post.
+
+**La bio di Instagram** è il caso più redditizio e il più veloce: un link solo da cambiare, ed è
+l'unica strada da Instagram al sito. `?utm_source=instagram&utm_medium=bio&utm_campaign=promo-nov-dic-2026`.
+Il titolo del link nasconde l'indirizzo, quindi non si imbruttisce niente.
+
 **I link dei post Google**: alla pagina Promo (`/promo/`) finché dura l'offerta. Fanno eccezione i giovedì
 che rilanciano un articolo: quelli portano all'articolo. Dal 1° gennaio tutti alla pagina Prezzi.
 
