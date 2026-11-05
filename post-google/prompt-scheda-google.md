@@ -78,11 +78,9 @@ Apri il pannello della scheda Google dell'attività «Concessionario Veleco Ital
 Distributore Ufficiale».
 
 1) CATEGORIE
-Categoria principale: «Rivenditore di scooter». Se Google non la propone con questo nome,
-usa «Negozio di scooter».
-Categorie secondarie, al massimo tre, scegliendo fra quelle che Google propone con nomi
-simili: «Negozio di ausili per la mobilità», «Fornitore di attrezzature mediche»,
-«Negozio di veicoli elettrici».
+Categoria principale: «Fornitore di ausili per la mobilità».
+Categorie secondarie: «Fornitore di attrezzature mediche» e «Concessionario scooter».
+Non mettere «Concessionaria di veicoli elettrici».
 Se la principale è già impostata su qualcos'altro, fermati e dimmi quale.
 
 2) DESCRIZIONE DELL'ATTIVITÀ
