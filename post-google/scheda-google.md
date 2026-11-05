@@ -150,6 +150,20 @@ tredici prodotti contiene quella frase**, quindi sono tutti esposti allo stesso 
 
 > Dispositivo medico di Classe 1 CE per la mobilità: si guida senza patente, a passo d'uomo su marciapiedi e aree pedonali.
 
+**A quali prodotti aggiungere la frase** (deciso il 5/11): agli **undici** che non ce l'hanno —
+Gravis, Sharpy, Looper, Jumpy, Draco, Turris, Cristal, ZT15, ZT63, ZT16, Cosmo.
+
+- **Il Faster Piombo Gel non si tocca**: la frase equivalente ce l'ha già nella descrizione
+  originale, ed è esattamente il motivo per cui è stato approvato. Aggiungerne una seconda
+  rimetterebbe in revisione un prodotto approvato per duplicare un'informazione presente.
+- **I tre accessori restano fuori**: borsa, supporto per il telefono e copertura non sono
+  dispositivi medici e non si guidano. Scriverlo sarebbe falso.
+
+**Sul Litio** (5/11): frase aggiunta in coda, descrizione a 428 caratteri. Salvando, Google ha
+rimesso il prodotto in revisione (circa 30 minuti) e il pulsante di contestazione è sparito. Se
+la nuova revisione lo approva, la contestazione non serve e l'ipotesi è confermata: basta il
+testo. Se lo respinge di nuovo, il pulsante ricompare e si contesta quello singolo.
+
 **Come procedere**: prima correggere il testo, poi contestare, e contestare **un prodotto per
 volta** («Non sono d'accordo con il problema»), non con il pulsante che vale per tutti:
 l'argomento è identico per tutti, quindi un caso basta per sapere se regge, senza bruciare una
