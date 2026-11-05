@@ -99,7 +99,11 @@ sola, senza secondarie), descrizione ✔ (salvata, in revisione), campo Chat ✔
 (`wa.me/393289754412`, in revisione; il link precedente era senza prefisso 39, quindi rotto).
 **Da ricontrollare**: che descrizione e WhatsApp risultino approvati. Se la descrizione torna
 indietro, il sospetto è «da 2.200 €» letto come contenuto promozionale.
-Restano i servizi, i 15 prodotti, gli attributi e le domande.
+Servizi ✔ (9 su 10; la garanzia va creata con «Nessun prezzo»). Prodotti ✔ (16 pubblicati,
+categorie create). **Aperto: Google ha respinto il Faster Litio come «Veicoli».** L'ipotesi è
+che manchi nel testo la qualifica di dispositivo medico, che c'è solo nel Piombo Gel —
+approvato. Frase da aggiungere, ordine delle mosse e testo della contestazione in
+`post-google/scheda-google.md`. Restano gli attributi e le domande.
 
 **Il prompt per Claude in Chrome è in `post-google/prompt-scheda-google.md`**, diviso in
 cinque sedute (categorie e descrizione · servizi · i due Faster · il resto della gamma ·

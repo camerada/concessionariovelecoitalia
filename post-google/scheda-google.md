@@ -128,6 +128,38 @@ Testi dei servizi, per rifarli o modificarli:
 - Accessori Veleco · Borsa sul bracciolo, supporto per il telefono, copertura impermeabile fino a terra.
 
 ## 4. Prodotti
+
+**Fatto il 5/11**: create le categorie «Scooter a 3 ruote», «Pieghevoli e carrozzine» e
+«Accessori» (non esistevano) e pubblicati 16 prodotti in tutto. Note sul pannello: «Prezzo su
+richiesta» non esiste come opzione, ma il prezzo è facoltativo e si lascia vuoto; il pulsante
+«Scopri di più» non esiste, c'è solo un campo URL.
+
+### Il rifiuto per «Veicoli», e cosa farci
+
+Google ha respinto **Veleco Faster, batteria Litio estraibile** classificandolo come
+«Veicoli»: la policy vieta di esporre veicoli a motore per il trasporto di persone su strada
+pubblica. Il **Piombo Gel è stato approvato**.
+
+**L'ipotesi sul perché**, dal confronto fra i due testi: il Piombo Gel contiene la frase
+«Dispositivo medico CE: senza patente, senza bollo, assicurazione non obbligatoria», il Litio
+no. È l'unica differenza sostanziale. Il classificatore legge «scooter, quattro ruote, 160 kg,
+45-60 km» e conclude «veicolo», senza niente nel testo che lo smentisca. **Nessuno degli altri
+tredici prodotti contiene quella frase**, quindi sono tutti esposti allo stesso rifiuto.
+
+**Frase da aggiungere in coda alle descrizioni** che non ce l'hanno:
+
+> Dispositivo medico di Classe 1 CE per la mobilità: si guida senza patente, a passo d'uomo su marciapiedi e aree pedonali.
+
+**Come procedere**: prima correggere il testo, poi contestare, e contestare **un prodotto per
+volta** («Non sono d'accordo con il problema»), non con il pulsante che vale per tutti:
+l'argomento è identico per tutti, quindi un caso basta per sapere se regge, senza bruciare una
+contestazione collettiva.
+
+**Testo della contestazione** (tutti fatti verificati nel manuale ufficiale, vedi
+`seo/specifiche-faster-manuale.md`):
+
+> Non è un veicolo a motore per il trasporto su strada pubblica. È un dispositivo medico di Classe 1 con marcatura CE e MD, prodotto da VELECO sp. z o.o. (Częstochowa, Polonia), destinato a persone con difficoltà di deambulazione. Velocità massima 12 km/h. Si guida senza patente, senza targa, senza bollo e senza assicurazione obbligatoria, a passo d'uomo su marciapiedi, aree pedonali e piste ciclopedonali, non sulla carreggiata. In Italia rientra negli ausili per la mobilità con IVA agevolata al 4%.
+
 Sezione «Prodotti»: nome, categoria, prezzo, descrizione (max 1000 caratteri), foto, pulsante «Scopri di più» con il link.
 Foto (JPG, già online, verificate il 5/11/2026): `https://concessionariovelecoitalia.it/assets/post-google/foto/veleco-<nome>.jpg`
 — faster, gravis, sharpy, looper, jumpy, draco, turris, cristal, zt15, zt63, zt16, cosmo — più
