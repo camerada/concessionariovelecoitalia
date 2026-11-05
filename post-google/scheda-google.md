@@ -26,6 +26,11 @@ ricerche generiche senza definirci.
 Principale «Fornitore di ausili per la mobilità», secondarie «Concessionario scooter» e
 «Fornitore di attrezzature mediche».
 
+Prima c'era **una categoria sola, «Concessionario scooter», senza secondarie**: passare da una
+a tre, con quella giusta come principale, è probabilmente il cambiamento più efficace fatto
+sulla scheda. Nota per la prossima volta: «Rivenditore di scooter» e «Negozio di scooter», che
+erano nel prompt, **non esistono** fra le categorie di Google.
+
 Avvertenza: cambiare la categoria principale può mandare la scheda in revisione o far
 chiedere una verifica. Si risolve di solito in qualche giorno. Ricontrollare dopo una
 settimana che la principale sia rimasta quella: Google a volte rimette la precedente senza
@@ -57,6 +62,16 @@ a un altro numero. Il pulsante WhatsApp della scheda non ha funzionato per chiss
 produrre nessun errore visibile.
 
 ## 2. Descrizione dell'attività (max 750 caratteri)
+
+**Fatto il 5/11**: salvata, in revisione da Google. Sostituiva una descrizione precedente che
+cominciava con «Distributore ufficiale Veleco in Italia…» e finiva con «EasyScooter,
+distributore ufficiale Veleco.»: **non è stata conservata**, quindi se Google rifiuta la nuova
+non abbiamo la vecchia da rimettere.
+
+Se la rifiuta, il sospetto numero uno è **«da 2.200 €»**: Google non vuole nelle descrizioni
+link, numeri di telefono e contenuti promozionali, e un prezzo può essere letto come
+informazione di vendita. Togliere la cifra prima di cercare altrove; il testo regge lo stesso.
+
 Concessionario ufficiale Veleco per l'Italia, a Genova Nervi. Vendiamo scooter elettrici a 3 e 4 ruote per anziani e per chi cammina con fatica: il Veleco Faster, il più scelto, da 2.200 €. Dispositivo medico CE: si guida senza patente, senza bollo e senza assicurazione obbligatoria, su marciapiedi e aree pedonali. Con i requisiti, IVA al 4% e detrazione del 19%: verifichiamo insieme prima dell'ordine. Prova gratuita nello showroom di Via Giuseppe Pessale 20r, consegna a casa in tutta Italia continentale, già montato. Garanzia 2 anni gestita da noi, ricambi originali in Italia e un numero diretto a cui risponde chi ti ha venduto lo scooter. Da martedì a sabato, 10-20.
 (676 caratteri)
 
