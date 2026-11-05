@@ -27,6 +27,20 @@ chiedere una verifica. Si risolve di solito in qualche giorno. Ricontrollare dop
 settimana che la principale sia rimasta quella: Google a volte rimette la precedente senza
 avvisare.
 
+## 1-bis. Dati di contatto — controllati il 5/11/2026
+
+Letti dalla scheda con Claude in Chrome e confrontati con il sito. Combaciano tutti:
+nome «Concessionario Veleco Italia Distributore Ufficiale», Via Giuseppe Pessale 20r,
+16167 Genova, telefono 328 975 4412, sito concessionariovelecoitalia.it, orario martedì-sabato
+10:00-20:00 (uguale anche nei dati strutturati della home), domenica e lunedì chiuso.
+
+**Una sola differenza, corretta**: il campo «Chat» puntava a `wa.me/3482905502`, un numero che
+non compare da nessuna parte — né nel sito (che usa `wa.me/393289754412` in 95 punti e
+`tel:+393289754412` in 138), né nei documenti. Probabile residuo della vita precedente della
+scheda, quando l'insegna era «Scooter Rental». Portato sul 328 975 4412: WhatsApp è il secondo
+canale di contatto (30 clic in tre mesi contro 37 del telefono), e un numero morto lì è traffico
+buttato. Da chiedere a Valentina se quel 348 era suo e se riceve ancora messaggi.
+
 ## 2. Descrizione dell'attività (max 750 caratteri)
 Concessionario ufficiale Veleco per l'Italia, a Genova Nervi. Vendiamo scooter elettrici a 3 e 4 ruote per anziani e per chi cammina con fatica: il Veleco Faster, il più scelto, da 2.200 €. Dispositivo medico CE: si guida senza patente, senza bollo e senza assicurazione obbligatoria, su marciapiedi e aree pedonali. Con i requisiti, IVA al 4% e detrazione del 19%: verifichiamo insieme prima dell'ordine. Prova gratuita nello showroom di Via Giuseppe Pessale 20r, consegna a casa in tutta Italia continentale, già montato. Garanzia 2 anni gestita da noi, ricambi originali in Italia e un numero diretto a cui risponde chi ti ha venduto lo scooter. Da martedì a sabato, 10-20.
 (676 caratteri)
