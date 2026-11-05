@@ -6,9 +6,26 @@ Ordine consigliato: 1) categorie, 2) descrizione, 3) servizi, 4) prodotti, 5) at
 I prezzi senza cifra sul sito restano «Prezzo su richiesta» (nella scheda: lasciare il prezzo vuoto o «Contattaci per il prezzo»).
 
 ## 1. Categorie
-- Principale: **Rivenditore di scooter** (se non c'è: «Negozio di scooter»)
-- Secondarie: **Negozio di ausili per la mobilità**, **Fornitore di attrezzature mediche**, **Negozio di veicoli elettrici**
-(scegliere quelle che Google propone con nomi simili; non più di 3-4)
+Rivisto il 5/11/2026 con Claude in Chrome, davanti alle categorie che Google propone davvero.
+
+- Principale: **Fornitore di ausili per la mobilità**
+- Secondarie: **Fornitore di attrezzature mediche**, **Concessionario scooter**
+
+Scartata **Concessionaria di veicoli elettrici**: per Google sono i concessionari di auto
+elettriche, porta ricerche sbagliate.
+
+La principale era «Rivenditore/Concessionario di scooter»: cambiata perché per Google quella
+categoria sono le Vespe e i cinquantini, mentre le frasi che inseguiamo («scooter elettrico
+per anziani», «scooter per disabili», «mobility scooter») sono tutte ausili alla mobilità.
+Pesa anche un secondo motivo: l'altra attività di Valentina è il noleggio di scooter a Genova
+con lo stesso nome EasyScooter, e dichiararci «concessionario scooter» spingeva Google a
+confondere le due cose. «Concessionario scooter» resta fra le secondarie, dove prende le
+ricerche generiche senza definirci.
+
+Avvertenza: cambiare la categoria principale può mandare la scheda in revisione o far
+chiedere una verifica. Si risolve di solito in qualche giorno. Ricontrollare dopo una
+settimana che la principale sia rimasta quella: Google a volte rimette la precedente senza
+avvisare.
 
 ## 2. Descrizione dell'attività (max 750 caratteri)
 Concessionario ufficiale Veleco per l'Italia, a Genova Nervi. Vendiamo scooter elettrici a 3 e 4 ruote per anziani e per chi cammina con fatica: il Veleco Faster, il più scelto, da 2.200 €. Dispositivo medico CE: si guida senza patente, senza bollo e senza assicurazione obbligatoria, su marciapiedi e aree pedonali. Con i requisiti, IVA al 4% e detrazione del 19%: verifichiamo insieme prima dell'ordine. Prova gratuita nello showroom di Via Giuseppe Pessale 20r, consegna a casa in tutta Italia continentale, già montato. Garanzia 2 anni gestita da noi, ricambi originali in Italia e un numero diretto a cui risponde chi ti ha venduto lo scooter. Da martedì a sabato, 10-20.
