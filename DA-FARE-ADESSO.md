@@ -94,6 +94,10 @@ attributi e 6 domande e risposte, preparati il 29/10 e mai messi nella scheda. �
 che riceve già i post due volte a settimana, e le ricerche di marca valgono il 73% delle
 impressioni: è visibilità gratuita ferma in un file.
 
+**Avanzamento (5/11)**: categorie ✔ (approvate da Google subito) e campo Chat ✔ (WhatsApp
+portato su `wa.me/393289754412`, in revisione; il link precedente era senza prefisso 39, quindi
+rotto). Restano la descrizione, i servizi, i 15 prodotti, gli attributi e le domande.
+
 **Il prompt per Claude in Chrome è in `post-google/prompt-scheda-google.md`**, diviso in
 cinque sedute (categorie e descrizione · servizi · i due Faster · il resto della gamma ·
 attributi e domande). Si incolla una seduta per volta.
