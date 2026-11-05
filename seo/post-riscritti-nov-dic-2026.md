@@ -23,9 +23,10 @@ cliccabile (il sito sta nella bio). Il sabato, dove c'è, va il reel.
 > e resta.
 >
 > Il link nel testo per ora è rimasto: la policy non lo vieta a chi non è un albergo, e
-> l'integrazione Metricool con la scheda Google non ha il campo per il pulsante. Se anche un
-> post senza telefono venisse rimosso, allora il problema è il link e i post della scheda
-> tornano su Pabbly, il cui workflow crea un vero post con pulsante «Scopri di più».
+> gli strumenti usati da qui, sull'integrazione Metricool-scheda Google, non espongono il campo
+> per il pulsante. Se anche un post senza telefono venisse rimosso, il problema è il link: si
+> resta comunque su Metricool (deciso il 5/11), si verifica se il planner sul sito ha un campo
+> «Pulsante» e, se non c'è, il link esce dal testo.
 
 **I link dei post Google**: alla pagina Promo (`/promo/`) finché dura l'offerta. Fanno eccezione i giovedì
 che rilanciano un articolo: quelli portano all'articolo. Dal 1° gennaio tutti alla pagina Prezzi.
