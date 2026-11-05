@@ -145,7 +145,7 @@ Prezzo: 2850 EUR
 Foto: veleco-faster-showroom.jpg
 Link del pulsante: https://concessionariovelecoitalia.it/scooter-elettrico-anziani-prezzi/#litio
 Descrizione:
-Lo stesso Faster con la batteria al litio che si stacca e si porta in casa a ricaricare, anche in salotto: ideale se vivi in condominio e non hai una presa vicino a dove lo lasci. Quattro ruote, sospensioni complete, 45-60 km di autonomia, 160 kg di portata. Con i requisiti IVA al 4% e detrazione del 19%.
+Lo stesso Faster con la batteria al litio che si stacca e si porta in casa a ricaricare, anche in salotto: ideale se vivi in condominio e non hai una presa vicino a dove lo lasci. Quattro ruote, sospensioni complete, 45-60 km di autonomia, 160 kg di portata. Con i requisiti IVA al 4% e detrazione del 19%. Dispositivo medico di Classe 1 CE per la mobilità: si guida senza patente, a passo d'uomo su marciapiedi e aree pedonali.
 
 Quando hai finito, fammi vedere come sono venuti prima di andare avanti.
 ```
@@ -159,28 +159,30 @@ obbliga a mettere un prezzo, fermarsi e chiedere.
 
 ```
 Continuiamo con i Prodotti. Crea le categorie «Scooter a 3 ruote», «Pieghevoli e
-carrozzine» e «Accessori» se non ci sono. Tutti questi prodotti NON hanno prezzo: lascia il
+carrozzine» e «Accessori» se non ci sono. Le descrizioni qui sotto contengono già la frase sul dispositivo medico, aggiunta il 5/11
+dopo che Google aveva respinto il Faster Litio come «Veicoli»: non toglierla.
+Tutti questi prodotti NON hanno prezzo: lascia il
 campo vuoto, o usa «Prezzo su richiesta» se Google lo permette. Se Google obbliga a inserire
 un prezzo, fermati e dimmelo: non inventarlo.
 Il pulsante «Scopri di più» di tutti porta a https://concessionariovelecoitalia.it/modelli-veleco/
 tranne dove scrivo diversamente. La foto è il file con il nome che ti indico.
 
 SCOOTER A 4 RUOTE
-- Veleco Gravis · foto veleco-gravis.jpg · Il 4 ruote più robusto della gamma: motore da 1000 W, sedile comodo e luci LED ben visibili anche di sera. Autonomia 45-60 km, portata 160 kg, 12 km/h. Disponibile anche con tetto e parabrezza.
-- Veleco Sharpy · foto veleco-sharpy.jpg · Sedile girevole con poggiatesta, sospensioni complete e la portata più alta della gamma: fino a 200 kg. Autonomia 50 km, 15 km/h.
-- Veleco Looper · foto veleco-looper.jpg · Taglia media, sedile girevole per salire e scendere con facilità, cestino anteriore removibile. Autonomia 45 km, portata 180 kg, 12 km/h.
-- Veleco Jumpy · foto veleco-jumpy.jpg · Compatto e agile, gira in 119 cm: comodo in città e nei passaggi stretti. Autonomia 40 km, portata 160 kg, 10 km/h.
+- Veleco Gravis · foto veleco-gravis.jpg · Il 4 ruote più robusto della gamma: motore da 1000 W, sedile comodo e luci LED ben visibili anche di sera. Autonomia 45-60 km, portata 160 kg, 12 km/h. Disponibile anche con tetto e parabrezza. Dispositivo medico di Classe 1 CE per la mobilità: si guida senza patente, a passo d'uomo su marciapiedi e aree pedonali.
+- Veleco Sharpy · foto veleco-sharpy.jpg · Sedile girevole con poggiatesta, sospensioni complete e la portata più alta della gamma: fino a 200 kg. Autonomia 50 km, 15 km/h. Dispositivo medico di Classe 1 CE per la mobilità: si guida senza patente, a passo d'uomo su marciapiedi e aree pedonali.
+- Veleco Looper · foto veleco-looper.jpg · Taglia media, sedile girevole per salire e scendere con facilità, cestino anteriore removibile. Autonomia 45 km, portata 180 kg, 12 km/h. Dispositivo medico di Classe 1 CE per la mobilità: si guida senza patente, a passo d'uomo su marciapiedi e aree pedonali.
+- Veleco Jumpy · foto veleco-jumpy.jpg · Compatto e agile, gira in 119 cm: comodo in città e nei passaggi stretti. Autonomia 40 km, portata 160 kg, 10 km/h. Dispositivo medico di Classe 1 CE per la mobilità: si guida senza patente, a passo d'uomo su marciapiedi e aree pedonali.
 
 SCOOTER A 3 RUOTE
-- Veleco Draco · foto veleco-draco.jpg · Si accelera con un pulsante invece della manopola: pensato per chi fa fatica a girare il polso. Autonomia 45-50 km, portata 160 kg, 12 km/h, batteria piombo o litio. Disponibile anche con tetto e parabrezza.
-- Veleco Turris · foto veleco-turris.jpg · Acceleratore a pulsante, ruotine antiribaltamento e bauletto capiente con serratura. Autonomia 45-50 km, portata 160 kg, 12 km/h. Disponibile anche con tetto e parabrezza.
-- Veleco Cristal · foto veleco-cristal.jpg · Motore da 1000 W e sospensioni complete: il 3 ruote per strade irregolari e salite. Autonomia 40-60 km, portata 160 kg, 12 km/h.
-- Veleco ZT15 · foto veleco-zt15.jpg · Uno dei primi modelli Veleco, semplice da usare: adatto a chi guida uno scooter per la prima volta. Autonomia 45-60 km, portata 160 kg, 12 km/h, cestino posteriore.
-- Veleco ZT63 · foto veleco-zt63.jpg · Linea retrò in stile scooter italiano, per chi vuole un mezzo che non sembri un ausilio. Autonomia 40-60 km, portata 199 kg, 12 km/h.
+- Veleco Draco · foto veleco-draco.jpg · Si accelera con un pulsante invece della manopola: pensato per chi fa fatica a girare il polso. Autonomia 45-50 km, portata 160 kg, 12 km/h, batteria piombo o litio. Disponibile anche con tetto e parabrezza. Dispositivo medico di Classe 1 CE per la mobilità: si guida senza patente, a passo d'uomo su marciapiedi e aree pedonali.
+- Veleco Turris · foto veleco-turris.jpg · Acceleratore a pulsante, ruotine antiribaltamento e bauletto capiente con serratura. Autonomia 45-50 km, portata 160 kg, 12 km/h. Disponibile anche con tetto e parabrezza. Dispositivo medico di Classe 1 CE per la mobilità: si guida senza patente, a passo d'uomo su marciapiedi e aree pedonali.
+- Veleco Cristal · foto veleco-cristal.jpg · Motore da 1000 W e sospensioni complete: il 3 ruote per strade irregolari e salite. Autonomia 40-60 km, portata 160 kg, 12 km/h. Dispositivo medico di Classe 1 CE per la mobilità: si guida senza patente, a passo d'uomo su marciapiedi e aree pedonali.
+- Veleco ZT15 · foto veleco-zt15.jpg · Uno dei primi modelli Veleco, semplice da usare: adatto a chi guida uno scooter per la prima volta. Autonomia 45-60 km, portata 160 kg, 12 km/h, cestino posteriore. Dispositivo medico di Classe 1 CE per la mobilità: si guida senza patente, a passo d'uomo su marciapiedi e aree pedonali.
+- Veleco ZT63 · foto veleco-zt63.jpg · Linea retrò in stile scooter italiano, per chi vuole un mezzo che non sembri un ausilio. Autonomia 40-60 km, portata 199 kg, 12 km/h. Dispositivo medico di Classe 1 CE per la mobilità: si guida senza patente, a passo d'uomo su marciapiedi e aree pedonali.
 
 PIEGHEVOLI E CARROZZINE
-- Veleco ZT16 · foto veleco-zt16.jpg · Il più leggero della gamma, 51 kg, con manubrio pieghevole e cestino: ideale per la spesa e i giri brevi, entra in auto. Autonomia 25-30 km.
-- Veleco Cosmo, carrozzina elettrica pieghevole · foto veleco-cosmo.jpg · Si piega e pesa 30 kg: la soluzione per chi deve portarla in auto o in treno.
+- Veleco ZT16 · foto veleco-zt16.jpg · Il più leggero della gamma, 51 kg, con manubrio pieghevole e cestino: ideale per la spesa e i giri brevi, entra in auto. Autonomia 25-30 km. Dispositivo medico di Classe 1 CE per la mobilità: si guida senza patente, a passo d'uomo su marciapiedi e aree pedonali.
+- Veleco Cosmo, carrozzina elettrica pieghevole · foto veleco-cosmo.jpg · Si piega e pesa 30 kg: la soluzione per chi deve portarla in auto o in treno. Dispositivo medico di Classe 1 CE per la mobilità: si guida senza patente, a passo d'uomo su marciapiedi e aree pedonali.
 
 ACCESSORI
 - Borsa sul bracciolo Veleco · foto accessorio-borsa-bracciolo.jpg · Si aggancia al bracciolo: documenti, telefono e piccoli acquisti a portata di mano.
