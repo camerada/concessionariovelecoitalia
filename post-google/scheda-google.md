@@ -76,7 +76,40 @@ Concessionario ufficiale Veleco per l'Italia, a Genova Nervi. Vendiamo scooter e
 (676 caratteri)
 
 ## 3. Servizi
-Sezione «Servizi» della scheda: un servizio per riga, con descrizione (max 300 caratteri). Prezzo: solo dove indicato.
+
+**Fatto il 5/11**: creati 9 servizi su 10, nomi e descrizioni identici a quelli preparati, in
+revisione (Google dichiara fino a un giorno per la pubblicazione).
+
+Come funziona davvero la sezione, diverso da come era scritto qui prima:
+- **I gruppi non esistono.** VENDITA / CONSEGNA / ASSISTENZA erano una nostra invenzione:
+  Google raggruppa i servizi per categoria, quindi stanno tutti sotto la principale
+  «Fornitore di ausili per la mobilità», nell'ordine in cui sono stati inseriti.
+- **Il prezzo ha quattro opzioni**: «Nessun prezzo», «Senza costi», «Fisso», «Da».
+  Dove qui era scritto «Gratis» si usa «Senza costi».
+- Le descrizioni stanno tutte entro i 300 caratteri.
+
+| Servizio | Prezzo impostato |
+|---|---|
+| Scooter elettrici per anziani Veleco | Da 2.200 € |
+| Consulenza sulla scelta del modello | Senza costi |
+| Prova gratuita in showroom | Senza costi |
+| Verifica dei requisiti per l'IVA al 4% | Senza costi |
+| Consegna a domicilio in tutta Italia | Nessun prezzo |
+| Ritiro in showroom a Genova | Senza costi |
+| Assistenza post-vendita | Nessun prezzo |
+| Ricambi originali Veleco | Nessun prezzo |
+| Accessori Veleco | Nessun prezzo |
+| **Garanzia 2 anni gestita da noi** | **Nessun prezzo** (deciso il 5/11, da creare) |
+
+**Perché la garanzia va a «Nessun prezzo» e non a «Senza costi»**: in Italia i due anni di
+garanzia legale di conformità sono un obbligo di legge, non un omaggio. Etichettarla «gratis»
+significa vantarsi di rispettare la legge. Il valore vero è nella descrizione — la garanzia la
+gestiamo noi, senza spedire niente al produttore — e «Nessun prezzo» la lascia parlare.
+Al contrario «Prova gratuita» e «Consulenza» stanno bene su «Senza costi»: lì il gratis è una
+scelta nostra, non un minimo di legge.
+
+Testi dei servizi, per rifarli o modificarli:
+
 
 **Vendita**
 - Scooter elettrici per anziani Veleco · da 2.200 € · Tutta la gamma Veleco a 3 e 4 ruote, con o senza tetto, batteria al piombo gel o al litio estraibile. Rivenditore ufficiale: mezzi originali con garanzia gestita in Italia.
