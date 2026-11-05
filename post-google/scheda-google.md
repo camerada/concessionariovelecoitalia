@@ -36,10 +36,17 @@ nome «Concessionario Veleco Italia Distributore Ufficiale», Via Giuseppe Pessa
 
 **Una sola differenza, corretta**: il campo «Chat» puntava a `wa.me/3482905502`, un numero che
 non compare da nessuna parte — né nel sito (che usa `wa.me/393289754412` in 95 punti e
-`tel:+393289754412` in 138), né nei documenti. Probabile residuo della vita precedente della
-scheda, quando l'insegna era «Scooter Rental». Portato sul 328 975 4412: WhatsApp è il secondo
-canale di contatto (30 clic in tre mesi contro 37 del telefono), e un numero morto lì è traffico
-buttato. Da chiedere a Valentina se quel 348 era suo e se riceve ancora messaggi.
+`tel:+393289754412` in 138), né nei documenti. Maurizio ha confermato che il 348 è
+comunque di Valentina: è una sua seconda linea, non un residuo. Portato lo stesso sul
+328 975 4412, per coerenza: tutto il resto — sito, post, bio Instagram, Merchant Center,
+risposte alle recensioni — dice 328, e due fili invece di uno sono solo fatica in più per chi
+risponde da sola.
+
+**Resta da verificare** che su 328 975 4412 WhatsApp ci sia davvero e funzioni: il link del
+sito punta lì da mesi e ha preso 30 clic in tre mesi, ma non è una prova che i messaggi
+arrivino. Basta mandarne uno. Se invece il WhatsApp vero è sul 348, la scelta giusta è
+l'opposta: si tiene il 348 sulla scheda **e** si cambiano i 95 link del sito, non si lasciano
+disallineati. Domanda per Valentina: «su quale dei due numeri ti arriva WhatsApp?»
 
 ## 2. Descrizione dell'attività (max 750 caratteri)
 Concessionario ufficiale Veleco per l'Italia, a Genova Nervi. Vendiamo scooter elettrici a 3 e 4 ruote per anziani e per chi cammina con fatica: il Veleco Faster, il più scelto, da 2.200 €. Dispositivo medico CE: si guida senza patente, senza bollo e senza assicurazione obbligatoria, su marciapiedi e aree pedonali. Con i requisiti, IVA al 4% e detrazione del 19%: verifichiamo insieme prima dell'ordine. Prova gratuita nello showroom di Via Giuseppe Pessale 20r, consegna a casa in tutta Italia continentale, già montato. Garanzia 2 anni gestita da noi, ricambi originali in Italia e un numero diretto a cui risponde chi ti ha venduto lo scooter. Da martedì a sabato, 10-20.
