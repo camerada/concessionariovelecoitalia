@@ -94,7 +94,8 @@ rimasta è togliere il link dal testo.
 **Da fare dopo sabato, se il link resta: marcare i link con gli UTM.** Oggi pubblichiamo al
 buio — le visite dai post non si distinguono dalle altre in Analytics. Schema dei parametri in
 `seo/post-riscritti-nov-dic-2026.md`. Il pezzo più veloce e più utile è **il link nella bio di
-Instagram**: uno solo da cambiare, ed è l'unica strada da Instagram al sito.
+Instagram**: uno solo da cambiare, ed è l'unica strada da Instagram al sito. Indirizzo pronto
+in `seo/instagram.md`, anche nella versione di gennaio.
 
 Nota: i testi in `seo/post-riscritti-nov-dic-2026.md` hanno ancora il numero. Va tolto a mano
 ogni volta che un testo viene riusato per la scheda Google.
@@ -190,6 +191,6 @@ a Modelli, e le foto sono le JPG online invece dei WEBP locali.
     vede solo dall'app).
   - **Post vecchi del noleggio**: si possono archiviare senza perderli né toccare i
     follower. Decide Valentina quanto indietro andare.
-  - **1° gennaio**: il link in bio passa da `/promo/` a `/scooter-elettrico-anziani-prezzi/`
+  - **1° gennaio**: il link in bio passa da `/promo/` (con UTM) a `/scooter-elettrico-anziani-prezzi/`
     e il titolo da «Promo fino al 31 dicembre» a «Prezzi del Veleco Faster», altrimenti
     promette una promozione finita.

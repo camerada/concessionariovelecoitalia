@@ -63,9 +63,18 @@ Showroom Genova Nervi · prova gratuita
 132 caratteri. Via «NOLEGGIO» dalla prima riga: la prima riga è quella che si legge sempre.
 
 ### Link in bio
+Con gli UTM, così le visite da Instagram si distinguono in Analytics (verificato il 5/11:
+risponde 200, nessun redirect, i parametri arrivano interi):
 ```
-https://concessionariovelecoitalia.it/promo/
+https://concessionariovelecoitalia.it/promo/?utm_source=instagram&utm_medium=bio&utm_campaign=promo-nov-dic-2026
 ```
+Dal 1° gennaio:
+```
+https://concessionariovelecoitalia.it/scooter-elettrico-anziani-prezzi/?utm_source=instagram&utm_medium=bio&utm_campaign=prezzi
+```
+Il titolo del link copre l'indirizzo, quindi la bio non si imbruttisce. Da ricordare quando si
+leggeranno i numeri: GA4 vede circa metà delle visite reali (chi rifiuta i cookie non c'è), e
+prima di fine novembre non c'è niente da leggere — il profilo è stato convertito il 4/11.
 Fino al 31 dicembre, perché è la pagina della promozione.
 
 **Titolo del link** (il campo che sostituisce l'URL nudo; è corto, intorno ai 30 caratteri,
