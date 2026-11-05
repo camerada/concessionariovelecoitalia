@@ -6,8 +6,15 @@ Preparato il 5/11/2026. I contenuti vengono da `post-google/scheda-google.md`.
 risultato e si passa alla successiva. Tutto in una volta no: la scheda Google salva campo per
 campo, e se qualcosa va storto a metà non si capisce dove.
 
-**Prima della seduta 4 (Prodotti)**: scaricare le foto sul computer, in una cartella sola.
-Google chiede di caricare il file, non accetta un indirizzo. Sono qui:
+**Le foto sono già sul Mac**, scaricate il 5/11/2026 in **`~/Downloads/veleco-foto`**: tutte
+e 16, con il nome che trovi indicato in ogni prodotto. Google chiede di caricare il file e non
+accetta un indirizzo, per questo stanno lì.
+
+Ne esiste anche una copia vuota di destinazione su Drive, in *1 -Siti-Funnel › easyscooter
+veleco › concessionariovelecoitalia › Foto scheda Google*, se un giorno servisse averle anche
+lì: https://drive.google.com/drive/folders/12QsU0yLiQVPB6KdCYxoaGbt7K_4NvqzV
+
+Se servisse riscaricarle, gli indirizzi originali sono questi:
 
 ```
 https://concessionariovelecoitalia.it/assets/post-google/foto/veleco-faster.jpg
@@ -26,6 +33,12 @@ https://concessionariovelecoitalia.it/assets/post-google/foto/veleco-faster-show
 https://concessionariovelecoitalia.it/assets/post-google/foto/accessorio-borsa-bracciolo.jpg
 https://concessionariovelecoitalia.it/assets/post-google/foto/accessorio-supporto-telefono.jpg
 https://concessionariovelecoitalia.it/assets/post-google/foto/accessorio-copertura-impermeabile.jpg
+```
+
+Scorciatoia per rifarlo da capo, dal Terminale:
+
+```bash
+mkdir -p ~/Downloads/veleco-foto && cd ~/Downloads/veleco-foto && for f in veleco-faster veleco-faster-showroom veleco-gravis veleco-sharpy veleco-looper veleco-jumpy veleco-draco veleco-turris veleco-cristal veleco-zt15 veleco-zt63 veleco-zt16 veleco-cosmo accessorio-borsa-bracciolo accessorio-supporto-telefono accessorio-copertura-impermeabile; do curl -sO "https://concessionariovelecoitalia.it/assets/post-google/foto/$f.jpg"; done
 ```
 
 Se Claude in Chrome non riesce ad aprire la finestra di scelta del file — è una finestra del
@@ -50,6 +63,8 @@ Regole, valgono sempre:
   descrivo, non cercare un equivalente: fermati e dimmelo.
 - Non toccare niente che non sia in questo elenco. In particolare non cambiare nome,
   indirizzo, telefono, orari e sito: sono già giusti.
+- Le foto sono sul computer, nella cartella ~/Downloads/veleco-foto: quando ti indico il
+  nome di un file, è lì dentro.
 - Salva dopo ogni voce, non alla fine di tutte.
 - Alla fine della seduta fammi l'elenco di cosa hai inserito, cosa hai saltato e perché.
 ```
