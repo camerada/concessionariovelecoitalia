@@ -87,7 +87,25 @@ informativo (icona blu, «click potential» vuoto), limita solo gli annunci pers
 per uno scooter per anziani è inevitabile. Toglierlo vorrebbe dire levare «per anziani» e
 «per chi cammina con fatica» dalla descrizione.
 
-## 2. Aperte, da decidere con Maurizio
+## 2. Scheda Google: i contenuti pronti, mai inseriti
+
+`post-google/scheda-google.md` contiene categorie, descrizione, 10 servizi, 15 prodotti,
+attributi e 6 domande e risposte, preparati il 29/10 e mai messi nella scheda. È la scheda
+che riceve già i post due volte a settimana, e le ricerche di marca valgono il 73% delle
+impressioni: è visibilità gratuita ferma in un file.
+
+**Il prompt per Claude in Chrome è in `post-google/prompt-scheda-google.md`**, diviso in
+cinque sedute (categorie e descrizione · servizi · i due Faster · il resto della gamma ·
+attributi e domande). Si incolla una seduta per volta.
+
+Prima della seduta sui prodotti servono le foto scaricate sul computer: Google chiede il
+file, non l'indirizzo. Gli indirizzi delle 16 JPG sono nel prompt, tutte verificate online
+il 5/11.
+
+Aggiornato il 5/11: i due Faster puntano alla pagina Prezzi (`#piombo` e `#litio`) invece che
+a Modelli, e le foto sono le JPG online invece dei WEBP locali.
+
+## 3. Aperte, da decidere con Maurizio
 
 - **Il plurale nei testi Instagram** di cui sopra.
 - **Il codice a barre (GTIN o EAN) del Faster.** Chiuso il filone dei codici trovati in
