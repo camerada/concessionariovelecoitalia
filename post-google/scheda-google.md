@@ -42,11 +42,9 @@ comunque di Valentina: è una sua seconda linea, non un residuo. Portato lo stes
 risposte alle recensioni — dice 328, e due fili invece di uno sono solo fatica in più per chi
 risponde da sola.
 
-**Resta da verificare** che su 328 975 4412 WhatsApp ci sia davvero e funzioni: il link del
-sito punta lì da mesi e ha preso 30 clic in tre mesi, ma non è una prova che i messaggi
-arrivino. Basta mandarne uno. Se invece il WhatsApp vero è sul 348, la scelta giusta è
-l'opposta: si tiene il 348 sulla scheda **e** si cambiano i 95 link del sito, non si lasciano
-disallineati. Domanda per Valentina: «su quale dei due numeri ti arriva WhatsApp?»
+Verificato con Maurizio il 5/11: **WhatsApp funziona su tutti e due i numeri**, quindi nessun
+rischio nello spostamento. Si tiene il 328 ovunque — sito, scheda, post, bio Instagram,
+Merchant Center — e il sito non va toccato.
 
 ## 2. Descrizione dell'attività (max 750 caratteri)
 Concessionario ufficiale Veleco per l'Italia, a Genova Nervi. Vendiamo scooter elettrici a 3 e 4 ruote per anziani e per chi cammina con fatica: il Veleco Faster, il più scelto, da 2.200 €. Dispositivo medico CE: si guida senza patente, senza bollo e senza assicurazione obbligatoria, su marciapiedi e aree pedonali. Con i requisiti, IVA al 4% e detrazione del 19%: verifichiamo insieme prima dell'ordine. Prova gratuita nello showroom di Via Giuseppe Pessale 20r, consegna a casa in tutta Italia continentale, già montato. Garanzia 2 anni gestita da noi, ricambi originali in Italia e un numero diretto a cui risponde chi ti ha venduto lo scooter. Da martedì a sabato, 10-20.
