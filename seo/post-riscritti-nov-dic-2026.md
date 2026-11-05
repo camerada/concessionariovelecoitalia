@@ -14,6 +14,19 @@ Versione del 4/11/2026. **È questo il documento da cui copiare nel planner.** S
 Instagram esce lo stesso giorno alle 12:00, stesso tema e stessa immagine, testo più corto, nessun link
 cliccabile (il sito sta nella bio). Il sabato, dove c'è, va il reel.
 
+> ⚠️ **Nei post della scheda Google non va il numero di telefono.** Il 5/11/2026 Google ha
+> rimosso il post del giorno («Prima di decidere, salici sopra», ID routing `DPNB`): la policy
+> dei post permette di togliere quelli con informazioni di contatto, e indica come alternativa
+> il pulsante «Chiama ora», che usa il numero verificato del profilo. I 20 post della scheda
+> ancora da pubblicare sono stati ripuliti; **nei testi qui sotto il numero è rimasto e va
+> tolto quando si riusa un testo per la scheda Google.** Su Instagram invece il numero ci sta
+> e resta.
+>
+> Il link nel testo per ora è rimasto: la policy non lo vieta a chi non è un albergo, e
+> l'integrazione Metricool con la scheda Google non ha il campo per il pulsante. Se anche un
+> post senza telefono venisse rimosso, allora il problema è il link e i post della scheda
+> tornano su Pabbly, il cui workflow crea un vero post con pulsante «Scopri di più».
+
 **I link dei post Google**: alla pagina Promo (`/promo/`) finché dura l'offerta. Fanno eccezione i giovedì
 che rilanciano un articolo: quelli portano all'articolo. Dal 1° gennaio tutti alla pagina Prezzi.
 

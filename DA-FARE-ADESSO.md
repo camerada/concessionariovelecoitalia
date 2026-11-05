@@ -59,7 +59,28 @@ stesso giorno il post Google che dice tre e Instagram che dice uno.
 
 ---
 
-## 1. Merchant Center, in attesa
+## 1. Post della scheda Google: niente telefono nel testo
+
+Il 5/11 Google ha **rimosso** il post delle 10:00 («Prima di decidere, salici sopra»), con ID
+routing `DPNB`, tramite il sistema automatico di moderazione. La policy dei post dice che
+Google può rimuovere i post con informazioni di contatto, e indica come alternativa il
+pulsante «Chiama ora», che usa il numero verificato del profilo.
+
+Il numero era in **21 dei 24** post della scheda. Il 5/11 è stato tolto dai 20 ancora da
+pubblicare (il 21° era quello già rimosso). Verificato dopo: nessun post della scheda contiene
+più il numero, i post Instagram lo tengono — lì va bene — e tutti restano in attesa con la
+pubblicazione automatica attiva.
+
+**Il controllo da fare sabato 7**: se quel post esce e resta, era il telefono e la cosa è
+chiusa. Se viene rimosso anche lui, allora il problema è il **link nel testo**, e i post della
+scheda vanno riportati su **Pabbly**, il cui workflow crea un vero post con pulsante «Scopri
+di più» — che è la forma che Google si aspetta. Metricool, con la scheda Google, non ha il
+campo per il pulsante: per questo il link sta nel testo.
+
+Nota: i testi in `seo/post-riscritti-nov-dic-2026.md` hanno ancora il numero. Va tolto a mano
+ogni volta che un testo viene riusato per la scheda Google.
+
+## 2. Merchant Center, in attesa
 
 Due prodotti caricati da un foglio Google collegato, tutti e due «Non approvati» per:
 - **immagine in elaborazione** — normale, si sblocca da solo (2-3 giorni, fino a 30)
@@ -87,7 +108,7 @@ informativo (icona blu, «click potential» vuoto), limita solo gli annunci pers
 per uno scooter per anziani è inevitabile. Toglierlo vorrebbe dire levare «per anziani» e
 «per chi cammina con fatica» dalla descrizione.
 
-## 2. Scheda Google: i contenuti pronti, mai inseriti
+## 3. Scheda Google: i contenuti pronti, mai inseriti
 
 `post-google/scheda-google.md` contiene categorie, descrizione, 10 servizi, 15 prodotti,
 attributi e 6 domande e risposte, preparati il 29/10 e mai messi nella scheda. È la scheda
@@ -117,7 +138,7 @@ il 5/11.
 Aggiornato il 5/11: i due Faster puntano alla pagina Prezzi (`#piombo` e `#litio`) invece che
 a Modelli, e le foto sono le JPG online invece dei WEBP locali.
 
-## 3. Aperte, da decidere con Maurizio
+## 4. Aperte, da decidere con Maurizio
 
 - **Il plurale nei testi Instagram** di cui sopra.
 - **Il codice a barre (GTIN o EAN) del Faster.** Chiuso il filone dei codici trovati in
