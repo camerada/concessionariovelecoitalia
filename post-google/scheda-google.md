@@ -22,6 +22,10 @@ con lo stesso nome EasyScooter, e dichiararci «concessionario scooter» spingev
 confondere le due cose. «Concessionario scooter» resta fra le secondarie, dove prende le
 ricerche generiche senza definirci.
 
+**Fatto il 5/11**: le tre categorie sono state salvate e approvate da Google subito.
+Principale «Fornitore di ausili per la mobilità», secondarie «Concessionario scooter» e
+«Fornitore di attrezzature mediche».
+
 Avvertenza: cambiare la categoria principale può mandare la scheda in revisione o far
 chiedere una verifica. Si risolve di solito in qualche giorno. Ricontrollare dopo una
 settimana che la principale sia rimasta quella: Google a volte rimette la precedente senza
@@ -45,6 +49,12 @@ risponde da sola.
 Verificato con Maurizio il 5/11: **WhatsApp funziona su tutti e due i numeri**, quindi nessun
 rischio nello spostamento. Si tiene il 328 ovunque — sito, scheda, post, bio Instagram,
 Merchant Center — e il sito non va toccato.
+
+**Fatto il 5/11**: il campo Chat è ora `https://wa.me/393289754412`, identico al link del sito.
+Il prefisso `39` senza `+` è obbligatorio: wa.me non apre la chat senza. Scoperta collaterale:
+anche il link vecchio ne era privo (`wa.me/3482905502`), quindi **era rotto**, non solo puntato
+a un altro numero. Il pulsante WhatsApp della scheda non ha funzionato per chissà quanto, senza
+produrre nessun errore visibile.
 
 ## 2. Descrizione dell'attività (max 750 caratteri)
 Concessionario ufficiale Veleco per l'Italia, a Genova Nervi. Vendiamo scooter elettrici a 3 e 4 ruote per anziani e per chi cammina con fatica: il Veleco Faster, il più scelto, da 2.200 €. Dispositivo medico CE: si guida senza patente, senza bollo e senza assicurazione obbligatoria, su marciapiedi e aree pedonali. Con i requisiti, IVA al 4% e detrazione del 19%: verifichiamo insieme prima dell'ordine. Prova gratuita nello showroom di Via Giuseppe Pessale 20r, consegna a casa in tutta Italia continentale, già montato. Garanzia 2 anni gestita da noi, ricambi originali in Italia e un numero diretto a cui risponde chi ti ha venduto lo scooter. Da martedì a sabato, 10-20.
