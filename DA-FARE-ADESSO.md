@@ -100,10 +100,11 @@ sola, senza secondarie), descrizione ✔ (salvata, in revisione), campo Chat ✔
 **Da ricontrollare**: che descrizione e WhatsApp risultino approvati. Se la descrizione torna
 indietro, il sospetto è «da 2.200 €» letto come contenuto promozionale.
 Servizi ✔ (9 su 10; la garanzia va creata con «Nessun prezzo»). Prodotti ✔ (16 pubblicati,
-categorie create). **Aperto: Google ha respinto il Faster Litio come «Veicoli».** L'ipotesi è
-che manchi nel testo la qualifica di dispositivo medico, che c'è solo nel Piombo Gel —
-approvato. Frase da aggiungere, ordine delle mosse e testo della contestazione in
-`post-google/scheda-google.md`. Restano gli attributi e le domande.
+categorie create). Il rifiuto del Faster Litio come
+«Veicoli» è **risolto**: mancava nel testo la qualifica di dispositivo medico, che il Piombo
+Gel aveva. Aggiunta al Litio e agli altri undici, il Litio è stato riapprovato senza bisogno
+di contestare; i 17 prodotti sono tutti senza etichetta. Restano gli attributi e le domande
+(seduta 5) e il servizio «Garanzia 2 anni» da creare con «Nessun prezzo».
 
 **Il prompt per Claude in Chrome è in `post-google/prompt-scheda-google.md`**, diviso in
 cinque sedute (categorie e descrizione · servizi · i due Faster · il resto della gamma ·

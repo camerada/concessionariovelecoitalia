@@ -159,10 +159,19 @@ Gravis, Sharpy, Looper, Jumpy, Draco, Turris, Cristal, ZT15, ZT63, ZT16, Cosmo.
 - **I tre accessori restano fuori**: borsa, supporto per il telefono e copertura non sono
   dispositivi medici e non si guidano. Scriverlo sarebbe falso.
 
-**Sul Litio** (5/11): frase aggiunta in coda, descrizione a 428 caratteri. Salvando, Google ha
-rimesso il prodotto in revisione (circa 30 minuti) e il pulsante di contestazione è sparito. Se
-la nuova revisione lo approva, la contestazione non serve e l'ipotesi è confermata: basta il
-testo. Se lo respinge di nuovo, il pulsante ricompare e si contesta quello singolo.
+**ESITO (5/11): l'ipotesi era giusta e la contestazione non è servita.** Aggiunta la frase al
+Litio (descrizione a 428 caratteri) e salvato, Google lo ha rimesso in revisione — facendo
+sparire il pulsante di contestazione — e la nuova revisione **lo ha approvato**. Nessun appello
+inviato. Poi la frase è stata aggiunta anche agli undici: tutti e 17 i prodotti risultano senza
+etichetta «In sospeso» o «Non approvato».
+
+**La regola che ne esce, da ricordare**: su Google Business un prodotto che somiglia a un
+veicolo — ruote, portata in kg, chilometri di autonomia — viene respinto come «Veicoli» se la
+descrizione non dice che è un dispositivo medico. Non è la policy a vietarlo: è il
+classificatore automatico che non ha di che distinguerlo. La qualifica va scritta nel testo,
+non spiegata in un appello.
+
+**Le descrizioni qui sotto contengono già la frase**: non toglierla riusando i testi.
 
 **Come procedere**: prima correggere il testo, poi contestare, e contestare **un prodotto per
 volta** («Non sono d'accordo con il problema»), non con il pulsante che vale per tutti:
@@ -182,22 +191,22 @@ vanno scaricate prima sul computer. Categorie prodotto da creare: «Scooter a 4 
 
 ### Scooter a 4 ruote
 - **Veleco Faster, batteria Piombo Gel** · 2.200 € · Il più scelto. Quattro ruote stabili, sospensioni complete, sale pendenze fino al 30%, porta fino a 160 kg, 45-60 km con una carica, 12 km/h. Si ricarica direttamente sul mezzo: ideale se hai un garage o un box con una presa. Disponibile anche con tetto e parabrezza. Dispositivo medico CE: senza patente, senza bollo, assicurazione non obbligatoria. Con i requisiti IVA al 4% e detrazione del 19%. · link https://concessionariovelecoitalia.it/scooter-elettrico-anziani-prezzi/#piombo
-- **Veleco Faster, batteria Litio estraibile** · 2.850 € · Lo stesso Faster con la batteria al litio che si stacca e si porta in casa a ricaricare, anche in salotto: ideale se vivi in condominio e non hai una presa vicino a dove lo lasci. Quattro ruote, sospensioni complete, 45-60 km di autonomia, 160 kg di portata. Con i requisiti IVA al 4% e detrazione del 19%. · link https://concessionariovelecoitalia.it/scooter-elettrico-anziani-prezzi/#litio
-- **Veleco Gravis** · Prezzo su richiesta · Il 4 ruote più robusto della gamma: motore da 1000 W, sedile comodo e luci LED ben visibili anche di sera. Autonomia 45-60 km, portata 160 kg, 12 km/h. Disponibile anche con tetto e parabrezza. · link https://concessionariovelecoitalia.it/modelli-veleco/
-- **Veleco Sharpy** · Prezzo su richiesta · Sedile girevole con poggiatesta, sospensioni complete e la portata più alta della gamma: fino a 200 kg. Autonomia 50 km, 15 km/h. · link https://concessionariovelecoitalia.it/modelli-veleco/
-- **Veleco Looper** · Prezzo su richiesta · Taglia media, sedile girevole per salire e scendere con facilità, cestino anteriore removibile. Autonomia 45 km, portata 180 kg, 12 km/h. · link https://concessionariovelecoitalia.it/modelli-veleco/
-- **Veleco Jumpy** · Prezzo su richiesta · Compatto e agile, gira in 119 cm: comodo in città e nei passaggi stretti. Autonomia 40 km, portata 160 kg, 10 km/h. · link https://concessionariovelecoitalia.it/modelli-veleco/
+- **Veleco Faster, batteria Litio estraibile** · 2.850 € · Lo stesso Faster con la batteria al litio che si stacca e si porta in casa a ricaricare, anche in salotto: ideale se vivi in condominio e non hai una presa vicino a dove lo lasci. Quattro ruote, sospensioni complete, 45-60 km di autonomia, 160 kg di portata. Con i requisiti IVA al 4% e detrazione del 19%. Dispositivo medico di Classe 1 CE per la mobilità: si guida senza patente, a passo d'uomo su marciapiedi e aree pedonali. · link https://concessionariovelecoitalia.it/scooter-elettrico-anziani-prezzi/#litio
+- **Veleco Gravis** · Prezzo su richiesta · Il 4 ruote più robusto della gamma: motore da 1000 W, sedile comodo e luci LED ben visibili anche di sera. Autonomia 45-60 km, portata 160 kg, 12 km/h. Disponibile anche con tetto e parabrezza. Dispositivo medico di Classe 1 CE per la mobilità: si guida senza patente, a passo d'uomo su marciapiedi e aree pedonali. · link https://concessionariovelecoitalia.it/modelli-veleco/
+- **Veleco Sharpy** · Prezzo su richiesta · Sedile girevole con poggiatesta, sospensioni complete e la portata più alta della gamma: fino a 200 kg. Autonomia 50 km, 15 km/h. Dispositivo medico di Classe 1 CE per la mobilità: si guida senza patente, a passo d'uomo su marciapiedi e aree pedonali. · link https://concessionariovelecoitalia.it/modelli-veleco/
+- **Veleco Looper** · Prezzo su richiesta · Taglia media, sedile girevole per salire e scendere con facilità, cestino anteriore removibile. Autonomia 45 km, portata 180 kg, 12 km/h. Dispositivo medico di Classe 1 CE per la mobilità: si guida senza patente, a passo d'uomo su marciapiedi e aree pedonali. · link https://concessionariovelecoitalia.it/modelli-veleco/
+- **Veleco Jumpy** · Prezzo su richiesta · Compatto e agile, gira in 119 cm: comodo in città e nei passaggi stretti. Autonomia 40 km, portata 160 kg, 10 km/h. Dispositivo medico di Classe 1 CE per la mobilità: si guida senza patente, a passo d'uomo su marciapiedi e aree pedonali. · link https://concessionariovelecoitalia.it/modelli-veleco/
 
 ### Scooter a 3 ruote
-- **Veleco Draco** · Prezzo su richiesta · Si accelera con un pulsante invece della manopola: pensato per chi fa fatica a girare il polso. Autonomia 45-50 km, portata 160 kg, 12 km/h, batteria piombo o litio. Disponibile anche con tetto e parabrezza. · link https://concessionariovelecoitalia.it/modelli-veleco/
-- **Veleco Turris** · Prezzo su richiesta · Acceleratore a pulsante, ruotine antiribaltamento e bauletto capiente con serratura. Autonomia 45-50 km, portata 160 kg, 12 km/h. Disponibile anche con tetto e parabrezza. · link https://concessionariovelecoitalia.it/modelli-veleco/
-- **Veleco Cristal** · Prezzo su richiesta · Motore da 1000 W e sospensioni complete: il 3 ruote per strade irregolari e salite. Autonomia 40-60 km, portata 160 kg, 12 km/h. · link https://concessionariovelecoitalia.it/modelli-veleco/
-- **Veleco ZT15** · Prezzo su richiesta · Uno dei primi modelli Veleco, semplice da usare: adatto a chi guida uno scooter per la prima volta. Autonomia 45-60 km, portata 160 kg, 12 km/h, cestino posteriore. · link https://concessionariovelecoitalia.it/modelli-veleco/
-- **Veleco ZT63** · Prezzo su richiesta · Linea retrò in stile scooter italiano, per chi vuole un mezzo che non sembri un ausilio. Autonomia 40-60 km, portata 199 kg, 12 km/h. · link https://concessionariovelecoitalia.it/modelli-veleco/
+- **Veleco Draco** · Prezzo su richiesta · Si accelera con un pulsante invece della manopola: pensato per chi fa fatica a girare il polso. Autonomia 45-50 km, portata 160 kg, 12 km/h, batteria piombo o litio. Disponibile anche con tetto e parabrezza. Dispositivo medico di Classe 1 CE per la mobilità: si guida senza patente, a passo d'uomo su marciapiedi e aree pedonali. · link https://concessionariovelecoitalia.it/modelli-veleco/
+- **Veleco Turris** · Prezzo su richiesta · Acceleratore a pulsante, ruotine antiribaltamento e bauletto capiente con serratura. Autonomia 45-50 km, portata 160 kg, 12 km/h. Disponibile anche con tetto e parabrezza. Dispositivo medico di Classe 1 CE per la mobilità: si guida senza patente, a passo d'uomo su marciapiedi e aree pedonali. · link https://concessionariovelecoitalia.it/modelli-veleco/
+- **Veleco Cristal** · Prezzo su richiesta · Motore da 1000 W e sospensioni complete: il 3 ruote per strade irregolari e salite. Autonomia 40-60 km, portata 160 kg, 12 km/h. Dispositivo medico di Classe 1 CE per la mobilità: si guida senza patente, a passo d'uomo su marciapiedi e aree pedonali. · link https://concessionariovelecoitalia.it/modelli-veleco/
+- **Veleco ZT15** · Prezzo su richiesta · Uno dei primi modelli Veleco, semplice da usare: adatto a chi guida uno scooter per la prima volta. Autonomia 45-60 km, portata 160 kg, 12 km/h, cestino posteriore. Dispositivo medico di Classe 1 CE per la mobilità: si guida senza patente, a passo d'uomo su marciapiedi e aree pedonali. · link https://concessionariovelecoitalia.it/modelli-veleco/
+- **Veleco ZT63** · Prezzo su richiesta · Linea retrò in stile scooter italiano, per chi vuole un mezzo che non sembri un ausilio. Autonomia 40-60 km, portata 199 kg, 12 km/h. Dispositivo medico di Classe 1 CE per la mobilità: si guida senza patente, a passo d'uomo su marciapiedi e aree pedonali. · link https://concessionariovelecoitalia.it/modelli-veleco/
 
 ### Pieghevoli e carrozzine
-- **Veleco ZT16** · Prezzo su richiesta · Il più leggero della gamma, 51 kg, con manubrio pieghevole e cestino: ideale per la spesa e i giri brevi, entra in auto. Autonomia 25-30 km. · link https://concessionariovelecoitalia.it/modelli-veleco/
-- **Veleco Cosmo, carrozzina elettrica pieghevole** · Prezzo su richiesta · Si piega e pesa 30 kg: la soluzione per chi deve portarla in auto o in treno. · link https://concessionariovelecoitalia.it/modelli-veleco/
+- **Veleco ZT16** · Prezzo su richiesta · Il più leggero della gamma, 51 kg, con manubrio pieghevole e cestino: ideale per la spesa e i giri brevi, entra in auto. Autonomia 25-30 km. Dispositivo medico di Classe 1 CE per la mobilità: si guida senza patente, a passo d'uomo su marciapiedi e aree pedonali. · link https://concessionariovelecoitalia.it/modelli-veleco/
+- **Veleco Cosmo, carrozzina elettrica pieghevole** · Prezzo su richiesta · Si piega e pesa 30 kg: la soluzione per chi deve portarla in auto o in treno. Dispositivo medico di Classe 1 CE per la mobilità: si guida senza patente, a passo d'uomo su marciapiedi e aree pedonali. · link https://concessionariovelecoitalia.it/modelli-veleco/
 
 ### Accessori
 - **Borsa sul bracciolo Veleco** · Prezzo su richiesta · Si aggancia al bracciolo: documenti, telefono e piccoli acquisti a portata di mano. · foto https://concessionariovelecoitalia.it/assets/post-google/foto/accessorio-borsa-bracciolo.jpg
