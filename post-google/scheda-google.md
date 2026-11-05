@@ -1,6 +1,6 @@
 # Scheda Google Business di Veleco: contenuti pronti da incollare
 
-Preparato il 29/10/2026 con i soli fatti del sito. Si inserisce a mano da business.google.com (o dall'app Google Maps,
+Preparato il 29/10/2026 con i soli fatti del sito; link e foto aggiornati il 5/11/2026 (i due Faster portano alla pagina Prezzi, le foto sono le JPG online). Il prompt per Claude in Chrome è in `post-google/prompt-scheda-google.md`. Si inserisce a mano da business.google.com (o dall'app Google Maps,
 profilo dell'attività): le API di Google per prodotti e servizi non sono disponibili senza approvazione.
 Ordine consigliato: 1) categorie, 2) descrizione, 3) servizi, 4) prodotti, 5) attributi, 6) domande e risposte.
 I prezzi senza cifra sul sito restano «Prezzo su richiesta» (nella scheda: lasciare il prezzo vuoto o «Contattaci per il prezzo»).
@@ -35,12 +35,14 @@ Sezione «Servizi» della scheda: un servizio per riga, con descrizione (max 300
 
 ## 4. Prodotti
 Sezione «Prodotti»: nome, categoria, prezzo, descrizione (max 1000 caratteri), foto, pulsante «Scopri di più» con il link.
-Foto: i file in `public_html/assets/modelli/` (veleco-<nome>.webp; convertire in JPG se Google non accetta il WEBP) e per il Faster
-`assets/veleco-faster-showroom.webp`. Categorie prodotto da creare: «Scooter a 4 ruote», «Scooter a 3 ruote», «Pieghevoli e carrozzine», «Accessori».
+Foto (JPG, già online, verificate il 5/11/2026): `https://concessionariovelecoitalia.it/assets/post-google/foto/veleco-<nome>.jpg`
+— faster, gravis, sharpy, looper, jumpy, draco, turris, cristal, zt15, zt63, zt16, cosmo — più
+`veleco-faster-showroom.jpg` e i tre `accessorio-*.jpg`. Google chiede di caricare il file, non l'indirizzo:
+vanno scaricate prima sul computer. Categorie prodotto da creare: «Scooter a 4 ruote», «Scooter a 3 ruote», «Pieghevoli e carrozzine», «Accessori».
 
 ### Scooter a 4 ruote
-- **Veleco Faster, batteria Piombo Gel** · 2.200 € · Il più scelto. Quattro ruote stabili, sospensioni complete, sale pendenze fino al 30%, porta fino a 160 kg, 45-60 km con una carica, 12 km/h. Si ricarica direttamente sul mezzo: ideale se hai un garage o un box con una presa. Disponibile anche con tetto e parabrezza. Dispositivo medico CE: senza patente, senza bollo, assicurazione non obbligatoria. Con i requisiti IVA al 4% e detrazione del 19%. · link https://concessionariovelecoitalia.it/modelli-veleco/#faster
-- **Veleco Faster, batteria Litio estraibile** · 2.850 € · Lo stesso Faster con la batteria al litio che si stacca e si porta in casa a ricaricare, anche in salotto: ideale se vivi in condominio e non hai una presa vicino a dove lo lasci. Quattro ruote, sospensioni complete, 45-60 km di autonomia, 160 kg di portata. Con i requisiti IVA al 4% e detrazione del 19%. · link https://concessionariovelecoitalia.it/modelli-veleco/#faster
+- **Veleco Faster, batteria Piombo Gel** · 2.200 € · Il più scelto. Quattro ruote stabili, sospensioni complete, sale pendenze fino al 30%, porta fino a 160 kg, 45-60 km con una carica, 12 km/h. Si ricarica direttamente sul mezzo: ideale se hai un garage o un box con una presa. Disponibile anche con tetto e parabrezza. Dispositivo medico CE: senza patente, senza bollo, assicurazione non obbligatoria. Con i requisiti IVA al 4% e detrazione del 19%. · link https://concessionariovelecoitalia.it/scooter-elettrico-anziani-prezzi/#piombo
+- **Veleco Faster, batteria Litio estraibile** · 2.850 € · Lo stesso Faster con la batteria al litio che si stacca e si porta in casa a ricaricare, anche in salotto: ideale se vivi in condominio e non hai una presa vicino a dove lo lasci. Quattro ruote, sospensioni complete, 45-60 km di autonomia, 160 kg di portata. Con i requisiti IVA al 4% e detrazione del 19%. · link https://concessionariovelecoitalia.it/scooter-elettrico-anziani-prezzi/#litio
 - **Veleco Gravis** · Prezzo su richiesta · Il 4 ruote più robusto della gamma: motore da 1000 W, sedile comodo e luci LED ben visibili anche di sera. Autonomia 45-60 km, portata 160 kg, 12 km/h. Disponibile anche con tetto e parabrezza. · link https://concessionariovelecoitalia.it/modelli-veleco/
 - **Veleco Sharpy** · Prezzo su richiesta · Sedile girevole con poggiatesta, sospensioni complete e la portata più alta della gamma: fino a 200 kg. Autonomia 50 km, 15 km/h. · link https://concessionariovelecoitalia.it/modelli-veleco/
 - **Veleco Looper** · Prezzo su richiesta · Taglia media, sedile girevole per salire e scendere con facilità, cestino anteriore removibile. Autonomia 45 km, portata 180 kg, 12 km/h. · link https://concessionariovelecoitalia.it/modelli-veleco/
@@ -58,9 +60,9 @@ Foto: i file in `public_html/assets/modelli/` (veleco-<nome>.webp; convertire in
 - **Veleco Cosmo, carrozzina elettrica pieghevole** · Prezzo su richiesta · Si piega e pesa 30 kg: la soluzione per chi deve portarla in auto o in treno. · link https://concessionariovelecoitalia.it/modelli-veleco/
 
 ### Accessori
-- **Borsa sul bracciolo Veleco** · Prezzo su richiesta · Si aggancia al bracciolo: documenti, telefono e piccoli acquisti a portata di mano. · foto assets/accessorio-borsa-bracciolo.webp
-- **Supporto per il telefono Veleco** · Prezzo su richiesta · Il telefono sempre visibile sul manubrio. · foto assets/accessorio-supporto-telefono.webp
-- **Copertura impermeabile Veleco** · Prezzo su richiesta · Copre lo scooter fino a terra, con elastico ed cinghia con fibbia: resta ferma anche col vento. Pioggia, neve e umidità della notte restano fuori. · foto assets/accessorio-copertura-impermeabile.webp
+- **Borsa sul bracciolo Veleco** · Prezzo su richiesta · Si aggancia al bracciolo: documenti, telefono e piccoli acquisti a portata di mano. · foto https://concessionariovelecoitalia.it/assets/post-google/foto/accessorio-borsa-bracciolo.jpg
+- **Supporto per il telefono Veleco** · Prezzo su richiesta · Il telefono sempre visibile sul manubrio. · foto https://concessionariovelecoitalia.it/assets/post-google/foto/accessorio-supporto-telefono.jpg
+- **Copertura impermeabile Veleco** · Prezzo su richiesta · Copre lo scooter fino a terra, con elastico ed cinghia con fibbia: resta ferma anche col vento. Pioggia, neve e umidità della notte restano fuori. · foto https://concessionariovelecoitalia.it/assets/post-google/foto/accessorio-copertura-impermeabile.jpg
 
 ## 5. Attributi da spuntare (se proposti da Google)
 Accessibilità: ingresso accessibile in sedia a rotelle · Servizi: consegna, ritiro in negozio, acquisti in negozio, appuntamento consigliato ·
