@@ -72,10 +72,18 @@ più il numero, i post Instagram lo tengono — lì va bene — e tutti restano 
 pubblicazione automatica attiva.
 
 **Il controllo da fare sabato 7**: se quel post esce e resta, era il telefono e la cosa è
-chiusa. Se viene rimosso anche lui, allora il problema è il **link nel testo**, e i post della
-scheda vanno riportati su **Pabbly**, il cui workflow crea un vero post con pulsante «Scopri
-di più» — che è la forma che Google si aspetta. Metricool, con la scheda Google, non ha il
-campo per il pulsante: per questo il link sta nel testo.
+chiusa.
+
+Se viene rimosso anche lui, il problema è il **link nel testo**. **Si resta su Metricool**
+(deciso da Maurizio il 5/11: Pabbly non si riprende), quindi le strade sono due:
+1. **Il pulsante, se il planner di Metricool ce l'ha.** Gli strumenti usati da qui, sui post
+   della scheda Google, espongono solo il tipo di post (pubblicazione o foto), nessun campo
+   per il pulsante — ma l'interfaccia sul sito potrebbe averlo lo stesso. Da verificare
+   aprendo un post nel planner: se c'è un campo «Pulsante» o «Call to action», il link si
+   sposta lì e il testo resta pulito.
+2. **Se non c'è, il link esce dal testo.** Il post resta immagine più testo; chi vuole il sito
+   lo trova dal pulsante «Sito web» del profilo. Si perde il clic diretto dal post, che è
+   meno grave di un post rimosso.
 
 Nota: i testi in `seo/post-riscritti-nov-dic-2026.md` hanno ancora il numero. Va tolto a mano
 ogni volta che un testo viene riusato per la scheda Google.
