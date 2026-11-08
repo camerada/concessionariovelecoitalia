@@ -151,13 +151,11 @@
 
 <!-- SCHEMA: prodotto (@id canonico: le pagine regionali devono referenziare questo stesso @id)
 
-     NOTA shippingRate: Search Console lo segnala come campo consigliato mancante.
-     Quando sai il costo di spedizione, aggiungi dentro "shippingDetails" di ogni offerta:
-
-       "shippingRate": { "@type": "MonetaryAmount", "value": "0", "currency": "EUR" }
-
-     Metti 0 solo se la consegna è davvero inclusa nel prezzo. Non è stato inserito
-     un valore di default per non dichiarare un dato falso.
+     NOTA shippingRate: 0 EUR perché la consegna a casa è compresa nel prezzo in tutta
+     Italia continentale (promo fino al 31/12/2026, la stessa cosa che dicono la pagina
+     Prezzi, il feed di Merchant Center e le condizioni di vendita). Se la consegna
+     tornasse a pagamento, qui va il costo vero, non lo zero.
+     deliveryTime resta fuori: i tempi dalla fabbrica si dicono al telefono.
 -->
 <script type="application/ld+json">
 {
@@ -187,6 +185,7 @@
       "seller": { "@id": "https://concessionariovelecoitalia.it/#organizzazione" },
       "shippingDetails": {
         "@type": "OfferShippingDetails",
+        "shippingRate": { "@type": "MonetaryAmount", "value": "0", "currency": "EUR" },
         "shippingDestination": {
           "@type": "DefinedRegion",
           "addressCountry": "IT"
@@ -213,6 +212,7 @@
       "seller": { "@id": "https://concessionariovelecoitalia.it/#organizzazione" },
       "shippingDetails": {
         "@type": "OfferShippingDetails",
+        "shippingRate": { "@type": "MonetaryAmount", "value": "0", "currency": "EUR" },
         "shippingDestination": {
           "@type": "DefinedRegion",
           "addressCountry": "IT"
