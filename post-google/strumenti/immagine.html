@@ -5,6 +5,8 @@
   html,body{margin:0;padding:0}
   body{width:1200px;height:900px;overflow:hidden;background:#0F332D;font-family:'Public Sans',sans-serif;position:relative}
   .foto{position:absolute;inset:0;width:1200px;height:900px;object-fit:cover;object-position:var(--pos,center)}
+  /* pos="intero": niente ritaglio, lo scooter si vede per intero su fondo crema */
+  .foto.intero{object-fit:contain;object-position:center bottom;background:#fff;padding:0}
   .fascia{position:absolute;left:0;right:0;bottom:0;background:#1B4B43;color:#fff;padding:40px 64px 48px;box-shadow:0 -12px 40px rgba(15,51,45,.35)}
   .occhiello{font-family:'IBM Plex Mono',monospace;font-size:24px;letter-spacing:.08em;text-transform:uppercase;color:#DB9200;margin:0 0 14px}
   h1{font-family:'Zilla Slab',serif;font-weight:700;font-size:var(--h,64px);line-height:1.12;margin:0}

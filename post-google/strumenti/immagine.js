@@ -18,7 +18,7 @@ const MIS = formato === 'ig' ? { width: 1080, height: 1350 } : { width: 1200, he
     const lung = (titolo || '').length;
     if (fotoUrl) {
       const h = lung > 70 ? 50 : lung > 48 ? 56 : 64;
-      document.body.innerHTML = `<img class="foto" src="${fotoUrl}" style="--pos:${pos || 'center'}">
+      document.body.innerHTML = `<img class="foto${pos === 'intero' ? ' intero' : ''}" src="${fotoUrl}" style="--pos:${pos && pos !== 'intero' ? pos : 'center'}">
         <div class="logo"><img src="${logoUrl}" alt="Veleco Italia"></div>
         <div class="fascia"><p class="occhiello">${esc(occhiello)}</p><h1 style="--h:${h}px">${esc(titolo)}</h1><div class="pie"><span>concessionariovelecoitalia.it</span><span>328 975 4412</span></div></div>`;
     } else {
@@ -32,7 +32,15 @@ const MIS = formato === 'ig' ? { width: 1080, height: 1350 } : { width: 1200, he
     document.body.style.width = m.width + 'px';
     document.body.style.height = m.height + 'px';
     const f = document.querySelector('.foto');
-    if (f) { f.style.width = m.width + 'px'; f.style.height = m.height + 'px'; }
+    if (f) {
+      f.style.width = m.width + 'px'; f.style.height = m.height + 'px';
+      // Con pos="intero" la foto non si ritaglia: si restringe allo spazio sopra la fascia,
+      // altrimenti la fascia le coprirebbe la parte bassa (sul Faster, le ruote).
+      if (f.classList.contains('intero')) {
+        const fascia = document.querySelector('.fascia');
+        if (fascia) f.style.height = (m.height - fascia.offsetHeight) + 'px';
+      }
+    }
   }, MIS);
   await p.evaluate(() => document.fonts.ready); await p.waitForTimeout(400);
   await p.screenshot({ path: out, type: 'jpeg', quality: 86 });
