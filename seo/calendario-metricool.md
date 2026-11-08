@@ -7,12 +7,18 @@ Dove le date qui non coincidono con `seo/post-riscritti-nov-dic-2026.md` o con
 
 ## In breve
 
-- **45 post programmati**, dall'8/11 al 31/12/2026, tutti con pubblicazione automatica
+- **47 post programmati**, dall'8/11 al 31/12/2026, tutti con pubblicazione automatica
   attiva e nessuna bozza.
 - Ritmo: **martedì, giovedì e sabato**; scheda Google alle 10:00, Instagram alle 12:00.
 - Il post dell'8/11 è **solo Instagram** (il gemello della scheda Google è uscito il 7/11).
-- **Manca la coppia del 22/12** (martedì): fra il 19/12 e il 24/12 non c'è niente. È l'unico
-  buco del calendario; da riempire o da lasciare apposta, va deciso.
+- **Il buco del 22/12 è stato riempito l'8/11**: coppia creata (scheda Google id 420694279
+  alle 10:00, Instagram id 420694344 alle 12:00), pubblicazione automatica attiva. È la
+  recensione di Asia Capello, l'unica delle quattro in evidenza non ancora usata nel
+  calendario, nello slot del martedì che è quello delle recensioni; niente conto alla
+  rovescia, perché lo fanno già il 19 e il 26. Grafiche `2026-12-22-asia.jpg` nei due
+  formati, online e verificate anche dopo il caricamento su Metricool (1200×900 e
+  1080×1350). Il testo della scheda Google è senza numero di telefono, quello di Instagram
+  ce l'ha.
 - Il calendario **finisce il 31/12**. Dal 1° gennaio non c'è più niente programmato, e il
   1° gennaio va anche spostato il link in bio di Instagram (vedi `seo/instagram.md`).
 
