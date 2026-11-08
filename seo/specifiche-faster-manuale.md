@@ -48,7 +48,17 @@ Merchant Center.
 | **Massa totale** | **con piombo-acido 116 kg · con litio 100 kg** |
 | Tolleranza dichiarata | ± 15 mm / 1,5 kg / ° |
 
-## Differenza da sistemare con Valentina
+## Differenza chiusa l'8/11/2026
+
+**Deciso da Maurizio: vale il manuale.** La pagina Prezzi e l'articolo sull'autonomia
+dicevano 133 kg (piombo) e 117 kg (litio); adesso dicono **116 kg** e **100 kg**, come il
+manuale del produttore, nel testo visibile, nella tabella delle specifiche e nel campo
+`weight` dei dati strutturati dei due prodotti. Da dove venissero i 133/117 resta ignoto
+(forse il peso con l'imballo): se Valentina tira fuori un documento Veleco che li conferma,
+si torna indietro.
+
+### Com'era scritta prima la questione
+
 
 La pagina Prezzi dice **«Peso 133 kg con piombo gel · 117 kg con litio»**, e nel riquadro del
 Litio **«Mezzo più leggero: 117 kg invece di 133»**. Il manuale dice **116 kg** e **100 kg**:
