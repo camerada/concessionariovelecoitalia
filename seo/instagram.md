@@ -89,6 +89,18 @@ finire. Alternative: `Consegna e 3 accessori inclusi` (30 esatti, al limite) opp
 Da evitare «Sito ufficiale» o «Scopri di più»: occupano lo spazio senza dire niente, e chi
 arriva da un post che parla di tre accessori in regalo si aspetta di ritrovarli.
 
+**Secondo link: WhatsApp** (8/11/2026, chiesto da Maurizio). Instagram accetta fino a 5 link
+in bio: il sito resta il primo, perché i post dicono «Link in bio» e intendono la promo, e
+WhatsApp va subito sotto.
+```
+https://wa.me/393289754412?text=Ciao%20Valentina%2C%20ho%20visto%20Instagram%20e%20vorrei%20informazioni%20sul%20Veleco%20Faster
+```
+Titolo: `Scrivi su WhatsApp` (18 caratteri). Il numero va con il prefisso `39` e senza spazi:
+senza, il link è rotto fuori dall'Italia (era l'errore trovato sulla scheda Google il 5/11).
+Gli UTM su `wa.me` non servono: non è il nostro sito e in GA4 non arriva niente. Il messaggio
+precompilato dice «ho visto Instagram» ed è l'unico modo per riconoscere da dove arriva il
+contatto. Dal 1° gennaio cambia solo il primo link, questo resta.
+
 **Dal 1° gennaio** il link si sposta su `/scooter-elettrico-anziani-prezzi/` e il titolo
 cambia insieme, altrimenti promette una promozione finita:
 ```
