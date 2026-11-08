@@ -186,3 +186,55 @@ e in generale un po' meno visibilità. Per un concessionario che vende un modell
 
 **Conclusione operativa**: si va avanti senza GTIN. Se un giorno arriva il codice dall'etichetta
 di Valentina, si aggiunge e si guadagna qualcosa. Non è una porta chiusa.
+
+
+---
+
+## Stato all'8/11/2026 (verifica e correzioni con Claude in Chrome)
+
+**Verifica.** I due prodotti erano «Not approved» con due avvisi rossi: «Website or online
+store needs improvement – Prevents from showing in Italy» (routing `GEWB` sulle schede
+prodotto, `RDAX` sul problema di account, reference `644395007`) e «Personalized
+advertising: personal hardships – Limits visibility in Italy». L'avviso «immagine in
+elaborazione» **non c'è più** come problema; resta solo l'immagine aggiuntiva
+`veleco-faster-showroom.jpg` con la scritta «In progress» su tutti e due, che si sblocca da
+sé. Il foglio collegato («PRODUCTS SOURCE 2») legge senza errori.
+
+**L'avviso sul sito viene da un controllo manuale** («Google found this issue through a
+manual check»): lo valuta una persona che apre il sito dal vivo, quindi la data dell'ultima
+scansione in Search Console non c'entra niente con il riesame. I tre requisiti che Google
+elenca sono stati verificati uno per uno l'8/11: pagine di condizioni e dati aziendali ✔,
+niente Lorem Ipsum ✔, **tutti i 31 link interni del sito rispondono 200** ✔. Mancava solo
+una pagina di contatti: `/contatti/` dava 404. Creata e caricata l'8/11, con il link nel piè
+di tutte le pagine.
+
+**Correzioni fatte.**
+
+1. **`identifier_exists` tolto dal foglio** (colonna L, intestazione compresa). Non c'era
+   nessuna colonna `gtin`. Origine dati riletta («Update», ultimo aggiornamento 8/11
+   01:01) e ricontrollata: la riga «identifier exists» non compare più nei dati grezzi di
+   nessuno dei due prodotti, marca «Veleco» e MPN FASTER-PB / FASTER-LI sono ancora lì.
+   Nota: dopo la rilettura il valore resta visibile per qualche minuto, l'elaborazione del
+   prodotto è più lenta del fetch.
+2. **Tempo di transito da 15-15 a 10-90 giorni lavorativi.** Il campo si chiama «Transit
+   time (days)» (Min/Max) e «Shipped: Mon – Fri» conferma che sono giorni lavorativi; è
+   obbligatorio, non si può lasciare vuoto. Il modulo obbliga anche a compilare «Timezone»
+   in «Order cut off»: impostata Rome (GMT+01:00).
+   **Il costo è passato da «Flat rate €0.00» a «Free shipping»**: l'editor rifiuta lo zero
+   come tariffa fissa («Enter a number 0.01 or greater»), e «Free shipping» è anche la
+   rappresentazione giusta di quello che dice il sito. Il cliente paga zero in tutti e due
+   i casi, e combacia con `shippingRate` 0 EUR dei dati strutturati.
+   **Da rivedere dopo il 31/12**, quando la consegna compresa nel prezzo finisce.
+
+**Il riesame** si chiede una volta sola dalla pagina del problema (routing `RDAX`, reference
+`644395007`): vale per tutti e due i prodotti e può includere l'intero negozio, per questo
+si chiede solo a sito finito.
+
+**Non si tocca**: l'avviso «personal hardships» (limita gli annunci personalizzati e il
+remarketing dinamico, che non usiamo; toglierlo vorrebbe dire levare «per anziani» dalla
+descrizione) e l'immagine «In progress».
+
+**Se il riesame va male una seconda volta**, il sospetto non è più una pagina mancante ma il
+fatto che il sito non ha un carrello: si compra per telefono o WhatsApp, con pagamento via
+link sicuro, bonifico o POS. In quel caso la domanda da porsi è se Google consideri il
+negozio «online» a sufficienza.
