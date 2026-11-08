@@ -64,6 +64,13 @@ Il giovedì, dal 20 novembre, in `/guida/`, 800–1.200 parole, solo fatti del s
 
 Lingua: frasi corte, «tu», immagini concrete, una sola idea per paragrafo, il risultato che ottieni e mai il difetto da evitare.
 
+**Stato all'8/11/2026** (deciso da Maurizio: per i calendari vale questo file, non
+`piano-operativo.md`). I primi **cinque** articoli sono già online in `/guida/`, pubblicati
+in anticipo sulle date qui sopra: normativa, autonomia, scooter per disabili, mobility
+scooter, coperto. Restano da scrivere i **tre di gennaio**: la batteria in salotto (8/1),
+nuovo o usato (15/1), quanto costa restare a casa (22/1). I post del giovedì che
+rilanciano un articolo vanno riletti con le date vere, non con quelle previste.
+
 ## 4. Post Google e Instagram
 
 Tre uscite a settimana per canale fino al 31 dicembre, Faster al centro, benefici prima delle caratteristiche. I 34 post già nel planner di Metricool vengono riscritti con questo schema.

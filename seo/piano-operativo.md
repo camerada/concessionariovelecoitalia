@@ -1,5 +1,11 @@
 # Piano operativo SEO — novembre 2026 → gennaio 2027
 
+> **Per i calendari vale `seo/cose-da-fare.md`** (deciso da Maurizio l'8/11/2026): è
+> l'aggiornamento più recente, con le sue note del 3/11 sera. Questo file resta valido per
+> l'analisi, le parole chiave, i testi delle pagine e la lista di controllo; dove le due
+> tabelle degli articoli non coincidono (qui uno ogni due settimane, là uno a settimana dal
+> 20/11), vince l'altro file. I primi cinque articoli sono comunque già online.
+
 Base: `seo/parole-chiave.md` (volumi del 3/11/2026). Obiettivo: entrare in prima pagina sulla fascia da 500 ricerche al mese
 («scooter elettrico per anziani prezzi», «scooter elettrico senza patente per anziani», «scooter per anziani»,
 «scooter elettrico per disabili», «mobility scooter») e portare «scooter elettrico per anziani» dalla posizione 57 sotto la 20.
