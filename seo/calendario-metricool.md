@@ -36,9 +36,11 @@ sospetto era il telefono; il dubbio, il link. **Il post del 7/11 alle 10:00 — 
 e con il link — risulta pubblicato** (Metricool lo dà `PUBLISHED` con l'indirizzo pubblico
 della scheda). Quindi era il telefono, e il link nel testo si può tenere.
 
-Resta da confermare **sulla scheda** che quel post sia ancora visibile e non sia stato
-rimosso dopo: Metricool sa di averlo pubblicato, non se Google l'ha poi tolto. È un controllo
-da fare con Claude in Chrome.
+**Confermato sulla scheda l'8/11** (Claude in Chrome, sola lettura): il post del 7/11 è
+ancora lì, pubblicato. E il post del 5/11 non è stato «rimosso» come avevamo scritto: è
+ancora nell'elenco, segnato **«Respinto»**, senza motivo scritto da Google; il suo menu
+offre solo «Elimina». Quindi il link nel testo si tiene, e i 22 post programmati restano
+come sono.
 
 Se è ancora lì: il prossimo passo sui link è **marcarli con gli UTM**
 (`utm_source=google-business&utm_medium=post&utm_campaign=promo-nov-dic-2026&utm_content=`

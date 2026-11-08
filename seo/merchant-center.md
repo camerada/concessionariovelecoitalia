@@ -238,3 +238,23 @@ descrizione) e l'immagine «In progress».
 fatto che il sito non ha un carrello: si compra per telefono o WhatsApp, con pagamento via
 link sicuro, bonifico o POS. In quel caso la domanda da porsi è se Google consideri il
 negozio «online» a sufficienza.
+
+### Fatto l'8/11/2026 (seduta con Claude in Chrome)
+
+- **Spedizione salvata.** «[2748] Google Listings and Ads generated service - IT», Italia,
+  **Delivery time 10-90 business days**, **Shipping cost: Free shipping**. Google conferma:
+  «Your shipping information has been added to Merchant Center». Il passaggio a «Free
+  shipping» è stato obbligato: l'editor rifiuta lo zero come tariffa fissa («Enter a number
+  0.01 or greater»). **Da rivedere dopo il 31/12**, quando la consegna compresa finisce.
+- **Riesame chiesto**, una volta sola, l'8/11, dalla pagina «Setup and policy issues
+  affecting all products» (routing `RDAX`, reference `644395007`), scegliendo **«I fixed the
+  issue»** (l'altra voce è «I disagree with the issue») e spuntando «I confirm that I've
+  fixed the issue». Risposta: «Review requested. You'll receive an email notification after
+  it's completed» e «Review requested on Nov 8, 2026. It can take a few days to complete».
+  Il pulsante è sparito. I due prodotti restano «Not approved» finché il riesame non si
+  chiude: è normale. **Se non viene approvato c'è un periodo di attesa prima di poterne
+  chiedere un altro**, quindi niente modifiche al volo nel frattempo.
+- **Non toccati**: «personal hardships», l'immagine `veleco-faster-showroom.jpg` «In
+  progress», e un avviso giallo **«No Google Ads account linked»** visto sulla stessa pagina.
+  L'account Ads «Concessionario Veleco» esiste (aperto il 3/11, vuoto): collegarlo non serve
+  alle schede gratuite, è una scelta da fare quando si parlerà di campagne.
