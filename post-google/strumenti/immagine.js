@@ -10,21 +10,24 @@ const MIS = formato === 'ig' ? { width: 1080, height: 1350 } : { width: 1200, he
   await p.addInitScript(m => { window.__mis = m; }, MIS);
   await p.goto('file://' + path.resolve(__dirname, 'immagine.html'));
   const fotoUrl = foto && foto !== '-' ? 'file://' + path.resolve(foto) : null;
-  await p.evaluate(({ occhiello, titolo, fotoUrl, pos, sotto }) => {
+  // Logo vero (PNG con scritta verde scuro su trasparente), dentro la solita pastiglia crema.
+  const logoUrl = 'file://' + path.resolve(__dirname,
+    '../../public_html/assets/post-google/foto/logo-veleco-italia-orizzontale.png');
+  await p.evaluate(({ occhiello, titolo, fotoUrl, pos, sotto, logoUrl }) => {
     const esc = s => (s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;');
     const lung = (titolo || '').length;
     if (fotoUrl) {
       const h = lung > 70 ? 50 : lung > 48 ? 56 : 64;
       document.body.innerHTML = `<img class="foto" src="${fotoUrl}" style="--pos:${pos || 'center'}">
-        <div class="logo">Veleco Italia · Genova Nervi</div>
+        <div class="logo"><img src="${logoUrl}" alt="Veleco Italia"></div>
         <div class="fascia"><p class="occhiello">${esc(occhiello)}</p><h1 style="--h:${h}px">${esc(titolo)}</h1><div class="pie"><span>concessionariovelecoitalia.it</span><span>328 975 4412</span></div></div>`;
     } else {
       const h = lung > 70 ? 60 : lung > 48 ? 68 : 76;
-      document.body.innerHTML = `<div class="solo"><div class="logo">Veleco Italia · Genova Nervi</div>
+      document.body.innerHTML = `<div class="solo"><div class="logo"><img src="${logoUrl}" alt="Veleco Italia"></div>
         <p class="occhiello">${esc(occhiello)}</p><h1 style="--h:${h}px">${esc(titolo)}</h1>
         ${sotto ? `<p class="testo">${esc(sotto)}</p>` : ''}<div class="pie"><span>concessionariovelecoitalia.it</span><span>328 975 4412</span></div></div>`;
     }
-  }, { occhiello, titolo, fotoUrl, pos, sotto });
+  }, { occhiello, titolo, fotoUrl, pos, sotto, logoUrl });
   await p.evaluate(m => {
     document.body.style.width = m.width + 'px';
     document.body.style.height = m.height + 'px';
