@@ -49,7 +49,7 @@
   if (!sessionStorage.getItem('vp-fascia-chiusa')) {
     var f = document.createElement('div');
     f.className = 'vp-fascia';
-    f.innerHTML = '<div class="vp-in">🎁 <b>Fino al 31 dicembre:</b> consegna a casa compresa nel prezzo e tre accessori Veleco in regalo con ogni Faster. ' +
+    f.innerHTML = '<div class="vp-in">🎁 <b>Consegna a casa compresa nel prezzo</b>, sempre. E fino al 31 dicembre, tre accessori Veleco in regalo con ogni Faster. ' +
                   '<a href="' + PAGINA + '">Guarda cosa ricevi</a></div>' +
                   '<button class="vp-x" aria-label="Chiudi l\'avviso">&times;</button>';
     document.body.insertBefore(f, document.body.firstChild);
