@@ -3,17 +3,26 @@
 Scheda dell'11/11/2026. Stessa logica di `seo/instagram.md`: si prende il canale che c'è e lo si
 converte al concessionario, senza perdere quello che ha già.
 
-## Com'è adesso
+## Com'era, e cosa è già stato fatto
 
-| | |
-|---|---|
-| Canale | **Easyscooter Genova** — `@easyscootergenova6963` |
-| Indirizzo | https://youtube.com/@easyscootergenova6963 |
-| Iscritti | 34 |
-| Video | 16, l'ultimo di 2 anni fa |
-| Descrizione | «E-Mobility Store Genova» |
+Il canale era **Easyscooter Genova** (`@easyscootergenova6963`, handle assegnato d'ufficio da
+YouTube), 34 iscritti, 16 video fermi da due anni, descrizione «E-Mobility Store Genova», nessun
+link, paese non impostato, nessuna parola chiave.
 
-L'handle finisce con `6963` perché gliel'ha assegnato YouTube d'ufficio: nessuno ne ha mai scelto uno.
+**L'11/11/2026, con Claude in Chrome** (prompt in `seo/prompt-youtube.md`, blocco 1), sono stati
+cambiati: nome in «Veleco Italia – Concessionario ufficiale», handle in **`@velecoitalia`** (era
+libero), descrizione, i tre link (Sito e prezzi, WhatsApp, Instagram), paese Italia e le nove
+parole chiave. Email dei contatti commerciali lasciata vuota.
+
+> Il vecchio handle resta prenotato 14 giorni, e YouTube consente **due cambi di handle ogni 14
+> giorni**: da qui a fine novembre non se ne cambiano altri.
+
+**Autorizzazioni**: c'è il pulsante «Invita» e nessun avviso sull'account del brand. Nell'elenco
+una sola persona: *Easyscooter Genova*, `noleggioscootergenova@gmail.com`, ruolo **Proprietario**.
+È l'account con cui si entra nel canale, quindi il collegamento a Metricool si può fare subito da
+lì. Per collegarlo invece con l'account di Maurizio serve che quell'account lo inviti come
+**Proprietario**: se la finestra «Invita» offre solo Gestore o Editor, non basta — Metricool
+rifiuta i Gestori — e allora si collega con l'account del canale.
 
 **Il canale non è morto: è solo fermo.** Con 34 iscritti e niente caricamenti da due anni, le
 visualizzazioni che ha fatto non vengono dal seguito, vengono **dalla ricerca**. Sono le stesse
@@ -77,11 +86,11 @@ Colori e caratteri del sito.
 
 ## I testi del canale
 
-**Nome**: `Veleco Italia – Concessionario ufficiale`
+**Nome**: `Veleco Italia – Concessionario ufficiale` — *fatto l'11/11/2026*
 
-**Handle**: `@velecoitalia` se libero; altrimenti `@velecoitaliagenova`. Cambiandolo, il vecchio
-indirizzo `@easyscootergenova6963` smette di funzionare, mentre i link dei singoli video restano
-validi: quelli dipendono dall'identificativo del video, non dal canale.
+**Handle**: **`@velecoitalia`** — *fatto l'11/11/2026*. Il vecchio indirizzo
+`@easyscootergenova6963` non funziona più; i link dei singoli video sì, perché dipendono
+dall'identificativo del video e non dal canale.
 
 **Descrizione** (il limite è 1000 caratteri):
 
