@@ -150,3 +150,32 @@ Quindi questi testi vanno incollati a mano da chi ha accesso all'account.
 > anche il **link Instagram del canale YouTube** (Personalizzazione → Profilo → Link), che oggi
 > punta a `https://www.instagram.com/easyscooter_scooterelettrici/`. Altrimenti resta un link
 > morto sul canale.
+
+## Controllo del profilo dell'11/11/2026 (con Claude in Chrome, da computer)
+
+Confermati a posto: **nome** «Scooter per anziani - Veleco», **bio** nelle quattro righe
+concordate (131 caratteri), **i due link** con i titoli e gli UTM giusti, **foto profilo** con
+il logo Veleco, account professionale. 403 post, **656 follower**, 1.250 seguiti.
+
+Trovate quattro cose da sistemare, tutte dall'app:
+
+1. **Categoria: «Prodotto/servizio»**, non quella concordata. Va messa «Negozio di articoli
+   medicali» o «Concessionario».
+2. **Storie in evidenza ancora del noleggio**, e stanno sotto la bio, cioè nel punto più visto
+   del profilo: *Feliz Navidad, 🚨NOVITÁ🚨, 💥OFFERTE💥, PROMO HORWIN, NGS 3, RAY 7.7,
+   E-Scooter* e due gruppi «Storie in evidenza». Horwin, NGS e Ray sono marche di scooter a due
+   ruote: in vetrina ci sono i prodotti di altri. Si nascondono una per una, senza perdere
+   niente. **È la modifica che cambia di più l'aspetto del profilo.**
+3. **Due post di TuoSito.si nella griglia** (il reel «TuoSito.si, il sito per la tua attività» e
+   il carosello «Ho la scheda Google: mi serve anche un sito?»): da archiviare, non c'entrano
+   con il concessionario.
+4. **Un post rimanda ancora a `easyscootergenova.it`** (il reel della passeggiata a mare): la
+   didascalia si corregge senza toccare il post.
+
+**Falso allarme da non rincorrere**: letto dal codice della pagina, il link WhatsApp sembra
+codificato due volte (`%2520` invece di `%20`). È l'involucro `l.instagram.com` con cui
+Instagram riscrive tutti i link in uscita, non il nostro indirizzo. Si verifica solo aprendolo
+dal telefono: se WhatsApp precompila «Ciao Valentina, ho visto Instagram…» è a posto.
+
+**Da computer non si vedono**: pulsanti di contatto, campi Nome utente e Nome (stanno nelle
+impostazioni Meta) e i post programmati. Tutto questo si guarda dall'app.
