@@ -103,6 +103,46 @@ trova chi arriva sul canale oggi.
 Restano pubblici i quattro Veleco. **Come ti cambia la vita lo scooter elettrico** (2.549) è da
 riguardare: la sua miniatura mostra scooter a due ruote.
 
+## «Veleco scooter per anziani e disabili»: rimontato (11/11/2026)
+
+Il video di 0:19 non aveva solo la miniatura sbagliata: **era tutto dentro una cornice rossa
+Easyscooter**, con logo, «Via Pessale, 18/R», «tel. 348 2905502», `www.easyscootergenova.it` e
+didascalie come «NOLEGGIO AUTO» e «NOLEGGIO SCOOTER A BENZINA». E **la voce fuori campo nomina
+Easy Scooter due volte** (al secondo 5 e al secondo 8), quindi cambiare la grafica non bastava.
+
+Trascrizione dell'originale (faster-whisper, `large-v3`):
+
+| Tempo | Testo |
+|---|---|
+| 0,0 – 4,3 | «Non ti senti più libero nei movimenti? Vuoi ritrovare la tua indipendenza?» |
+| 5,1 – 6,9 | «**Easy Scooter** ha la soluzione per te!» |
+| 8,6 – 11,8 | «**Easy Scooter**, la tua scelta vincente!» |
+| 15,0 – 17,7 | «Ti aspetto per la tua prova gratuita!» |
+
+Il filmato vero stava in una finestra di **614×347** dentro il fotogramma 848×480: ritagliandola
+si perdono cornice e didascalie, e restano le riprese pulite.
+
+**Rimontato** in `bozze/video/veleco-anziani-disabili-rimontato.mp4` (1280×720, 10,6 s):
+
+| Nel montato | Dall'originale | Didascalia |
+|---|---|---|
+| 0,0 – 4,3 | 0,0 – 4,3, le due domande | SCOOTER ELETTRICI PER ANZIANI E DISABILI |
+| 4,3 – 5,3 | 12,0 – 13,0, il Faster rosso a 4 ruote in strada | IL VELECO FASTER A QUATTRO RUOTE |
+| 5,3 – 7,8 | 4,4 – 6,9, la consulenza in negozio | TI SEGUIAMO NELLA SCELTA |
+| 7,8 – 10,6 | 15,0 – 17,7, «ti aspetto per la tua prova gratuita» | PROVA GRATUITA IN SHOWROOM |
+
+L'audio tiene 0-4,3 e 11,9-18,1: le due frasi che nominano Easy Scooter sono fuori. Sono fuori
+anche tutte le riprese di scooter a due ruote e di noleggio auto.
+
+La cornice la genera `node post-google/strumenti/cornice-video.js USCITA.png`: barra sinistra con
+logo, showroom, telefono e sito, bande sopra e sotto, finestra del filmato trasparente. Si
+sovrappone al filmato con ffmpeg a `330,58` su `950x538`, e le didascalie si scrivono con
+`drawtext` nella banda bassa a `y=645`.
+
+> **YouTube non permette di sostituire il file di un video già pubblicato.** Il rimontato va
+> caricato come video nuovo e il vecchio messo «Non in elenco»: si perdono le 178 visualizzazioni
+> dell'originale.
+
 ## Le miniature
 
 Le vecchie miniature sono ancora quelle di Easyscooter. La peggiore è quella di «Veleco scooter
