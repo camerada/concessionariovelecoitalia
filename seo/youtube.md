@@ -246,6 +246,11 @@ Perché non con un generatore di video: i modelli sbagliano le lettere (escono �
 «Veleko») e ridisegnano il marchio a modo loro. Qui la V è lo stesso poligono del favicon del
 sito, quindi il segno è identico a quello di tutto il resto.
 
+**Sui video già online non si mette niente** (deciso da Maurizio l'11/11/2026): né intro, né
+chiusura, né schermate finali. Sono video con anni di visualizzazioni alle spalle: si tagliano le
+estremità col marchio vecchio e basta. Il marchio lo portano già la filigrana con la V, le
+miniature nuove e il canale intorno. Intro e chiusura valgono **solo per i video nuovi**.
+
 **Dove non vanno messe**: su un video già pubblicato, perché l'editor di YouTube taglia soltanto
 e rimontarlo significherebbe ricaricarlo e perdere le visualizzazioni; e sui video corti, dove
 un'intro si mangia un terzo della durata. Su YouTube le intro fanno scappare la gente nei primi
