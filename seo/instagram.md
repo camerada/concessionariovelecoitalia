@@ -151,11 +151,44 @@ Quindi questi testi vanno incollati a mano da chi ha accesso all'account.
 > punta a `https://www.instagram.com/easyscooter_scooterelettrici/`. Altrimenti resta un link
 > morto sul canale.
 
+## Da fare dal telefono, venerdì 13/11
+
+Tutto insieme, in una volta sola, perché venerdì è un giorno senza post programmati.
+
+1. **Cambio del nome utente**: provare `velecoitalia`, poi `veleco_italia`, poi
+   `velecoitalia.genova`. Il campo dice subito se è libero.
+2. **Subito dopo, Metricool** (brand 7853509): profilo ancora collegato? I post programmati sono
+   tutti lì con la pubblicazione automatica attiva? *(questo controllo si può fare da qui)*
+3. **Aggiornare il link Instagram sul canale YouTube** (Personalizzazione → Profilo → Link).
+4. **Togliere 6 storie in evidenza**: PROMO HORWIN (contiene la promo «Horwin Warm Winter» del
+   15/12/2022-31/01/2023, di un'altra marca e scaduta da tre anni), NGS 3, RAY 7.7, E-Scooter,
+   300s, Feliz Navidad. Si tiene premuta la raccolta e si sceglie «Rimuovi dalle storie in
+   evidenza»: le storie dentro restano nell'archivio.
+5. **Guardare** cosa c'è dentro 🚨NOVITÁ🚨, 💥OFFERTE💥 e le due raccolte chiamate «Storie in
+   evidenza», e decidere.
+6. **Categoria**: da «Prodotto/servizio» a «Negozio di articoli medicali» (o «Concessionario»).
+7. **Archiviare il reel della passeggiata a mare** del 13/9/2024: mostra uno scooter pieghevole
+   da viaggio guidato da una trentenne, un mezzo che non è in gamma e un pubblico che non è il
+   nostro; la didascalia è solo il link al vecchio dominio. Si archivia, non si cancella.
+8. **Verificare il link WhatsApp** aprendolo: se precompila «Ciao Valentina, ho visto
+   Instagram…» è a posto; se scrive «Ciao%20Valentina%2C» va riscritto.
+9. **Sabato mattina**: controllare che i post delle 10 e delle 12 siano usciti.
+
 ## Controllo del profilo dell'11/11/2026 (con Claude in Chrome, da computer)
 
 Confermati a posto: **nome** «Scooter per anziani - Veleco», **bio** nelle quattro righe
 concordate (131 caratteri), **i due link** con i titoli e gli UTM giusti, **foto profilo** con
 il logo Veleco, account professionale. 403 post, **656 follower**, 1.250 seguiti.
+
+**Fatto l'11/11 da computer**: tolti dalla griglia i due post di TuoSito.si con «Interrompi
+condivisione» (403 post → 401). Non erano post del concessionario: li ha pubblicati
+`@tuosito.si` con il concessionario come **collaboratore**, quindi non si potevano archiviare da
+qui. «Interrompi condivisione» li lascia intatti su `@tuosito.si` e li toglie da questo profilo;
+per rimetterli basta un nuovo invito, e `@tuosito.si` è nostro.
+
+Dal computer **non si possono** togliere le storie in evidenza (il menu offre solo Modifica,
+Insight e Promuovi), archiviare un post, cambiare la categoria e correggere i link: tutto questo
+è solo nell'app.
 
 Trovate quattro cose da sistemare, tutte dall'app:
 
