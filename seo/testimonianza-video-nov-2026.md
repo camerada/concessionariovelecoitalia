@@ -134,12 +134,14 @@ Link del pulsante:
 
 ## Da decidere
 
+- ✅ **YouTube: fatto.** Lo Short è online dall'11/11/2026:
+  https://youtube.com/shorts/95VsLG40llU — 28 visualizzazioni nei primi minuti.
 - **Dove mettere il reel nel calendario.** Il planner Metricool è pieno fino al 31/12 e i post
   programmati non si modificano (regola dell'8/11). Quindi o si aggiunge uno slot nuovo, o il
   reel esce a gennaio. Il reel è il contenuto più forte che abbiamo: starebbe meglio adesso,
   in uno slot in più.
-- **YouTube.** Il brand Metricool «Concessionario Veleco» (7853509) ha collegati **solo
-  Instagram e la scheda Google**: nessun canale YouTube. Per pubblicare lo short serve un canale
-  intestato al concessionario (o quello di Easyscooter), poi lo si collega a Metricool.
+- **YouTube.** Il canale c'è ed è convertito (`@velecoitalia`, vedi `seo/youtube.md`); lo Short
+  è stato caricato a mano. Resta da **collegarlo a Metricool** (brand 7853509), che oggi ha solo
+  Instagram e la scheda Google: serve il ruolo Proprietario, che l'account del canale ha.
 - **La scheda Google non accetta video nei post** dall'integrazione Metricool: lì va la grafica
   1200×900, non il filmato. Il video, se si vuole, si carica a mano fra le foto del profilo.

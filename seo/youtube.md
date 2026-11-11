@@ -84,6 +84,22 @@ Colori e caratteri del sito.
 | `banner-2048x1152.png` | 2048×1152 | copertina; il testo sta tutto nell'area sicura centrale di 1235×338, l'unica che si vede sul telefono |
 | `filigrana-150.png` | 150×150, sfondo trasparente | filigrana in sovrimpressione nei video, in basso a destra |
 
+## Com'è il canale a fine giornata (11/11/2026)
+
+Tre video orizzontali e uno Short, tutti Veleco:
+
+| | Durata | Visualizzazioni |
+|---|---|---|
+| Scooter Veleco per anziani e disabili: si guidano senza patente — https://youtu.be/kHYQ9MZGEKw | 0:11 | nuovo |
+| Veleco Faster: lo scooter elettrico a 4 ruote per anziani, in strada | 3:23 | 2.300 |
+| Come funziona uno scooter elettrico per disabili: comandi, salita, discesa | 0:16 | 1.400 |
+| «Lo consiglierebbe?» «Assolutamente» — https://youtube.com/shorts/95VsLG40llU | 0:18 | nuovo |
+
+I due video storici sono stati **tagliati da Maurizio con l'editor di YouTube** (da 3:30 a 3:23 e
+da 0:20 a 0:16) per togliere intro e code col marchio Easyscooter: l'editor taglia soltanto, ma
+non ricarica il file, quindi indirizzo, visualizzazioni, commenti e data restano. Gli altri 13
+video sono «Non in elenco». **Niente è stato cancellato.**
+
 ## Cosa è stato fatto ai video (11/11/2026)
 
 **Nessun video cancellato**: solo visibilità portata a «Non in elenco».
@@ -142,6 +158,9 @@ sovrappone al filmato con ffmpeg a `330,58` su `950x538`, e le didascalie si scr
 > **YouTube non permette di sostituire il file di un video già pubblicato.** Il rimontato va
 > caricato come video nuovo e il vecchio messo «Non in elenco»: si perdono le 178 visualizzazioni
 > dell'originale.
+
+Caricato l'11/11/2026: https://youtu.be/kHYQ9MZGEKw (0:11). Il vecchio, dell'11/11/2023 — tre
+anni esatti prima — è «Non in elenco».
 
 ## Le miniature
 
@@ -277,5 +296,8 @@ secondi di durata).
   standard e tag già pronti, così ogni video nuovo parte con il piè di pagina giusto.
 - **Trailer del canale** per chi non è iscritto: per ora nessuno dei video va bene, serve un
   orizzontale di 30-60 secondi. Da fare quando ci saranno riprese nuove.
-- **Short**: il primo è `bozze/video/reel-testimonianza-faster.mp4`, titolo e descrizione in
-  `seo/testimonianza-video-nov-2026.md`.
+- **Short**: pubblicato l'11/11/2026 — https://youtube.com/shorts/95VsLG40llU (28 visualizzazioni
+  nei primi minuti, con 34 iscritti: vengono dal flusso degli Short, non dal seguito). Miniatura
+  presa dal video, fra i tre fotogrammi che YouTube propone: il secondo 2-4 col sottotitolo
+  «Lo consiglierebbe, lei, questo scooter?». Categoria «Auto e motori» (la voce «Auto e veicoli»
+  non esiste). YouTube lo ha classificato come Short da solo, perché è verticale.
