@@ -1,0 +1,15 @@
+1
+00:00:00,400 --> 00:00:05,700
+Lo consiglierebbe, lei, questo scooter?
+
+2
+00:00:05,800 --> 00:00:09,500
+Assolutamente.
+
+3
+00:00:09,600 --> 00:00:12,100
+Per le persone disabili e per le persone non disabili.
+
+4
+00:00:13,100 --> 00:00:14,500
+Bene, sono contenta.
