@@ -236,6 +236,16 @@ Le schermate le genera `node post-google/strumenti/video-intro-chiusura.js CARTE
 fatta con ffmpeg (`zoompan` + `fade`, con `trim=duration=` altrimenti `zoompan` moltiplica i
 fotogrammi e il filmato dura minuti).
 
+C'è anche `veleco-logo-animato.mp4` (2,6 s, muto): **la V si traccia come con una penna**, diventa
+la V piena del marchio, poi «Veleco Italia» si scrive da sinistra e sotto compare l'occhiello. La
+generano `node post-google/strumenti/video-logo-animato.js CARTELLA` (un PNG per fotogramma) più
+la riga di ffmpeg scritta in testa a quel file. È la versione «logo che si scrive» dell'intro: si
+usa al posto di `veleco-intro.mp4`, non insieme.
+
+Perché non con un generatore di video: i modelli sbagliano le lettere (escono «Velecco»,
+«Veleko») e ridisegnano il marchio a modo loro. Qui la V è lo stesso poligono del favicon del
+sito, quindi il segno è identico a quello di tutto il resto.
+
 **Dove non vanno messe**: su un video già pubblicato, perché l'editor di YouTube taglia soltanto
 e rimontarlo significherebbe ricaricarlo e perdere le visualizzazioni; e sui video corti, dove
 un'intro si mangia un terzo della durata. Su YouTube le intro fanno scappare la gente nei primi
