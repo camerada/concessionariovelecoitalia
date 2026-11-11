@@ -242,6 +242,17 @@ generano `node post-google/strumenti/video-logo-animato.js CARTELLA` (un PNG per
 la riga di ffmpeg scritta in testa a quel file. È la versione «logo che si scrive» dell'intro: si
 usa al posto di `veleco-intro.mp4`, non insieme.
 
+**Anche in verticale, 1080×1920**, per i Short e i reel: `veleco-intro-verticale.mp4`,
+`veleco-chiusura-verticale.mp4` e `veleco-logo-animato-verticale.mp4`. Si ottengono passando
+`verticale` come secondo argomento ai due strumenti, e montando con `s=1080x1920` in `zoompan`.
+Incollare uno spezzone orizzontale in testa a un video verticale lascia due bande nere: per ogni
+formato si usa la sua versione.
+
+> Sui **Short** l'intro non si mette comunque: si decide tutto nel primo secondo, e due secondi e
+> mezzo di logo su diciotto sono un settimo del video speso a far vedere una V a chi non sa
+> ancora di cosa si parla. Il marchio lo portano la pastiglia col logo in sovrimpressione e la
+> chiusura.
+
 Perché non con un generatore di video: i modelli sbagliano le lettere (escono «Velecco»,
 «Veleko») e ridisegnano il marchio a modo loro. Qui la V è lo stesso poligono del favicon del
 sito, quindi il segno è identico a quello di tutto il resto.
