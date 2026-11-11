@@ -84,6 +84,40 @@ Colori e caratteri del sito.
 | `banner-2048x1152.png` | 2048×1152 | copertina; il testo sta tutto nell'area sicura centrale di 1235×338, l'unica che si vede sul telefono |
 | `filigrana-150.png` | 150×150, sfondo trasparente | filigrana in sovrimpressione nei video, in basso a destra |
 
+## Cosa è stato fatto ai video (11/11/2026)
+
+**Nessun video cancellato**: solo visibilità portata a «Non in elenco».
+
+Messi **non in elenco** (12): Easyscooter – Vivi La Natura, Spot, Salone Nautico 2021,
+Bicicletta elettrica, Easyscooter (0:47), Easyscooter (1:37), Noleggio Scooter – ebike, i due
+Short (Salone Nautico Genova 2020, Backstage in Easyscooter), e dopo averli guardati anche
+**Come montare un bauletto sullo scooter** (6.083 visualizzazioni: sono scooter a due ruote in
+negozio, «Assistenza Askoll» nella descrizione), **Eaasyscooter – noleggio e vendita** (1.707:
+apre e chiude con il vecchio logo e `www.easy-scooter.it`) e **Buoni motivi per passare
+all'elettrico** (26: nel fotogramma finale il vecchio numero 348 2905502 e la filigrana
+«Created with WeVideo»).
+
+Regola emersa: le visualizzazioni già fatte non si perdono nascondendo un video. Conta cosa
+trova chi arriva sul canale oggi.
+
+Restano pubblici i quattro Veleco. **Come ti cambia la vita lo scooter elettrico** (2.549) è da
+riguardare: la sua miniatura mostra scooter a due ruote.
+
+## Le miniature
+
+Le vecchie miniature sono ancora quelle di Easyscooter. La peggiore è quella di «Veleco scooter
+per anziani e disabili»: logo vecchio, indirizzo **Via Pessale 18/R** (oggi è il 20r), telefono
+**348 2905502** (oggi 328 975 4412) e la scritta «NOLEGGIO AUTO».
+
+`immagine.js` accetta ora anche il formato **`miniatura`** (1280×720). Le tre pronte sono in
+`bozze/youtube/miniature/`:
+
+| File | Per il video | Foto |
+|---|---|---|
+| `faster-in-azione.jpg` | Veleco Faster – Scooter Elettrico 4 Ruote in Azione | fermo immagine del cliente sul Faster blu |
+| `come-funziona.jpg` | Come funziona lo Scooter disabili | cruscotto del Faster |
+| `anziani-e-disabili.jpg` | Veleco scooter per anziani e disabili | Faster rosso |
+
 ## I testi del canale
 
 **Nome**: `Veleco Italia – Concessionario ufficiale` — *fatto l'11/11/2026*

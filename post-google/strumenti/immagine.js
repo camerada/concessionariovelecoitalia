@@ -1,12 +1,14 @@
 // Genera un'immagine 1200×900 per un post della scheda Google.
 // Uso: node post-google/strumenti/immagine.js OUT.jpg "OCCHIELLO" "Titolo" [foto.jpg|-] [posizione] [sottotitolo] [formato]
 // formato: vuoto o "google" = 1200x900 (scheda Google); "ig" = 1080x1350 (Instagram);
-//           "reel" = 1080x1920 (chiusura dei reel e degli short verticali).
+//           "reel" = 1080x1920 (chiusura dei reel e degli short verticali);
+//           "miniatura" = 1280x720 (miniature dei video su YouTube).
 // foto: percorso di una foto del sito (public_html/assets/...). Con "-" niente foto: fondo verde con titolo e sottotitolo.
 const { chromium } = require('playwright'); const path = require('path'); const fs = require('fs');
 const [out, occhiello, titolo, foto, pos, sotto, formato] = process.argv.slice(2);
 const MIS = formato === 'ig' ? { width: 1080, height: 1350 }
   : formato === 'reel' ? { width: 1080, height: 1920 }
+  : formato === 'miniatura' ? { width: 1280, height: 720 }
   : { width: 1200, height: 900 };
 (async () => {
   const b = await chromium.launch(); const p = await b.newPage({ viewport: MIS });
@@ -20,7 +22,7 @@ const MIS = formato === 'ig' ? { width: 1080, height: 1350 }
     const esc = s => (s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;');
     const lung = (titolo || '').length;
     if (fotoUrl) {
-      const h = lung > 70 ? 50 : lung > 48 ? 56 : 64;
+      const h = (lung > 70 ? 50 : lung > 48 ? 56 : 64) * (formato === 'miniatura' ? 1.15 : 1);
       document.body.innerHTML = `<img class="foto${pos === 'intero' ? ' intero' : ''}" src="${fotoUrl}" style="--pos:${pos && pos !== 'intero' ? pos : 'center'}">
         <div class="logo"><img src="${logoUrl}" alt="Veleco Italia"></div>
         <div class="fascia"><p class="occhiello">${esc(occhiello)}</p><h1 style="--h:${h}px">${esc(titolo)}</h1><div class="pie"><span>concessionariovelecoitalia.it</span><span>328 975 4412</span></div></div>`;
@@ -31,7 +33,8 @@ const MIS = formato === 'ig' ? { width: 1080, height: 1350 }
         ${sotto ? `<p class="testo">${esc(sotto)}</p>` : ''}<div class="pie"><span>concessionariovelecoitalia.it</span><span>328 975 4412</span></div></div>`;
     }
   }, { occhiello, titolo, fotoUrl, pos, sotto, logoUrl, formato });
-  if (formato === 'reel') await p.evaluate(() => document.body.classList.add('reel'));
+  if (formato === 'reel' || formato === 'miniatura')
+    await p.evaluate(f => document.body.classList.add(f), formato);
   await p.evaluate(m => {
     document.body.style.width = m.width + 'px';
     document.body.style.height = m.height + 'px';
