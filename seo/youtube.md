@@ -224,6 +224,25 @@ nella ricerca (sono le stesse di `seo/parole-chiave.md`).
 > Prezzi e modelli: https://concessionariovelecoitalia.it/scooter-elettrico-anziani-prezzi/?utm_source=youtube&utm_medium=video
 > Telefono e WhatsApp: 328 975 4412
 
+## Intro e chiusura per i video nuovi
+
+Due spezzoni **muti**, 1280×720, 30 fps, in `bozze/video/`: `veleco-intro.mp4` (1,5 s: la V, il
+nome, l'occhiello) e `veleco-chiusura.mp4` (4 s: logo, «Provalo a Genova Nervi», indirizzo, sito
+e numero). Si incollano in testa e in coda a un video nuovo da qualunque programma di montaggio.
+Hanno una traccia audio silenziosa, così i montatori non si lamentano della traccia mancante.
+
+Le schermate le genera `node post-google/strumenti/video-intro-chiusura.js CARTELLA`
+(scrive `intro.png` e `chiusura.png`); l'animazione è una dissolvenza con uno zoom lentissimo
+fatta con ffmpeg (`zoompan` + `fade`, con `trim=duration=` altrimenti `zoompan` moltiplica i
+fotogrammi e il filmato dura minuti).
+
+**Dove non vanno messe**: su un video già pubblicato, perché l'editor di YouTube taglia soltanto
+e rimontarlo significherebbe ricaricarlo e perdere le visualizzazioni; e sui video corti, dove
+un'intro si mangia un terzo della durata. Su YouTube le intro fanno scappare la gente nei primi
+secondi: meglio nessuna intro che una lunga. Per chiudere un video già online ci sono le
+**Schermate finali** di Studio, che si aggiungono senza ricaricare niente (servono almeno 25
+secondi di durata).
+
 ## Da fare dopo
 
 - **Filigrana**: Personalizzazione → Branding → Filigrana del video, con `filigrana-150.png`,
