@@ -151,6 +151,41 @@ Quindi questi testi vanno incollati a mano da chi ha accesso all'account.
 > punta a `https://www.instagram.com/easyscooter_scooterelettrici/`. Altrimenti resta un link
 > morto sul canale.
 
+## Fatto dal telefono la sera dell'11/11
+
+- **Categoria**: da «Prodotto/servizio» a **«Fornitore di attrezzature mediche»**. Le voci
+  sanitarie cercate (ausili, mobilità, ortopedia) non esistono nell'elenco di Instagram; le
+  alternative proposte erano «Concessionario di moto» e «Concessionario di veicoli elettrici»,
+  scartate perché riportano al noleggio e perché il Faster non è un veicolo.
+- **Storie in evidenza: da 10 a 1.** Tolte Feliz Navidad, 300s, PROMO HORWIN (conteneva la promo
+  «Horwin Warm Winter» del 15/12/2022-31/01/2023, un'altra marca, scaduta da tre anni), NGS 3,
+  RAY 7.7, E-Scooter, 🚨NOVITÁ🚨, 💥OFFERTE💥 e una delle due «Storie in evidenza». Resta
+  **«Veleco Cosmo»**, l'unica che mostra un mezzo nostro. Il titolo sta in 15 caratteri: «Carrozzina
+  Cosmo» non ci entra.
+- **Archiviato** il reel della passeggiata a mare del 13/9/2024.
+- **Email pubblica**: era `info@easyscootergenova.it`, il dominio del noleggio. Ora è
+  `info@concessionariovelecoitalia.it`, come sul sito. Il telefono `+393289754412` era già giusto.
+- **Link WhatsApp riparato**. Era davvero codificato due volte: WhatsApp precompilava
+  «Ciao%20Valentina%2C%20ho%20visto…». **Non era l'involucro `l.instagram.com`**, come avevo
+  supposto: la schermata dei link dentro l'app mostra il valore salvato, e lì il `%2520` c'era.
+  Causa: **Instagram codifica lui il testo quando si salva**, quindi un indirizzo già codificato
+  diventa doppio. Instagram però **rifiuta gli spazi** nel campo, quindi la via di mezzo non
+  esiste: il link ora è `https://wa.me/393289754412` senza messaggio precompilato. Da riprovare,
+  un giorno, con gli spazi scritti come `+`.
+
+## Ancora da fare: la scheda «Reel»
+
+È quasi tutta Easyscooter noleggio: «NOLEGGIO scooter, biciclette, monopattini a 15 € al giorno»,
+«NOLEGGIAMI», monopattini Ninebot, bici Italwin, scooter Askoll, e parecchie grafiche con **il
+vecchio numero 348 290 5502 e Via Pessale 18R**. Alcuni hanno numeri veri: 1.449, 1.491, 1.824,
+2.769 visualizzazioni.
+
+Non è lavoro da fare di sera e di fretta: sono decine di reel, uno per uno dall'app, ed è
+materiale di Valentina. Serve una sessione a parte con una regola decisa con lei — per esempio:
+via quelli che pubblicizzano **prezzi e offerte scadute**, che oltre a essere fuori tema sono
+anche ingannevoli; restano quelli che mostrano solo mezzi e showroom. Intanto lavora il tempo: il
+calendario pubblica tre volte a settimana e i reel nuovi scendono davanti ai vecchi da soli.
+
 ## Da fare dal telefono, venerdì 13/11
 
 Tutto insieme, in una volta sola, perché venerdì è un giorno senza post programmati.
@@ -160,19 +195,10 @@ Tutto insieme, in una volta sola, perché venerdì è un giorno senza post progr
 2. **Subito dopo, Metricool** (brand 7853509): profilo ancora collegato? I post programmati sono
    tutti lì con la pubblicazione automatica attiva? *(questo controllo si può fare da qui)*
 3. **Aggiornare il link Instagram sul canale YouTube** (Personalizzazione → Profilo → Link).
-4. **Togliere 6 storie in evidenza**: PROMO HORWIN (contiene la promo «Horwin Warm Winter» del
-   15/12/2022-31/01/2023, di un'altra marca e scaduta da tre anni), NGS 3, RAY 7.7, E-Scooter,
-   300s, Feliz Navidad. Si tiene premuta la raccolta e si sceglie «Rimuovi dalle storie in
-   evidenza»: le storie dentro restano nell'archivio.
-5. **Guardare** cosa c'è dentro 🚨NOVITÁ🚨, 💥OFFERTE💥 e le due raccolte chiamate «Storie in
-   evidenza», e decidere.
-6. **Categoria**: da «Prodotto/servizio» a «Negozio di articoli medicali» (o «Concessionario»).
-7. **Archiviare il reel della passeggiata a mare** del 13/9/2024: mostra uno scooter pieghevole
-   da viaggio guidato da una trentenne, un mezzo che non è in gamma e un pubblico che non è il
-   nostro; la didascalia è solo il link al vecchio dominio. Si archivia, non si cancella.
-8. **Verificare il link WhatsApp** aprendolo: se precompila «Ciao Valentina, ho visto
-   Instagram…» è a posto; se scrive «Ciao%20Valentina%2C» va riscritto.
-9. **Sabato mattina**: controllare che i post delle 10 e delle 12 siano usciti.
+4. **Sabato mattina**: controllare che i post delle 10 e delle 12 siano usciti.
+
+*(I punti su categoria, storie in evidenza, archiviazione, email e link WhatsApp sono stati
+fatti la sera dell'11/11: vedi sopra.)*
 
 ## Controllo del profilo dell'11/11/2026 (con Claude in Chrome, da computer)
 
