@@ -191,7 +191,7 @@ dall'identificativo del video e non dal canale.
 |---|---|
 | Sito e prezzi | `https://concessionariovelecoitalia.it/?utm_source=youtube&utm_medium=canale` |
 | WhatsApp | `https://wa.me/393289754412` |
-| Instagram | `https://www.instagram.com/easyscooter_scooterelettrici/` |
+| Instagram | `https://www.instagram.com/easyscooter_scooterelettrici/` — **da aggiornare quando cambia il nome utente di Instagram** (vedi `seo/instagram.md`) |
 | Showroom su Maps | il collegamento alla scheda Google |
 
 **Paese**: Italia. **Parole chiave del canale** (Impostazioni → Canale → Informazioni di base):

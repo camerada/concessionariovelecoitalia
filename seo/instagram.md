@@ -145,3 +145,8 @@ andare.
 Il profilo Instagram si modifica solo dall'app o da Meta Business: non ho uno strumento che
 lo faccia. Metricool programma i post e legge i numeri, ma non cambia nome, bio e link.
 Quindi questi testi vanno incollati a mano da chi ha accesso all'account.
+
+> **Quando si cambia il nome utente** (11/11/2026): oltre a riverificare Metricool, va aggiornato
+> anche il **link Instagram del canale YouTube** (Personalizzazione → Profilo → Link), che oggi
+> punta a `https://www.instagram.com/easyscooter_scooterelettrici/`. Altrimenti resta un link
+> morto sul canale.
