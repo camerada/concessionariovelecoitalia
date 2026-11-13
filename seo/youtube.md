@@ -296,8 +296,14 @@ secondi di durata).
   standard e tag già pronti, così ogni video nuovo parte con il piè di pagina giusto.
 - **Trailer del canale** per chi non è iscritto: per ora nessuno dei video va bene, serve un
   orizzontale di 30-60 secondi. Da fare quando ci saranno riprese nuove.
-- **Short**: pubblicato l'11/11/2026 — https://youtube.com/shorts/95VsLG40llU (28 visualizzazioni
-  nei primi minuti, con 34 iscritti: vengono dal flusso degli Short, non dal seguito). Miniatura
+- **Short**: pubblicato l'11/11/2026 — https://youtube.com/shorts/95VsLG40llU. **1.200
+  visualizzazioni in due giorni** (28 nei primi minuti), con 34 iscritti: le porta il flusso degli
+  Short, non il seguito. Per confronto, i due video storici hanno fatto 3.700 visualizzazioni in
+  cinque anni.
+  **Ma zero visite al sito**: dall'11 al 13/11 in GA4 non risulta nessuna sessione da YouTube,
+  nonostante il link con gli UTM nella descrizione. È il comportamento normale degli Short — chi
+  guarda resta nel flusso e non esce — e vuol dire che **gli Short non si misurano in GA4**: si
+  misurano in visualizzazioni, iscritti e commenti, e si valutano sul telefono che squilla. Miniatura
   presa dal video, fra i tre fotogrammi che YouTube propone: il secondo 2-4 col sottotitolo
   «Lo consiglierebbe, lei, questo scooter?». Categoria «Auto e motori» (la voce «Auto e veicoli»
   non esiste). YouTube lo ha classificato come Short da solo, perché è verticale.
