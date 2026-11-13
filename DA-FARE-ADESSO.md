@@ -8,6 +8,30 @@ più rientrato (l'autorizzazione è a posto: è il server MCP che è caduto a me
 
 ---
 
+## 0. URGENTE — Verifica dell'attività su Merchant Center (13/11/2026)
+
+**Solo Maurizio può farla.** Google chiede di confermare i dati dell'attività; finché non è
+fatta **i due Faster non compaiono su Google in nessun Paese**.
+
+- Mail di Google del 13/11/2026 alle 02:45, oggetto «Concessionario Veleco, fix issues that
+  prevent your products from showing» → pulsante **View Issue**
+- Oppure: Merchant Center → Impostazioni → Informazioni sull'attività → Verifica
+- Dati: EasyScooter di Valentina Colomba, Via Giuseppe Pessale 20r, 16167 Genova,
+  P.IVA 02612650990. Probabile richiesta di visura o documento di Valentina.
+- Promemoria fissato per **venerdì 13/11 alle 17:10**.
+
+**Nota buona, dello stesso giro:** il problema «il sito o il negozio online deve essere
+migliorato» **è stato risolto**. Google ha riesaminato il 10/11 e l'ha tolto dall'account:
+le correzioni del 4/11 (blocco «Come si compra e come si paga», pagina `/guida/`, link
+Spedizioni e Resi nel pie', sitemap) hanno funzionato. Vedi anche il punto 4, superato in
+questa parte.
+
+**Altre mail di Merchant Center da sapere:** l'8/11 «una persona nuova ha accesso»
+(da controllare se non l'ha aggiunta Maurizio); il 6/11 invito a impostare il monitoraggio
+delle conversioni (senza carrello non si applica).
+
+---
+
 ## 1. Caricare 39 file sul server
 
 Il metodo è quello di CLAUDE.md (API Hostinger, `hosting_files_generate-upload-url` per
