@@ -1,33 +1,31 @@
 # Reindirizzamenti da easyscootergenova.it — pagine Veleco
 
-Preparato il 13/11/2026. **Da consegnare a Giorgio**, che gestisce easyscootergenova.it.
+Per Giorgio · 13 novembre 2026 · CAME Comunicazione
 
-Sono **40 indirizzi**: le pagine e i prodotti **Veleco** del sito, cioè gli stessi mezzi che oggi
-vende il concessionario Veleco Italia. Finché restano attivi, i due siti si contendono le stesse
-ricerche su Google e si tolgono visite a vicenda.
+Sono **40 indirizzi**: le pagine e i prodotti **Veleco** del sito. Vendono gli stessi mezzi che
+oggi vende il concessionario Veleco Italia, e finché restano attivi i due siti si contendono le
+stesse ricerche su Google.
 
-**Non c'è altro da toccare.** Noleggio, biciclette, monopattini, i cabinati Vitale, le pagine
-provincia e il blog restano dove sono: sono l'attività di Easyscooter.
+**Non c'è altro da toccare.** Noleggio, biciclette, monopattini, cabinati Vitale, pagine
+provincia e blog restano esattamente dove sono.
 
-## Come si fanno
+## Cosa fare
 
-Il sito è **WordPress su nginx**.
+Il sito ha già il plugin **Rank Math**. Si lavora lì.
 
-> **Niente `.htaccess`**: su nginx quel file non viene letto, le regole messe lì non funzionano.
-
-Si usa il modulo **Redirections di Rank Math**, il plugin SEO già installato sul sito:
-
-1. *Rank Math → Dashboard → Moduli* → accendere **Redirections**.
+1. *Rank Math → Dashboard → Moduli* → accendere **Redirections**, se non è già acceso.
 2. *Rank Math → Redirections → Aggiungi nuovo*.
-3. Per ogni riga della tabella: **Source URL** = l'indirizzo della prima colonna, modalità
-   **Exact**; **Destination URL** = l'indirizzo della seconda colonna; **Redirection Type** =
-   **301 Permanent Move**.
+3. Per ogni riga della tabella qui sotto:
+   - **Source URL**: l'indirizzo della prima colonna, modalità **Exact**
+   - **Destination URL**: l'indirizzo della seconda colonna
+   - **Redirection Type**: **301 Permanent Move**
+4. Salvare.
 
-Più veloce: *Rank Math → Redirections → Import/Export* accetta un **CSV**, allegato a questo
-documento (`redirect-veleco.csv`).
+Quaranta righe, un quarto d'ora. **Il codice dev'essere 301**: con il 302 il lavoro non serve a
+niente, perché Google non trasferisce nulla al sito nuovo.
 
-In alternativa, se si preferisce lavorare sul server, le stesse 40 righe si mettono nel blocco
-nginx del sito come `return 301`.
+Le verifiche le facciamo noi: appena hai finito, scrivi a Valentina e controlliamo tutto dal
+nostro lato.
 
 ## Gli indirizzi
 
@@ -79,29 +77,29 @@ nginx del sito come `return 301`.
 Le pagine `/en/` e `/es/` sono le versioni inglese e spagnola: il sito nuovo è solo in italiano,
 quindi portano alla pagina italiana corrispondente.
 
-## I controlli, dopo
+## Scorciatoia, se puoi usarla
 
-1. Aprire a mano tre o quattro indirizzi vecchi e verificare che si arrivi sulla pagina giusta
-   **senza passaggi intermedi**. Per esempio
-   `easyscootergenova.it/shop/veleco-faster-scooter-di-mobilita-a-4-ruote/` deve portare alla
-   pagina Prezzi del concessionario.
-2. Controllare che il codice sia **301** e non 302: con il 302 Google non passa niente.
-3. Verificare che le pagine reindirizzate **escano dalla sitemap** del sito vecchio.
-4. Non incatenare: se una di queste pagine era già reindirizzata altrove, il nuovo
-   reindirizzamento deve partire dall'indirizzo originale.
-5. Dopo una settimana, dare un'occhiata alla Search Console del sito vecchio: non devono
-   comparire errori nuovi.
+In allegato c'è lo stesso elenco in formato **CSV** (`redirect-veleco.csv`), già pronto con i
+codici 301.
+
+- Se hai **Rank Math PRO**: *Redirections → Import/Export* → carica il CSV e hai finito.
+- Se usi il plugin gratuito **Redirection** di John Godley: ha l'importazione CSV anche nella
+  versione libera.
+
+Nella versione gratuita di Rank Math l'importazione da CSV non c'è: lì le righe vanno inserite a
+mano, come sopra.
 
 ---
 
 ## Nota interna (non per Giorgio)
 
-Il sito vecchio ha anche **190 pagine provincia** in due famiglie da 95
-(`scooter-cabinati-elettrici-per-anziani-e-disabili-vitale-<provincia>` e
-`scooter-e-cabinati-elettrici-disabili-anziani-<provincia>`), che coprono 101 province e sono
-quelle viste uscire al posto nostro su Firenze e Savona.
+**Dominio e DNS non c'entrano**: il DNS punta il dominio a un server e non conosce i singoli
+indirizzi, e il «forwarding» del registrar reindirizzerebbe tutto il sito, noleggio compreso.
 
-**Il 13/11/2026 Maurizio ha deciso di non toccarle**: parlano di cabinati Vitale, che è un'altra
-marca, e restano l'attività di Easyscooter. Il concessionario dovrà superarle con il proprio
-lavoro. Se un giorno la decisione cambia, le sei regole regex già pronte sono nella versione
-precedente di questo file (`git log seo/redirect-easyscooter.md`).
+Il sito è su **SiteGround** (IP Google Cloud con intestazione `host-header`), hosting condiviso:
+al file di configurazione di nginx non si arriva. Il pannello SiteGround ha uno strumento
+*Redirects*, ma una regola per volta: stessa fatica di Rank Math, fuori da WordPress.
+
+Le **190 pagine provincia** (cabinati Vitale) non si toccano: deciso da Maurizio il 13/11/2026.
+Le regole regex già pronte, se un giorno servissero, sono nella storia di questo file
+(`git log -p seo/redirect-easyscooter.md`).
