@@ -1,4 +1,4 @@
-# Da fare adesso — aggiornato il 10/11/2026
+# Da fare adesso — aggiornato il 13/11/2026
 
 Questo file dice **solo quello che è ancora aperto**. Quello che è stato fatto sta in
 `CLAUDE.md`, che è la memoria lunga del progetto. Se trovi qui una cosa già fatta, toglila.
@@ -6,6 +6,22 @@ Questo file dice **solo quello che è ancora aperto**. Quello che è stato fatto
 ---
 
 ## 1. Cose con una data: se nessuno le fa, scadono male
+
+### Subito — la verifica dell'attività su Merchant Center
+**La può fare solo Maurizio, e blocca tutto.** Google ha scritto il 13/11 alle 02:45
+(«Concessionario Veleco, fix issues that prevent your products from showing»): i dati
+dell'attività non sono confermati e **nessun prodotto compare, in nessun Paese**, finché
+non si fa. Spiega anche perché i due Faster sono ancora fermi dopo il riesame passato
+il 10/11.
+
+Dal pulsante **View Issue** in quella mail, oppure Merchant Center → Impostazioni →
+Informazioni sull'attività → Verifica. Dati: EasyScooter di Valentina Colomba,
+Via Giuseppe Pessale 20r, 16167 Genova, P.IVA 02612650990 — gli stessi del pie' di pagina.
+Probabile richiesta di visura o di un documento di Valentina.
+
+Altre due mail dello stesso giro: l'8/11 «una persona nuova ha accesso a Merchant Center»
+(da controllare, se non l'ha aggiunta Maurizio); il 6/11 l'invito a impostare il monitoraggio
+delle conversioni, che senza carrello non ci riguarda.
 
 ### 1° gennaio — il link in bio di Instagram
 Porta a `/promo/`. Dal 1° gennaio promette una promozione finita. Va spostato sulla pagina
@@ -39,8 +55,9 @@ pagine interne.
 
 ## 2. Da chiudere, senza una data
 
-- **Merchant Center**: il riesame è passato il 10/11, ma l'approvazione dei due prodotti non
-  è immediata. Da ricontrollare fra qualche giorno che siano usciti da «Not approved».
+- **Merchant Center**: il riesame è passato il 10/11, ma i due prodotti restano fermi
+  perché manca la verifica dell'attività (punto 1). Fatta quella, ricontrollare che siano
+  usciti da «Not approved».
 - **Content API for Shopping** da accendere sul progetto Cloud `veleco-italia`
   (279492594965). L'account di servizio `claude-veleco@veleco-italia` ha già accesso Admin
   alla scheda Merchant: acceso quello, stato e avvisi dei prodotti si leggono da qui senza
