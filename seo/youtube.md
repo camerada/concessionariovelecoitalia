@@ -307,3 +307,60 @@ secondi di durata).
   presa dal video, fra i tre fotogrammi che YouTube propone: il secondo 2-4 col sottotitolo
   «Lo consiglierebbe, lei, questo scooter?». Categoria «Auto e motori» (la voce «Auto e veicoli»
   non esiste). YouTube lo ha classificato come Short da solo, perché è verticale.
+
+## Il prossimo Short: «Niente patente, niente bollo» (13/11/2026)
+
+File: `bozze/video/reel-senza-patente.mp4` — 1080×1920, 18 s, muto di parlato (solo scritte).
+È uno dei quattro reel montati settimane fa e mai usciti. Scelto per primo perché risponde alla
+domanda con più ricerche fra quelle che il sito copre («scooter elettrico senza patente per
+anziani», 500 ricerche al mese, pagina già online).
+
+**Attenzione al formato**: i quattro reel sono *cartoline* — cornice verde, titolo in alto,
+finestrella di filmato al centro per circa un terzo dell'altezza, testo sotto. Nel feed di
+Instagram funzionano; su Shorts, dove il video riempie lo schermo, una striscia di filmato in una
+cornice sembra una slide. Se questo Short va male non sapremo se è il tema, la mancanza di una
+persona che parla o il formato a cartolina: le tre cose cambiano insieme.
+
+### YouTube — Short
+
+**Titolo**: `Lo scooter per anziani si guida senza patente? #shorts`
+
+**Descrizione**:
+
+> Il Veleco Faster è uno scooter elettrico a quattro ruote per anziani e per chi fa fatica a
+> camminare. Non serve la patente, non si paga il bollo e l'assicurazione non è obbligatoria: per
+> il Codice della Strada non è un veicolo, è un dispositivo medico di Classe 1 CE per la mobilità.
+> Si va a passo d'uomo sui marciapiedi e nelle aree pedonali.
+>
+> Showroom e prova gratuita a Genova Nervi, via Giuseppe Pessale 20r, da martedì a sabato dalle
+> 10 alle 20. Consegna a casa in tutta Italia continentale, compresa nel prezzo.
+>
+> Tutte le regole, spiegate per bene: https://concessionariovelecoitalia.it/scooter-elettrico-senza-patente-anziani/?utm_source=youtube&utm_medium=short&utm_campaign=senza-patente
+>
+> Telefono e WhatsApp: 328 975 4412
+
+**Tag**: scooter senza patente, scooter elettrico anziani, veleco, veleco faster, mobility
+scooter, scooter per disabili, codice della strada, genova
+
+**Dove si carica**: a mano. Il canale **non è collegato a Metricool** (il brand 7853509 ha solo
+Instagram e la scheda Google).
+
+### Instagram — reel
+
+> Serve la patente? No.
+>
+> Il Veleco Faster non è un veicolo per il Codice della Strada: è un dispositivo medico di Classe
+> 1 CE. Niente patente, niente bollo, assicurazione non obbligatoria. Si va a passo d'uomo, sui
+> marciapiedi e nelle aree pedonali, dove va un pedone.
+>
+> Quattro ruote a terra e una sospensione su ognuna: sta fermo sulla rampa e sul selciato.
+>
+> Prova gratuita nello showroom di Genova Nervi, via Giuseppe Pessale 20r, da martedì a sabato
+> dalle 10 alle 20. 328 975 4412. Il sito è nel link in bio.
+>
+> #scooterperanziani #scooterelettrico #senzapatente #veleco #velecofaster #genova #nervi
+
+### Cosa guardare dopo
+
+Visualizzazioni a 48 ore, da confrontare con le **1.200** della testimonianza. Non le visite al
+sito: gli Short non ne portano (vedi sopra).
