@@ -1,39 +1,35 @@
-# Reindirizzamenti da easyscootergenova.it al sito del concessionario
+# Reindirizzamenti da easyscootergenova.it — pagine Veleco
 
-Preparato il 13/11/2026 per Giorgio, che gestisce easyscootergenova.it.
-Nasce dalla verifica del 12/11: su «scooter per anziani» in Toscana e in Liguria, al posto del
-concessionario compare il sito vecchio.
+Preparato il 13/11/2026. **Da consegnare a Giorgio**, che gestisce easyscootergenova.it.
 
-## Come è fatto il sito vecchio
+Sono **40 indirizzi**: le pagine e i prodotti **Veleco** del sito, cioè gli stessi mezzi che oggi
+vende il concessionario Veleco Italia. Finché restano attivi, i due siti si contendono le stesse
+ricerche su Google e si tolgono visite a vicenda.
 
-WordPress con WooCommerce e il plugin **Rank Math**, servito da **nginx**.
+**Non c'è altro da toccare.** Noleggio, biciclette, monopattini, i cabinati Vitale, le pagine
+provincia e il blog restano dove sono: sono l'attività di Easyscooter.
 
-> **Attenzione: niente `.htaccess`.** Su nginx quel file non viene letto, quindi le regole non si
-> mettono lì. Due strade, in ordine di comodità:
->
-> 1. **Rank Math → Redirections** (il plugin c'è già: la sitemap è sua). Va acceso in
->    *Rank Math → Dashboard → Moduli → Redirections*. Accetta indirizzi esatti e **espressioni
->    regolari**, e importa anche un CSV.
-> 2. **Regole nginx** nel blocco del sito, se Giorgio ha accesso al server. Più veloci, ma
->    serve riavviare nginx a ogni modifica.
+## Come si fanno
 
-Tutti i reindirizzamenti vanno fatti con codice **301** (spostato in modo permanente): è quello
-che passa al sito nuovo il valore accumulato in anni.
+Il sito è **WordPress su nginx**.
 
-## Cosa c'è nel sito vecchio
+> **Niente `.htaccess`**: su nginx quel file non viene letto, le regole messe lì non funzionano.
 
-Nella sitemap ci sono **413 indirizzi**. Quelli che riguardano noi si dividono in tre gruppi.
+Si usa il modulo **Redirections di Rank Math**, il plugin SEO già installato sul sito:
 
-| Gruppo | Quanti | Che fare |
-|---|---|---|
-| Pagine e prodotti **Veleco** | 40 | reindirizzare, senza dubbi |
-| Pagine **provincia per provincia** | 190 | decide Valentina (vedi sotto) |
-| Noleggio, bici, monopattini, cabinati Vitale, blog | il resto | non toccare |
+1. *Rank Math → Dashboard → Moduli* → accendere **Redirections**.
+2. *Rank Math → Redirections → Aggiungi nuovo*.
+3. Per ogni riga della tabella: **Source URL** = l'indirizzo della prima colonna, modalità
+   **Exact**; **Destination URL** = l'indirizzo della seconda colonna; **Redirection Type** =
+   **301 Permanent Move**.
 
-## Gruppo 1 — Le pagine Veleco
+Più veloce: *Rank Math → Redirections → Import/Export* accetta un **CSV**, allegato a questo
+documento (`redirect-veleco.csv`).
 
-Sono prodotti, categorie e pagine di marca che vendono **gli stessi mezzi** che oggi vende il
-concessionario. Finché restano, il sito vecchio e quello nuovo si contendono le stesse ricerche.
+In alternativa, se si preferisce lavorare sul server, le stesse 40 righe si mettono nel blocco
+nginx del sito come `return 301`.
+
+## Gli indirizzi
 
 | Pagina del sito vecchio | Dove deve portare |
 |---|---|
@@ -81,97 +77,31 @@ concessionario. Finché restano, il sito vecchio e quello nuovo si contendono le
 **40 indirizzi.** Tutti con codice **301** (spostato in modo permanente).
 
 Le pagine `/en/` e `/es/` sono le versioni inglese e spagnola: il sito nuovo è solo in italiano,
-quindi portano alla pagina italiana corrispondente. Fanno pochissimo traffico, ma lasciarle vive
-significa tenere in piedi un negozio Veleco parallelo.
+quindi portano alla pagina italiana corrispondente.
 
-## Gruppo 2 — Le 190 pagine provincia (serve una decisione di Valentina)
+## I controlli, dopo
 
-Sono due famiglie da 95 pagine ciascuna, una per provincia:
+1. Aprire a mano tre o quattro indirizzi vecchi e verificare che si arrivi sulla pagina giusta
+   **senza passaggi intermedi**. Per esempio
+   `easyscootergenova.it/shop/veleco-faster-scooter-di-mobilita-a-4-ruote/` deve portare alla
+   pagina Prezzi del concessionario.
+2. Controllare che il codice sia **301** e non 302: con il 302 Google non passa niente.
+3. Verificare che le pagine reindirizzate **escano dalla sitemap** del sito vecchio.
+4. Non incatenare: se una di queste pagine era già reindirizzata altrove, il nuovo
+   reindirizzamento deve partire dall'indirizzo originale.
+5. Dopo una settimana, dare un'occhiata alla Search Console del sito vecchio: non devono
+   comparire errori nuovi.
 
-- `scooter-cabinati-elettrici-per-anziani-e-disabili-vitale-<provincia>`
-- `scooter-e-cabinati-elettrici-disabili-anziani-<provincia>`
+---
 
-**Parlano di «cabinati Vitale», che è un'altra marca**, non Veleco. Sono le pagine che abbiamo
-visto uscire al posto nostro su Firenze e Savona: coprono 101 province, cioè tutta Italia.
+## Nota interna (non per Giorgio)
 
-La domanda per Valentina è una sola: **Easyscooter continua a vendere scooter e cabinati per
-anziani?**
+Il sito vecchio ha anche **190 pagine provincia** in due famiglie da 95
+(`scooter-cabinati-elettrici-per-anziani-e-disabili-vitale-<provincia>` e
+`scooter-e-cabinati-elettrici-disabili-anziani-<provincia>`), che coprono 101 province e sono
+quelle viste uscire al posto nostro su Firenze e Savona.
 
-- **Sì** → queste pagine sono il suo lavoro e si lasciano stare. Il concessionario dovrà
-  superarle, e ci vorrà tempo.
-- **No, adesso quel mercato è del concessionario** → si reindirizzano, e il valore di 190 pagine
-  passa al sito nuovo in un colpo solo. È la mossa che vale di più di tutto quello che abbiamo
-  fatto in questi giorni.
-
-Se la risposta è no, queste sono le regole, già pronte.
-
-**Regole da inserire (una per regione, poi quella di scorta).** Sorgente in modalità
-«Regex», destinazione, codice 301.
-
-**Campania** — 5 pagine
-```
-^/?(?:scooter-cabinati-elettrici-per-anziani-e-disabili-vitale|scooter-e-cabinati-elettrici-disabili-anziani)-(napoli|salerno|caserta|avellino|benevento)/?$
-```
-→ `https://concessionariovelecoitalia.it/scooter-elettrico-anziani-campania/`
-
-**Lazio** — 6 pagine
-```
-^/?(?:scooter-cabinati-elettrici-per-anziani-e-disabili-vitale|scooter-e-cabinati-elettrici-disabili-anziani)-(roma|latina|frosinone|rieti|viterbo|fiumicino)/?$
-```
-→ `https://concessionariovelecoitalia.it/scooter-elettrico-anziani-lazio/`
-
-**Lombardia** — 14 pagine
-```
-^/?(?:scooter-cabinati-elettrici-per-anziani-e-disabili-vitale|scooter-e-cabinati-elettrici-disabili-anziani)-(milano|milano-2|brescia|bergamo|como|cremona|lecco|lodi|mantova|monza-e-brianza|pavia|sondrio|varese|busto-arsizio)/?$
-```
-→ `https://concessionariovelecoitalia.it/scooter-elettrico-anziani-lombardia/`
-
-**Piemonte** — 9 pagine
-```
-^/?(?:scooter-cabinati-elettrici-per-anziani-e-disabili-vitale|scooter-e-cabinati-elettrici-disabili-anziani)-(torino|alessandria|asti|biella|cuneo|novara|vercelli|verbano-cusio-ossola|verbania)/?$
-```
-→ `https://concessionariovelecoitalia.it/scooter-elettrico-anziani-piemonte/`
-
-**Toscana** — 11 pagine
-```
-^/?(?:scooter-cabinati-elettrici-per-anziani-e-disabili-vitale|scooter-e-cabinati-elettrici-disabili-anziani)-(firenze|arezzo|grosseto|livorno|lucca|massa-carrara|pisa|pistoia|prato|siena|viareggio)/?$
-```
-→ `https://concessionariovelecoitalia.it/scooter-elettrico-anziani-toscana/`
-
-**Tutte le altre province** — 56 pagine, nessuna pagina regionale nostra
-```
-^/?(?:scooter-cabinati-elettrici-per-anziani-e-disabili-vitale|scooter-e-cabinati-elettrici-disabili-anziani)-(ancona|aosta|ascoli-piceno|bari|barletta-andria-trani|belluno|bologna|bologna-2|bolzano|brindisi|campobasso|catanzaro|chieti|cosenza|crotone|fermo|ferrara|foggia|forli-cesena|genova|gorizia|imperia|isernia|l-aquila|la-spezia|laquila|lecce|macerata|matera|modena|padova|parma|perugia|pesaro-e-urbino|pescara|piacenza|pordenone|potenza|ravenna|reggio-calabria|reggio-emilia|rimini|rovigo|rovigo-2|savona|taranto|teramo|terni|trento|treviso|trieste|udine|venezia|verona|vibo-valentia|vicenza)/?$
-```
-→ `https://concessionariovelecoitalia.it/rivenditori-veleco-italia/`
-
-In tutto: 45 + 56 = 101 province, 190 indirizzi.
-
-Ogni provincia va alla **pagina regionale che la contiene**, dove ne abbiamo una. Le 56 province
-che non rientrano in Campania, Lazio, Lombardia, Piemonte o Toscana vanno a
-«Dove comprare Veleco in Italia», che è la pagina giusta per chi cerca in che città si compra.
-
-> Non mandarle tutte alla home. Un reindirizzamento verso una pagina che non c'entra Google lo
-> tratta come una pagina mancante, e il valore si perde lo stesso.
-
-## Gruppo 3 — Da non toccare
-
-Noleggio scooter, biciclette, monopattini, i prodotti **Vitale** (`mob26`, `mob30a`, `mob50`), il
-blog e tutto ciò che riguarda il noleggio a Genova. Sono l'attività di Easyscooter e devono
-restare dove sono.
-
-## Dopo, i controlli
-
-1. Provarne tre o quattro a mano: aprendo `easyscootergenova.it/shop/veleco-faster-scooter-di-mobilita-a-4-ruote/`
-   si deve finire sulla pagina Prezzi del concessionario, **senza passaggi intermedi**.
-2. In Search Console del sito vecchio, controllare dopo una settimana che non compaiano errori
-   nuovi.
-3. Le pagine reindirizzate vanno **tolte dalla sitemap** del sito vecchio (Rank Math lo fa da
-   solo quando la pagina è in redirect, ma vale la pena verificarlo).
-4. Non incatenare: se una pagina era già reindirizzata altrove, il nuovo redirect deve partire
-   dall'indirizzo originale.
-
-## Una cosa da dire a Giorgio
-
-Questo lavoro **toglie visite al sito che gestisce lui** e le sposta su un altro. È bene che
-glielo dica Valentina, non noi, e che sia chiaro che è una decisione sua: non una correzione a
-qualcosa che lui ha sbagliato.
+**Il 13/11/2026 Maurizio ha deciso di non toccarle**: parlano di cabinati Vitale, che è un'altra
+marca, e restano l'attività di Easyscooter. Il concessionario dovrà superarle con il proprio
+lavoro. Se un giorno la decisione cambia, le sei regole regex già pronte sono nella versione
+precedente di questo file (`git log seo/redirect-easyscooter.md`).
