@@ -1,2 +1,5 @@
 .DS_Store
 *.zip
+
+# Claude: archivio locale delle chat prima della compattazione
+.claude/handoff/
